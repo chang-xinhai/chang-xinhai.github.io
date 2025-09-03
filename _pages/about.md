@@ -51,7 +51,7 @@ Kaichen Zhou\*, Lanqing Hong\*, **Xinhai Chang**\*, Yingji Zhong, Enze Xie, Hao 
 </div>
 
 <!-- TerraX -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IROS2025 Oral</div><img src='images/papers/SplatMesh.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IROS2025 Oral</div><img src='images/papers/TerraX.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [TerraX: Visual Terrain Classification Enhanced by Vision-Language Models](https://arxiv.org/abs/2312.15856)
   
@@ -109,15 +109,18 @@ Chao Tang\*, **Xinhai Chang**\*
 Chao Tang\*, **Xinhai Chang**\*
 
 
+
 # 🎖 Honors and Awards
 - *2024* Second-class Scholarship, Peking University
 - *2024* **First Prize**, 21st Jiang Zehan Cup Mathematical Modeling Competition
 - *2023* Xing Zhengde Scholarship, Yuanpei College
 - *2023* Third-class Scholarship, Peking University
 
+
 # 📖 Experiences
 - *2022.09 - now*, **Undergraduate Student**, Data Science and Artificial Intelligence, Peking University
 - *2024.05 - 2024.08*, **Volunteer Teacher**, International Asian Liver Center, Gansu, China
+
 
 # 💁‍♂️ Services
 <!-- - Teaching Assistant: Introduction to Computation A (Autumn 2025, by [Prof. Ge Li](https://ligechina.github.io/)) -->
@@ -126,4 +129,4 @@ Chao Tang\*, **Xinhai Chang**\*
 - Teaching Assistant: Introduction to Computer System (Autumn 2024, by [Prof. Lu Zhang](https://cs.pku.edu.cn/info/1086/1729.htm))
 
 
-# [Photography]()
+# [📸 Photography]()
