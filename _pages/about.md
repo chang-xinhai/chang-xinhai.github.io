@@ -55,7 +55,7 @@ Kaichen Zhou\*, Lanqing Hong\*, **Xinhai Chang**\*, Yingji Zhong, Enze Xie, Hao 
 <div class='paper-box-text' markdown="1">
 [TerraX: Visual Terrain Classification Enhanced by Vision-Language Models](https://arxiv.org/abs/2312.15856)
   
-Hongze Li\*, Xuchuan Huang\*, Xinhai Chang\*, Jun Zhou, Huijing Zhao
+Hongze Li\*, Xuchuan Huang\*, **Xinhai Chang**\*, Jun Zhou, Huijing Zhao
 
 <!-- [**Paper**]() -->
 <!-- | -->
@@ -74,7 +74,7 @@ Hongze Li\*, Xuchuan Huang\*, Xinhai Chang\*, Jun Zhou, Huijing Zhao
 <div class='paper-box-text' markdown="1">
 [A Scalable Whole-body Trajectory Generator for Coordinated Mobile Manipulation](https://openreview.net/pdf?id=mi766Y2K6Y)
 
-Yida Niu\*, Xinhai Chang\*, Xin Liu\*, Ziyuan Jiao, Yixin Zhu
+Yida Niu\*, **Xinhai Chang**\*, Xin Liu\*, Ziyuan Jiao, Yixin Zhu
 
 [**Paper**](https://openreview.net/pdf?id=mi766Y2K6Y)
 |
