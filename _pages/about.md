@@ -31,7 +31,6 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
  <!-- - *2025.04*: &nbsp;🎉🎉 [StyleCraft](https://doi.org/10.1007/978-981-96-9866-0_20) is accepted by ICIC 2025! -->
 
 # 📝 Publications 
-
 <!-- AADNet -->
 <div style="display:none">
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">SMC 2025</div><img src='images/papers/AADNet.png' alt="sym" width="100%"></div></div>
