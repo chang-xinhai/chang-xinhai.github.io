@@ -24,6 +24,9 @@ My research passion lies in embodied AI, with a focus on mobile manipulation and
 In addition to my research, I am an amateur photographer and motorcyclist. Love for life and the savor of freedom lingers without a moment’s lapse.
 
 # 🔥 News
+- *2025.06*: &nbsp;🎉🎉 [AutoMoMa](https://openreview.net/pdf?id=mi766Y2K6Y) is accepted by RSS 2025 MoMa!
+- *2025.06*: &nbsp;🎉🎉 [TerraX](http://poss.pku.edu.cn/terrax.html) is accepted by IROS 2025 as **Oral**!
+- *2025.02*: &nbsp;🎉🎉 [SplatMesh](https://arxiv.org/abs/2312.15856) is accepted by CVPRW 2025!
  <!-- - *2025.07*: &nbsp;🎉🎉 [AADNet]() is accepted by SMC 2025! -->
  <!-- - *2025.04*: &nbsp;🎉🎉 [StyleCraft](https://doi.org/10.1007/978-981-96-9866-0_20) is accepted by ICIC 2025! -->
 
@@ -62,6 +65,9 @@ Hongze Li\*, Xuchuan Huang\*, Xinhai Chang\*, Jun Zhou, Huijing Zhao
 
 - TerraX is a vision-language framework for terrain classification, featuring the TerraData dataset, TerraBench benchmark, and TerraCLIP model.
 
+</div>
+</div>
+
 
 <!-- AutoMoMa -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">RSS2025 Workshop</div><img src='images/papers/AutoMoMa.png' alt="sym" width="100%"></div></div>
@@ -78,6 +84,8 @@ Yida Niu\*, Xinhai Chang\*, Xin Liu\*, Ziyuan Jiao, Yixin Zhu
 
 - AutoMoMa is a system that efficiently generates high-quality whole-body trajectories using Virtual Kinematic Chain (VKC) modeling and GPU-accelerated motion planning at a rate of 2.5k valid episodes per hour per consumer-level GPU, which generalizes across diverse household layouts, interactive objects, robot morphologies, and manipulation tasks while ensuring physical feasibility and strict constraint satisfaction.
 
+</div>
+</div>
 
 <!-- StyleCraft -->
 <div style="display:none">
