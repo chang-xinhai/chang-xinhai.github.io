@@ -31,31 +31,6 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
  <!-- - *2025.04*: &nbsp;🎉🎉 [StyleCraft](https://doi.org/10.1007/978-981-96-9866-0_20) is accepted by ICIC 2025! -->
 
 # 📝 Publications 
-<!-- AADNet -->
-<div style="display:none">
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SMC 2025</div><img src='images/papers/AADNet.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-[AADNet: A Human-Mind-Inspired Multi-Modal Framework for Object Concept Learning]()
-  
-Chao Tang\*, **Xinhai Chang**\*
-
-</div>
-</div>
-
-<!-- StyleCraft -->
-<div style="display:none">
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICIC2025 Oral</div><img src='images/papers/StyleCraft.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-[StyleCraft: High-Quality Arbitrary Style Transfer via Unified Content-Style Fusion](https://doi.org/10.1007/978-981-96-9866-0_20)
-  
-Chao Tang\*, **Xinhai Chang**\*
-
-[**Paper**](https://doi.org/10.1007/978-981-96-9866-0_20)
-
-</div>
-</div>
-
-
 <!-- AutoMoMa -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">RSS2025 Workshop</div><img src='images/papers/AutoMoMa.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -108,6 +83,34 @@ Kaichen Zhou\*, Lanqing Hong\*, **Xinhai Chang**\*, Yingji Zhong, Enze Xie, Hao 
 [**Code**](https://github.com/kaichen-z/SplatMesh)
 
 - SplatMesh is a novel fine-grained interactive 3D segmentation and editing algorithm that integrates 3D Gaussian Splat with a precomputed mesh and could adjust the memory request based on the requirement. 
+
+
+<!-- AADNet -->
+<div style="display:none">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SMC 2025</div><img src='images/papers/AADNet.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[AADNet: A Human-Mind-Inspired Multi-Modal Framework for Object Concept Learning]()
+  
+Chao Tang\*, **Xinhai Chang**\*
+
+</div>
+</div>
+</div>
+
+<!-- StyleCraft -->
+<div style="display:none">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICIC2025 Oral</div><img src='images/papers/StyleCraft.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[StyleCraft: High-Quality Arbitrary Style Transfer via Unified Content-Style Fusion](https://doi.org/10.1007/978-981-96-9866-0_20)
+  
+Chao Tang\*, **Xinhai Chang**\*
+
+[**Paper**](https://doi.org/10.1007/978-981-96-9866-0_20)
+
+</div>
+</div>
+</div>
+
 
 
 
