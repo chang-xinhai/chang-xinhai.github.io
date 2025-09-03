@@ -17,42 +17,105 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am an undergraduate student at [Yuanpei College](https://yuanpei.pku.edu.cn/en/), [Peking University (PKU)]([https://www.pku.edu.cn/](https://english.pku.edu.cn/)). I am advised by [Prof. Yixin Zhu](https://yzhu.io/) at [Core Lab](https://yzhu.io/). I am also a research assistant advised by [Kaichen Zhou](https://wang.hms.harvard.edu/team/kaichen-zhou-phd/) from MIT.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research passion lies in embodied AI, with a focus on mobile manipulation and 3D reconstruction. I aim to build digital twins that seamlessly fuse the virtual and physical worlds by harnessing large-scale parallel simulation, ultimately creating general-purpose robotic models that can both perceive and reconstruct. I'm always eager to explore fresh ideas and collaborations—let's connect!
 
+In addition to my research, I am an amateur photographer and motorcyclist. Love for life and the savor of freedom lingers without a moment’s lapse.
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+ <!-- - *2025.07*: &nbsp;🎉🎉 [AADNet]() is accepted by SMC 2025! -->
+ <!-- - *2025.04*: &nbsp;🎉🎉 [StyleCraft](https://doi.org/10.1007/978-981-96-9866-0_20) is accepted by ICIC 2025! -->
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<!-- SplatMesh -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPRW2025</div><img src='images/papers/SplatMesh.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
+[SplatMesh: Interactive 3D Segmentation and Editing Using Mesh-Based Gaussian Splatting](https://arxiv.org/abs/2312.15856)
+  
+Kaichen Zhou\*, Lanqing Hong\*, **Xinhai Chang**\*, Yingji Zhong, Enze Xie, Hao Dong, Zhihao Li, Yongxin Yang, Zhenguo Li, Wei Zhang
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[**Paper**](https://arxiv.org/abs/2312.15856)
+<!-- | -->
+<!-- [**Project**]() -->
+|
+[**Code**](https://github.com/kaichen-z/SplatMesh)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+- SplatMesh is a novel fine-grained interactive 3D segmentation and editing algorithm that integrates 3D Gaussian Splat with a precomputed mesh and could adjust the memory request based on the requirement. 
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<!-- TerraX -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IROS2025 Oral</div><img src='images/papers/SplatMesh.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[TerraX: Visual Terrain Classification Enhanced by Vision-Language Models](https://arxiv.org/abs/2312.15856)
+  
+Hongze Li\*, Xuchuan Huang\*, Xinhai Chang\*, Jun Zhou, Huijing Zhao
+
+<!-- [**Paper**]() -->
+<!-- | -->
+[**Project**](http://poss.pku.edu.cn/terrax.html)
+|
+<!-- [**Code**]() -->
+
+- TerraX is a vision-language framework for terrain classification, featuring the TerraData dataset, TerraBench benchmark, and TerraCLIP model.
+
+
+<!-- AutoMoMa -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RSS2025 Workshop</div><img src='images/papers/AutoMoMa.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[A Scalable Whole-body Trajectory Generator for Coordinated Mobile Manipulation](https://openreview.net/pdf?id=mi766Y2K6Y)
+
+Yida Niu\*, Xinhai Chang\*, Xin Liu\*, Ziyuan Jiao, Yixin Zhu
+
+[**Paper**](https://openreview.net/pdf?id=mi766Y2K6Y)
+|
+[**Project**](https://automoma.pages.dev/)
+<!-- | -->
+<!-- [**Code**]() -->
+
+- AutoMoMa is a system that efficiently generates high-quality whole-body trajectories using Virtual Kinematic Chain (VKC) modeling and GPU-accelerated motion planning at a rate of 2.5k valid episodes per hour per consumer-level GPU, which generalizes across diverse household layouts, interactive objects, robot morphologies, and manipulation tasks while ensuring physical feasibility and strict constraint satisfaction.
+
+
+<!-- StyleCraft -->
+<div style="display:none">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICIC2025 Oral</div><img src='images/papers/StyleCraft.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[StyleCraft: High-Quality Arbitrary Style Transfer via Unified Content-Style Fusion](https://doi.org/10.1007/978-981-96-9866-0_20)
+  
+Chao Tang\*, **Xinhai Chang**\*
+
+[**Paper**](https://doi.org/10.1007/978-981-96-9866-0_20)
+
+</div>
+</div>
+
+<!-- AADNet -->
+<div style="display:none">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SMC 2025</div><img src='images/papers/AADNet.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[AADNet: A Human-Mind-Inspired Multi-Modal Framework for Object Concept Learning]()
+  
+Chao Tang\*, **Xinhai Chang**\*
+
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024* Second-class Scholarship, Peking University
+- *2024* **First Prize**, 21st Jiang Zehan Cup Mathematical Modeling Competition
+- *2023* Xing Zhengde Scholarship, Yuanpei College
+- *2023* Third-class Scholarship, Peking University
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+# 📖 Experiences
+- *2022.09 - now*, **Undergraduate Student**, Data Science and Artificial Intelligence, Peking University
+- *2024.05 - 2024.08*, **Volunteer Teacher**, International Asian Liver Center, Gansu, China
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+# 💁‍♂️ Services
+<!-- - Teaching Assistant: Introduction to Computation A (Autumn 2025, by [Prof. Ge Li](https://ligechina.github.io/)) -->
+- Teaching Assistant: Introduction to Computation B (Autumn 2025, by [Prof. Jun Sun](https://deepvideolab.top/))
+- Teaching Assistant: Introduction to Computation C (Autumn 2025, by [Prof. Baobao Chang](https://cs.pku.edu.cn/info/1090/1648.htm))
+- Teaching Assistant: Introduction to Computer System (Autumn 2024, by [Prof. Lu Zhang](https://cs.pku.edu.cn/info/1086/1729.htm))
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+
+# [Photography]()
