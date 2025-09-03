@@ -84,6 +84,8 @@ Kaichen Zhou\*, Lanqing Hong\*, **Xinhai Chang**\*, Yingji Zhong, Enze Xie, Hao 
 
 - SplatMesh is a novel fine-grained interactive 3D segmentation and editing algorithm that integrates 3D Gaussian Splat with a precomputed mesh and could adjust the memory request based on the requirement. 
 
+</div>
+</div>
 
 <!-- AADNet -->
 <div style="display:none">
