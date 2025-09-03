@@ -32,10 +32,6 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 
 # 📝 Publications 
 
-
-</div>
-</div>
-
 <!-- AADNet -->
 <div style="display:none">
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">SMC 2025</div><img src='images/papers/AADNet.png' alt="sym" width="100%"></div></div>
