@@ -32,38 +32,30 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 
 # 📝 Publications 
 
-<!-- SplatMesh -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPRW2025</div><img src='images/papers/SplatMesh.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-[SplatMesh: Interactive 3D Segmentation and Editing Using Mesh-Based Gaussian Splatting](https://arxiv.org/abs/2312.15856)
-  
-Kaichen Zhou\*, Lanqing Hong\*, **Xinhai Chang**\*, Yingji Zhong, Enze Xie, Hao Dong, Zhihao Li, Yongxin Yang, Zhenguo Li, Wei Zhang
-
-[**Paper**](https://arxiv.org/abs/2312.15856)
-<!-- | -->
-<!-- [**Project**]() -->
-|
-[**Code**](https://github.com/kaichen-z/SplatMesh)
-
-- SplatMesh is a novel fine-grained interactive 3D segmentation and editing algorithm that integrates 3D Gaussian Splat with a precomputed mesh and could adjust the memory request based on the requirement. 
 
 </div>
 </div>
 
-<!-- TerraX -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IROS2025 Oral</div><img src='images/papers/TerraX.png' alt="sym" width="100%"></div></div>
+<!-- AADNet -->
+<div style="display:none">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SMC 2025</div><img src='images/papers/AADNet.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[TerraX: Visual Terrain Classification Enhanced by Vision-Language Models](https://arxiv.org/abs/2312.15856)
+[AADNet: A Human-Mind-Inspired Multi-Modal Framework for Object Concept Learning]()
   
-Hongze Li\*, Xuchuan Huang\*, **Xinhai Chang**\*, Jun Zhou, Huijing Zhao
+Chao Tang\*, **Xinhai Chang**\*
 
-<!-- [**Paper**]() -->
-<!-- | -->
-[**Project**](http://poss.pku.edu.cn/terrax.html)
-|
-<!-- [**Code**]() -->
+</div>
+</div>
 
-- TerraX is a vision-language framework for terrain classification, featuring the TerraData dataset, TerraBench benchmark, and TerraCLIP model.
+<!-- StyleCraft -->
+<div style="display:none">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICIC2025 Oral</div><img src='images/papers/StyleCraft.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[StyleCraft: High-Quality Arbitrary Style Transfer via Unified Content-Style Fusion](https://doi.org/10.1007/978-981-96-9866-0_20)
+  
+Chao Tang\*, **Xinhai Chang**\*
+
+[**Paper**](https://doi.org/10.1007/978-981-96-9866-0_20)
 
 </div>
 </div>
@@ -87,26 +79,40 @@ Yida Niu\*, **Xinhai Chang**\*, Xin Liu\*, Ziyuan Jiao, Yixin Zhu
 </div>
 </div>
 
-<!-- StyleCraft -->
-<div style="display:none">
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICIC2025 Oral</div><img src='images/papers/StyleCraft.png' alt="sym" width="100%"></div></div>
+<!-- TerraX -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IROS2025 Oral</div><img src='images/papers/TerraX.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[StyleCraft: High-Quality Arbitrary Style Transfer via Unified Content-Style Fusion](https://doi.org/10.1007/978-981-96-9866-0_20)
+[TerraX: Visual Terrain Classification Enhanced by Vision-Language Models](https://arxiv.org/abs/2312.15856)
   
-Chao Tang\*, **Xinhai Chang**\*
+Hongze Li\*, Xuchuan Huang\*, **Xinhai Chang**\*, Jun Zhou, Huijing Zhao
 
-[**Paper**](https://doi.org/10.1007/978-981-96-9866-0_20)
+<!-- [**Paper**]() -->
+<!-- | -->
+[**Project**](http://poss.pku.edu.cn/terrax.html)
+|
+<!-- [**Code**]() -->
+
+- TerraX is a vision-language framework for terrain classification, featuring the TerraData dataset, TerraBench benchmark, and TerraCLIP model.
+
 
 </div>
 </div>
 
-<!-- AADNet -->
-<div style="display:none">
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SMC 2025</div><img src='images/papers/AADNet.png' alt="sym" width="100%"></div></div>
+
+<!-- SplatMesh -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPRW2025</div><img src='images/papers/SplatMesh.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[AADNet: A Human-Mind-Inspired Multi-Modal Framework for Object Concept Learning]()
+[SplatMesh: Interactive 3D Segmentation and Editing Using Mesh-Based Gaussian Splatting](https://arxiv.org/abs/2312.15856)
   
-Chao Tang\*, **Xinhai Chang**\*
+Kaichen Zhou\*, Lanqing Hong\*, **Xinhai Chang**\*, Yingji Zhong, Enze Xie, Hao Dong, Zhihao Li, Yongxin Yang, Zhenguo Li, Wei Zhang
+
+[**Paper**](https://arxiv.org/abs/2312.15856)
+<!-- | -->
+<!-- [**Project**]() -->
+|
+[**Code**](https://github.com/kaichen-z/SplatMesh)
+
+- SplatMesh is a novel fine-grained interactive 3D segmentation and editing algorithm that integrates 3D Gaussian Splat with a precomputed mesh and could adjust the memory request based on the requirement. 
 
 
 
