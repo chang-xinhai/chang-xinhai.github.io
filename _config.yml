@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Xinhai Chang | 常欣海"
+title                    : "Xinhai Chang"
 description              : "Peking University"
 repository               :  chang-xinhai/chang-xinhai.github.io"
 google_scholar_stats_use_cdn : true
