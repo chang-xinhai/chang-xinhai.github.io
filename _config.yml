@@ -6,9 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Xinhai Chang"
+title                    : "Xinhai Chang | 常欣海"
 description              : "Peking University"
-repository               : "Yaenday/xinhai-chang.github.io"
+repository               :  chang-xinhai/chang-xinhai.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : Yaenday# e.g., "github username"
+  github           : chang-xinhai # e.g., "github username"
   google_plus      :
   keybase          :
   instagram        :
