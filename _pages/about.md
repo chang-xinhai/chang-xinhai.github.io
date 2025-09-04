@@ -129,10 +129,10 @@ Chao Tang\*, **Xinhai Chang**\*
 
 
 # 💁‍♂️ Services
-<!-- - Teaching Assistant: Introduction to Computation A (Autumn 2025, by [Prof. Ge Li](https://ligechina.github.io/)) -->
 - Teaching Assistant: Introduction to Computation B (Autumn 2025, by [Prof. Jun Sun](https://deepvideolab.top/))
 - Teaching Assistant: Introduction to Computation C (Autumn 2025, by [Prof. Baobao Chang](https://cs.pku.edu.cn/info/1090/1648.htm))
 - Teaching Assistant: Introduction to Computer System (Autumn 2024, by [Prof. Lu Zhang](https://cs.pku.edu.cn/info/1086/1729.htm))
+<!-- - Teaching Assistant: Introduction to Computation A (Autumn 2025, by [Prof. Ge Li](https://ligechina.github.io/)) -->
 
 
 # [📸 Photography]()
