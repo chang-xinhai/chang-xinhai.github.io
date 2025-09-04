@@ -59,7 +59,7 @@ Hongze Li\*, Xuchuan Huang\*, **Xinhai Chang**\*, Jun Zhou, Huijing Zhao
 <!-- [**Paper**]() -->
 <!-- | -->
 [**Project**](http://poss.pku.edu.cn/terrax.html)
-|
+<!-- | -->
 <!-- [**Code**]() -->
 
 - TerraX is a vision-language framework for terrain classification, featuring the TerraData dataset, TerraBench benchmark, and TerraCLIP model.
