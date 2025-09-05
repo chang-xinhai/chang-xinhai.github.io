@@ -36,7 +36,7 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 <div class='paper-box-text' markdown="1">
 [A Scalable Whole-body Trajectory Generator for Coordinated Mobile Manipulation](https://openreview.net/pdf?id=mi766Y2K6Y)
 
-Yida Niu\*, **Xinhai Chang**\*, Xin Liu\*, Ziyuan Jiao, Yixin Zhu
+[Yida Niu](https://github.com/fi6)\*, [**Xinhai Chang**](https://chang-xinhai.github.io/)\*, Xin Liu\*, [Ziyuan Jiao](https://sites.google.com/g.ucla.edu/zyjiao/home), [Yixin Zhu](https://yzhu.io/)
 
 [**Paper**](https://openreview.net/pdf?id=mi766Y2K6Y)
 |
@@ -54,7 +54,7 @@ Yida Niu\*, **Xinhai Chang**\*, Xin Liu\*, Ziyuan Jiao, Yixin Zhu
 <div class='paper-box-text' markdown="1">
 [TerraX: Visual Terrain Classification Enhanced by Vision-Language Models](https://arxiv.org/abs/2312.15856)
   
-Hongze Li\*, Xuchuan Huang\*, **Xinhai Chang**\*, Jun Zhou, Huijing Zhao
+[Hongze Li](https://lhz1016.github.io/)\*, [Xuchuan Huang](https://huangxuchuan.github.io/)\*, [**Xinhai Chang**](https://chang-xinhai.github.io/)\*, Jun Zhou, [Huijing Zhao](http://poss.pku.edu.cn/members/zhaohj/index.htm)
 
 <!-- [**Paper**]() -->
 <!-- | -->
@@ -74,7 +74,7 @@ Hongze Li\*, Xuchuan Huang\*, **Xinhai Chang**\*, Jun Zhou, Huijing Zhao
 <div class='paper-box-text' markdown="1">
 [SplatMesh: Interactive 3D Segmentation and Editing Using Mesh-Based Gaussian Splatting](https://arxiv.org/abs/2312.15856)
   
-Kaichen Zhou\*, Lanqing Hong\*, **Xinhai Chang**\*, Yingji Zhong, Enze Xie, Hao Dong, Zhihao Li, Yongxin Yang, Zhenguo Li, Wei Zhang
+[Kaichen Zhou](https://github.com/kaichen-z)\*, Lanqing Hong\*, [**Xinhai Chang**](https://chang-xinhai.github.io/)\*, Yingji Zhong, Enze Xie, [Hao Dong](https://zsdonghao.github.io/), Zhihao Li, Yongxin Yang, Zhenguo Li, Wei Zhang
 
 [**Paper**](https://arxiv.org/abs/2312.15856)
 <!-- | -->
