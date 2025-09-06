@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am an undergraduate student at [Yuanpei College](https://yuanpei.pku.edu.cn/en/), [Peking University (PKU)]([https://www.pku.edu.cn/](https://english.pku.edu.cn/)). I am advised by [Prof. Yixin Zhu](https://yzhu.io/) at [Core Lab](https://pku.ai/). I am also a research assistant advised by [Kaichen Zhou](https://wang.hms.harvard.edu/team/kaichen-zhou-phd/) from MIT.
+I am an undergraduate student at [Yuanpei College](https://yuanpei.pku.edu.cn/en/), [Peking University (PKU)]([https://www.pku.edu.cn/](https://english.pku.edu.cn/)). I am advised by Prof. [Yixin Zhu](https://yzhu.io/) at [Core Lab](https://pku.ai/). I am also a research assistant advised by [Kaichen Zhou](https://wang.hms.harvard.edu/team/kaichen-zhou-phd/) from MIT.
 
 My research passion lies in embodied AI, with a focus on mobile manipulation and 3D reconstruction. I aim to build digital twins that seamlessly fuse the virtual and physical worlds by harnessing large-scale parallel simulation, ultimately creating general-purpose robotic models that can both perceive and reconstruct. I'm always eager to explore fresh ideas and collaborations—let's connect!
 
@@ -129,10 +129,10 @@ Chao Tang\*, **Xinhai Chang**\*
 
 
 # 💁 Services
-- Teaching Assistant: Introduction to Computation B (Autumn 2025, by [Prof. Jun Sun](https://deepvideolab.top/))
-- Teaching Assistant: Introduction to Computation C (Autumn 2025, by [Prof. Baobao Chang](https://cs.pku.edu.cn/info/1090/1648.htm))
-- Teaching Assistant: Introduction to Computer System (Autumn 2024, by [Prof. Lu Zhang](https://cs.pku.edu.cn/info/1086/1729.htm))
-<!-- - Teaching Assistant: Introduction to Computation A (Autumn 2025, by [Prof. Ge Li](https://ligechina.github.io/)) -->
+- Teaching Assistant: Introduction to Computation B (Autumn 2025, by Prof. [Jun Sun](https://deepvideolab.top/))
+- Teaching Assistant: Introduction to Computation C (Autumn 2025, by Prof. [Baobao Chang](https://cs.pku.edu.cn/info/1090/1648.htm))
+- Teaching Assistant: Introduction to Computer System (Autumn 2024, by Prof. [Lu Zhang](https://cs.pku.edu.cn/info/1086/1729.htm))
+<!-- - Teaching Assistant: Introduction to Computation A (Autumn 2025, by Prof. [Ge Li](https://ligechina.github.io/)) -->
 
 
 # [📸 Photography](https://500px.com.cn/walkerch)
