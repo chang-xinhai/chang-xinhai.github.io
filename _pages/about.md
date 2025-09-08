@@ -52,7 +52,7 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 <!-- TerraX -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IROS2025 Oral</div><img src='images/papers/TerraX.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[TerraX: Visual Terrain Classification Enhanced by Vision-Language Models](https://arxiv.org/abs/2312.15856)
+[TerraX: Visual Terrain Classification Enhanced by Vision-Language Models](http://poss.pku.edu.cn/terrax.html)
   
 [Hongze Li](https://lhz1016.github.io/)\*, [Xuchuan Huang](https://huangxuchuan.github.io/)\*, [**Xinhai Chang**](https://chang-xinhai.github.io/)\*, Jun Zhou, [Huijing Zhao](http://poss.pku.edu.cn/members/zhaohj/index.htm)
 
@@ -132,7 +132,6 @@ Chao Tang\*, **Xinhai Chang**\*
 - Teaching Assistant: Introduction to Computation B (Autumn 2025, by Prof. [Jun Sun](https://deepvideolab.top/))
 - Teaching Assistant: Introduction to Computation C (Autumn 2025, by Prof. [Baobao Chang](https://cs.pku.edu.cn/info/1090/1648.htm))
 - Teaching Assistant: Introduction to Computer System (Autumn 2024, by Prof. [Lu Zhang](https://cs.pku.edu.cn/info/1086/1729.htm))
-<!-- - Teaching Assistant: Introduction to Computation A (Autumn 2025, by Prof. [Ge Li](https://ligechina.github.io/)) -->
 
 
 # [📸 Photography](https://500px.com.cn/walkerch)
