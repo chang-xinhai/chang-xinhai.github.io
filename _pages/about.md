@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am an undergraduate student at [Yuanpei College](https://yuanpei.pku.edu.cn/en/), [Peking University (PKU)]([https://www.pku.edu.cn/](https://english.pku.edu.cn/)). I am advised by Prof. [Yixin Zhu](https://yzhu.io/) at [Core Lab](https://pku.ai/). I am also a research assistant advised by [Kaichen Zhou](https://wang.hms.harvard.edu/team/kaichen-zhou-phd/) from MIT.
+I am an undergraduate student at [Yuanpei College](https://yuanpei.pku.edu.cn/en/), [Peking University (PKU)]([https://www.pku.edu.cn/](https://english.pku.edu.cn/)). I am advised by Prof. [Yixin Zhu](https://yzhu.io/) at [Core Lab](https://pku.ai/). I am also working on research under the guidance of [Kaichen Zhou](https://wang.hms.harvard.edu/team/kaichen-zhou-phd/) from MIT.
 
 My research passion lies in embodied AI, with a focus on mobile manipulation and 3D reconstruction. I aim to build digital twins that seamlessly fuse the virtual and physical worlds by harnessing large-scale parallel simulation, ultimately creating general-purpose robotic models that can both perceive and reconstruct. I'm always eager to explore fresh ideas and collaborations—let's connect!
 
@@ -117,6 +117,7 @@ Chao Tang\*, **Xinhai Chang**\*
 
 
 # 🎖 Honors and Awards
+- *2025* **National Scholarship**
 - *2024* Second-class Scholarship, Peking University
 - *2024* **First Prize**, 21st Jiang Zehan Cup Mathematical Modeling Competition
 - *2023* Xing Zhengde Scholarship, Yuanpei College
