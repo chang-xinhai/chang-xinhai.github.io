@@ -50,7 +50,7 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 </div>
 
 <!-- AutoMoMa -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RSS2025 Workshop</div><img src='images/papers/AutoMoMa.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RSS 2025 Workshop</div><img src='images/papers/AutoMoMa.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [A Scalable Whole-body Trajectory Generator for Coordinated Mobile Manipulation](https://page-4d.github.io/anonymous-submission/)
 
@@ -68,7 +68,7 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 </div>
 
 <!-- TerraX -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IROS2025 Oral</div><img src='images/papers/TerraX.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IROS 2025 Oral</div><img src='images/papers/TerraX.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [TerraX: Visual Terrain Classification Enhanced by Vision-Language Models](http://poss.pku.edu.cn/terrax.html)
   
@@ -88,7 +88,7 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 
 
 <!-- SplatMesh -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPRW2025</div><img src='images/papers/SplatMesh.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPRW 2025</div><img src='images/papers/SplatMesh.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [SplatMesh: Interactive 3D Segmentation and Editing Using Mesh-Based Gaussian Splatting](https://arxiv.org/abs/2312.15856)
   
