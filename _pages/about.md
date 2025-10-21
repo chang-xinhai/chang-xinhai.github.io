@@ -31,10 +31,28 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
  <!-- - *2025.04*: &nbsp;🎉🎉 [StyleCraft](https://doi.org/10.1007/978-981-96-9866-0_20) is accepted by ICIC 2025! -->
 
 # 📝 Publications 
-<!-- AutoMoMa -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RSS2025 Workshop</div><img src='images/papers/AutoMoMa.png' alt="sym" width="100%"></div></div>
+<!-- PAGE-4D -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RSS2025 Workshop</div><img src='images/papers/PAGE_4D.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[A Scalable Whole-body Trajectory Generator for Coordinated Mobile Manipulation](https://openreview.net/pdf?id=mi766Y2K6Y)
+[PAGE-4D: Disentangled Pose and Geometry Estimation for 4D Perception](https://openreview.net/pdf?id=mi766Y2K6Y)
+
+[Kaichen Zhou](https://wang.hms.harvard.edu/team/kaichen-zhou-phd/)\*, Yuhan Wang\*, [Grace Chen](https://wang.hms.harvard.edu/team/grace-chen/)\*, [**Xinhai Chang**](https://chang-xinhai.github.io/), Gaspard Beaudouin, [Fangneng Zhan](https://fnzhan.com/), [Paul Pu Liang](https://pliang279.github.io/), [Mengyu Wang](https://wang.hms.harvard.edu/team/dr-wang/)
+
+[**Paper**](https://arxiv.org/abs/2510.17568v1)
+|
+[**Project**](https://page-4d.github.io/anonymous-submission/)
+|
+[**Code**](https://drive.google.com/file/d/1caBtmWK8I-t6RyG2gAsUjSLWM0dl_1kh/view?usp=drive_link)
+
+- PAGE-4D is a feedforward 4D perception model that disentangles static and dynamic scene elements to simultaneously achieve accurate camera pose estimation, depth prediction, and point cloud reconstruction in dynamic environments.
+
+</div>
+</div>
+
+<!-- AutoMoMa -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/papers/AutoMoMa.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[A Scalable Whole-body Trajectory Generator for Coordinated Mobile Manipulation](https://page-4d.github.io/anonymous-submission/)
 
 [Yida Niu](https://github.com/fi6)\*, [**Xinhai Chang**](https://chang-xinhai.github.io/)\*, Xin Liu\*, [Ziyuan Jiao](https://sites.google.com/g.ucla.edu/zyjiao/home), [Yixin Zhu](https://yzhu.io/)
 
