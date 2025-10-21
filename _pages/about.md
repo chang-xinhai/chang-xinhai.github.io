@@ -32,7 +32,7 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 
 # 📝 Publications 
 <!-- PAGE-4D -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RSS2025 Workshop</div><img src='images/papers/PAGE_4D.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='images/papers/PAGE_4D.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [PAGE-4D: Disentangled Pose and Geometry Estimation for 4D Perception](https://openreview.net/pdf?id=mi766Y2K6Y)
 
@@ -50,7 +50,7 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 </div>
 
 <!-- AutoMoMa -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/papers/AutoMoMa.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RSS2025 Workshop</div><img src='images/papers/AutoMoMa.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [A Scalable Whole-body Trajectory Generator for Coordinated Mobile Manipulation](https://page-4d.github.io/anonymous-submission/)
 
