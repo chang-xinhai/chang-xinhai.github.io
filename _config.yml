@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Xinhai Chang"
-  avatar           : "images/avatar.png"
+  avatar           : "images/avatar/avatar.png"
   bio              : "常欣海"
   location         : "Beijing, China"
   employer         :
