@@ -31,8 +31,28 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
  <!-- - *2025.04*: &nbsp;🎉🎉 [StyleCraft](https://doi.org/10.1007/978-981-96-9866-0_20) is accepted by ICIC 2025! -->
 
 # 📝 Publications 
+
+<!-- RAD -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/papers/RAD.png' alt="RAD" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[RAD: A Realistic Multi-View Benchmark for Pose-Agnostic Anomaly Detection]()
+
+[Kaichen Zhou](https://wang.hms.harvard.edu/team/kaichen-zhou-phd/)\*, [**Xinhai Chang**](https://chang-xinhai.github.io/)\*, [Taewhan Kim](https://scholar.google.com/citations?user=aQTkWjQAAAAJ&hl=en)\*, Jiadong Zhang\*, Yang Cao, Chufei Peng, [Fangneng Zhan](https://fnzhan.com/), Hao Zhao, [Hao Dong](https://zsdonghao.github.io/), Kai Ming Ting, [Ye Zhu](https://experts.deakin.edu.au/41905-ye-zhu)
+
+[**Paper**]()
+<!-- |
+[**Project**](https://github.com/kaichen-z/rad)
+|
+[**Code**](https://github.com/kaichen-z/rad) -->
+
+- RAD (Realistic Anomaly Detection) is a robot-captured, multi-view dataset designed to address the challenges of pose variation, reflective materials, and viewpoint-dependent defect visibility. It provides a benchmark for pose-agnostic anomaly detection across 13 object categories under uncontrolled lighting conditions.
+
+</div>
+</div>
+
+
 <!-- PAGE-4D -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='images/papers/PAGE_4D.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/papers/PAGE_4D.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [PAGE-4D: Disentangled Pose and Geometry Estimation for 4D Perception](https://page-4d.github.io/anonymous-submission/)
 
