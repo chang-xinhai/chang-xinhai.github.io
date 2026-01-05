@@ -94,11 +94,11 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
   
 [Hongze Li](https://lhz1016.github.io/)\*, [Xuchuan Huang](https://huangxuchuan.github.io/)\*, [**Xinhai Chang**](https://chang-xinhai.github.io/)\*, Jun Zhou, [Huijing Zhao](http://poss.pku.edu.cn/members/zhaohj/index.htm)
 
-<!-- [**Paper**]() -->
-<!-- | -->
+[**Paper**](https://ieeexplore.ieee.org/document/11246334)
+|
 [**Project**](http://poss.pku.edu.cn/terrax.html)
-<!-- | -->
-<!-- [**Code**]() -->
+|
+[**Code**](http://poss.pku.edu.cn/OpenDataResource/TerraX/code.zip)
 
 - TerraX is a vision-language framework for terrain classification, featuring the TerraData dataset, TerraBench benchmark, and TerraCLIP model.
 
