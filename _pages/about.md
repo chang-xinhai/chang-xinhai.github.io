@@ -107,6 +107,25 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 </div>
 
 
+<!-- EpiS -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/papers/EpiS.png' alt="EpiS" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[Neural Surface Reconstruction from Sparse Views Using Epipolar Geometry](https://arxiv.org/abs/2406.04301)
+
+[**Xinhai Chang**](https://chang-xinhai.github.io/), [Kaichen Zhou](https://wang.hms.harvard.edu/team/kaichen-zhou-phd/)
+
+[**Paper**](https://arxiv.org/abs/2406.04301)
+<!-- |
+[**Project**]() -->
+<!-- | -->
+<!-- [**Code**]() -->
+
+- EpiS is a generalizable neural surface reconstruction framework that explicitly leverages epipolar geometry. By using an epipolar transformer to fuse multi-view information and incorporating a pretrained monocular depth model for geometry regularization, EpiS achieves state-of-the-art performance in sparse-view surface estimation without per-scene optimization.
+
+</div>
+</div>
+
+
 <!-- SplatMesh -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPRW 2025</div><img src='images/papers/SplatMesh.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
