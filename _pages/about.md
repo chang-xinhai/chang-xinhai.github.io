@@ -35,11 +35,11 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 <!-- RAD -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/papers/RAD.png' alt="RAD" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[RAD: A Realistic Multi-View Benchmark for Pose-Agnostic Anomaly Detection]()
+[RAD: A Realistic Multi-View Benchmark for Pose-Agnostic Anomaly Detection](https://arxiv.org/abs/2410.00713v3)
 
 [Kaichen Zhou](https://wang.hms.harvard.edu/team/kaichen-zhou-phd/)\*, [**Xinhai Chang**](https://chang-xinhai.github.io/)\*, [Taewhan Kim](https://scholar.google.com/citations?user=aQTkWjQAAAAJ&hl=en)\*, Jiadong Zhang\*, Yang Cao, Chufei Peng, [Fangneng Zhan](https://fnzhan.com/), Hao Zhao, [Hao Dong](https://zsdonghao.github.io/), Kai Ming Ting, [Ye Zhu](https://experts.deakin.edu.au/41905-ye-zhu)
 
-[**Paper**]()
+[**Paper**](https://arxiv.org/abs/2410.00713v3)
 <!-- |
 [**Project**](https://github.com/kaichen-z/rad)
 |
