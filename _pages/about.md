@@ -41,9 +41,9 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 
 [**Paper**](https://arxiv.org/abs/2410.00713v3)
 <!-- |
-[**Project**](https://github.com/kaichen-z/rad)
+[**Project**](https://github.com/kaichen-z/rad)-->
 |
-[**Code**](https://github.com/kaichen-z/rad) -->
+[**Code**](https://github.com/kaichen-z/rad) 
 
 - RAD (Realistic Anomaly Detection) is a robot-captured, multi-view dataset designed to address the challenges of pose variation, reflective materials, and viewpoint-dependent defect visibility. It provides a benchmark for pose-agnostic anomaly detection across 13 object categories under uncontrolled lighting conditions.
 
