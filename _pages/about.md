@@ -52,7 +52,7 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 
 
 <!-- PAGE-4D -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/papers/PAGE_4D.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/papers/PAGE_4D.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [PAGE-4D: Disentangled Pose and Geometry Estimation for 4D Perception](https://page-4d.github.io/anonymous-submission/)
 
