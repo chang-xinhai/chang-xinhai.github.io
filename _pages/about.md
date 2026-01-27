@@ -57,7 +57,7 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 <div class='paper-box-text' markdown="1">
 [PAGE-4D: Disentangled Pose and Geometry Estimation for 4D Perception](https://page-4d.github.io/anonymous-submission/)
 
-[Kaichen Zhou](https://wang.hms.harvard.edu/team/kaichen-zhou-phd/)\*, Yuhan Wang\*, [Grace Chen](https://wang.hms.harvard.edu/team/grace-chen/)\*, [**Xinhai Chang**](https://chang-xinhai.github.io/), Gaspard Beaudouin, [Fangneng Zhan](https://fnzhan.com/), [Paul Pu Liang](https://pliang279.github.io/), [Mengyu Wang](https://wang.hms.harvard.edu/team/dr-wang/)
+[Kaichen Zhou](https://wang.hms.harvard.edu/team/kaichen-zhou-phd/)\*, [Yuhan Wang](https://scholar.google.com/citations?user=gYhZ614AAAAJ&hl=en)\*, [Grace Chen](https://wang.hms.harvard.edu/team/grace-chen/)\*, [**Xinhai Chang**](https://chang-xinhai.github.io/), [Gaspard Beaudouin](https://wang.hms.harvard.edu/team/gaspard-beaudouin/), [Fangneng Zhan](https://fnzhan.com/), [Paul Pu Liang](https://pliang279.github.io/), [Mengyu Wang](https://wang.hms.harvard.edu/team/dr-wang/)
 
 [**Paper**](https://arxiv.org/abs/2510.17568)
 |
@@ -75,7 +75,7 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 <div class='paper-box-text' markdown="1">
 [A Scalable Whole-body Trajectory Generator for Coordinated Mobile Manipulation](https://page-4d.github.io/anonymous-submission/)
 
-[Yida Niu](https://github.com/fi6)\*, [**Xinhai Chang**](https://chang-xinhai.github.io/)\*, Xin Liu\*, [Ziyuan Jiao](https://sites.google.com/g.ucla.edu/zyjiao/home), [Yixin Zhu](https://yzhu.io/)
+[Yida Niu](https://github.com/fi6)\*, [**Xinhai Chang**](https://chang-xinhai.github.io/)\*, [Xin Liu](https://openreview.net/profile?id=~Xin_Liu72)\*, [Ziyuan Jiao](https://sites.google.com/g.ucla.edu/zyjiao/home), [Yixin Zhu](https://yzhu.io/)
 
 [**Paper**](https://openreview.net/pdf?id=mi766Y2K6Y)
 |
@@ -132,7 +132,7 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 <div class='paper-box-text' markdown="1">
 [SplatMesh: Interactive 3D Segmentation and Editing Using Mesh-Based Gaussian Splatting](https://arxiv.org/abs/2312.15856)
   
-[Kaichen Zhou](https://github.com/kaichen-z)\*, Lanqing Hong\*, [**Xinhai Chang**](https://chang-xinhai.github.io/)\*, Yingji Zhong, Enze Xie, [Hao Dong](https://zsdonghao.github.io/), Zhihao Li, Yongxin Yang, Zhenguo Li, Wei Zhang
+[Kaichen Zhou](https://wang.hms.harvard.edu/team/kaichen-zhou-phd/)\*, [Lanqing Hong](https://racheltechie.github.io/)\*, [**Xinhai Chang**](https://chang-xinhai.github.io/)\*, [Yingji Zhong](https://openreview.net/profile?id=~Yingji_Zhong1), [Enze Xie](https://xieenze.github.io/), [Hao Dong](https://zsdonghao.github.io/), Zhihao Li, [Yongxin Yang](https://yang.ac/), [Zhenguo Li](https://www.ee.columbia.edu/~zgli/), [Wei Zhang](https://openreview.net/profile?id=~Wei_Zhang45)
 
 [**Paper**](https://arxiv.org/abs/2312.15856)
 <!-- | -->
