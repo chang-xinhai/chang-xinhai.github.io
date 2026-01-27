@@ -24,6 +24,7 @@ My research passion lies in embodied AI, with a focus on mobile manipulation and
 In addition to my research, I am an amateur photographer and motorcyclist. Love for life and the savor of freedom lingers without a moment’s lapse.
 
 # 🔥 News
+- *2025.06*: &nbsp;🎉🎉 [PAGE-4D](https://arxiv.org/abs/2510.17568) is accepted by ICLR 2026!
 - *2025.06*: &nbsp;🎉🎉 [AutoMoMa](https://openreview.net/pdf?id=mi766Y2K6Y) is accepted by RSS 2025 MoMa!
 - *2025.06*: &nbsp;🎉🎉 [TerraX](http://poss.pku.edu.cn/terrax.html) is accepted by IROS 2025 as **Oral**!
 - *2025.02*: &nbsp;🎉🎉 [SplatMesh](https://arxiv.org/abs/2312.15856) is accepted by CVPRW 2025!
@@ -58,7 +59,7 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 
 [Kaichen Zhou](https://wang.hms.harvard.edu/team/kaichen-zhou-phd/)\*, Yuhan Wang\*, [Grace Chen](https://wang.hms.harvard.edu/team/grace-chen/)\*, [**Xinhai Chang**](https://chang-xinhai.github.io/), Gaspard Beaudouin, [Fangneng Zhan](https://fnzhan.com/), [Paul Pu Liang](https://pliang279.github.io/), [Mengyu Wang](https://wang.hms.harvard.edu/team/dr-wang/)
 
-[**Paper**](https://arxiv.org/abs/2510.17568v1)
+[**Paper**](https://arxiv.org/abs/2510.17568)
 |
 [**Project**](https://page-4d.github.io/anonymous-submission/)
 |
