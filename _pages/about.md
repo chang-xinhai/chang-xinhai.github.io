@@ -24,7 +24,7 @@ My research passion lies in embodied AI, with a focus on mobile manipulation and
 In addition to my research, I am an amateur photographer and motorcyclist. Love for life and the savor of freedom lingers without a moment’s lapse.
 
 # 🔥 News
-- *2025.06*: &nbsp;🎉🎉 [PAGE-4D](https://arxiv.org/abs/2510.17568) is accepted by ICLR 2026!
+- *2026.01*: &nbsp;🎉🎉 [PAGE-4D](https://arxiv.org/abs/2510.17568) is accepted by ICLR 2026!
 - *2025.06*: &nbsp;🎉🎉 [AutoMoMa](https://openreview.net/pdf?id=mi766Y2K6Y) is accepted by RSS 2025 MoMa!
 - *2025.06*: &nbsp;🎉🎉 [TerraX](http://poss.pku.edu.cn/terrax.html) is accepted by IROS 2025 as **Oral**!
 - *2025.02*: &nbsp;🎉🎉 [SplatMesh](https://arxiv.org/abs/2312.15856) is accepted by CVPRW 2025!
