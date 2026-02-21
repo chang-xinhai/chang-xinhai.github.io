@@ -53,7 +53,7 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 </div>
 
 <!-- AutoMoMa -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/papers/AutoMoMa.pdf' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/papers/AutoMoMa.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [AutoMoMa: Scalable Coordinated Mobile Manipulation Trajectory Generation](https://automoma.pages.dev/)
 
