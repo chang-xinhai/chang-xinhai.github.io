@@ -24,6 +24,7 @@ My research passion lies in embodied AI, with a focus on mobile manipulation and
 In addition to my research, I am an amateur photographer and motorcyclist. Love for life and the savor of freedom lingers without a moment’s lapse.
 
 # 🔥 News
+- *2026.02*: &nbsp;🎉🎉 [AutoMoMa]() is accepted by CVPR 2026!
 - *2026.01*: &nbsp;🎉🎉 [PAGE-4D](https://arxiv.org/abs/2510.17568) is accepted by ICLR 2026!
 - *2025.06*: &nbsp;🎉🎉 [AutoMoMa](https://openreview.net/pdf?id=mi766Y2K6Y) is accepted by RSS 2025 MoMa!
 - *2025.06*: &nbsp;🎉🎉 [TerraX](http://poss.pku.edu.cn/terrax.html) is accepted by IROS 2025 as **Oral**!
@@ -51,6 +52,23 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 </div>
 </div>
 
+<!-- AutoMoMa -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/papers/AutoMoMa.pdf' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+[AutoMoMa: Scalable Coordinated Mobile Manipulation Trajectory Generation](https://automoma.pages.dev/)
+
+[Yida Niu](https://github.com/fi6)\*, [**Xinhai Chang**](https://chang-xinhai.github.io/)\*, [Xin Liu](https://openreview.net/profile?id=~Xin_Liu72)\*, [Ziyuan Jiao](https://sites.google.com/g.ucla.edu/zyjiao/home), [Yixin Zhu](https://yzhu.io/)
+
+[**Paper**](https://openreview.net/pdf?id=mi766Y2K6Y)
+|
+[**Project**](https://automoma.pages.dev/)
+<!-- | -->
+<!-- [**Code**]() -->
+
+- AutoMoMa is a system that efficiently generates high-quality whole-body trajectories using Virtual Kinematic Chain (VKC) modeling and GPU-accelerated motion planning at a rate of 2.5k valid episodes per hour per consumer-level GPU, which generalizes across diverse household layouts, interactive objects, robot morphologies, and manipulation tasks while ensuring physical feasibility and strict constraint satisfaction.
+
+</div>
+</div>
 
 <!-- PAGE-4D -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/papers/PAGE_4D.png' alt="sym" width="100%"></div></div>
@@ -66,24 +84,6 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 [**Code**](https://drive.google.com/file/d/1caBtmWK8I-t6RyG2gAsUjSLWM0dl_1kh/view?usp=drive_link)
 
 - PAGE-4D is a feedforward 4D perception model that disentangles static and dynamic scene elements to simultaneously achieve accurate camera pose estimation, depth prediction, and point cloud reconstruction in dynamic environments.
-
-</div>
-</div>
-
-<!-- AutoMoMa -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">RSS 2025 Workshop</div><img src='images/papers/AutoMoMa.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-[A Scalable Whole-body Trajectory Generator for Coordinated Mobile Manipulation](https://page-4d.github.io/anonymous-submission/)
-
-[Yida Niu](https://github.com/fi6)\*, [**Xinhai Chang**](https://chang-xinhai.github.io/)\*, [Xin Liu](https://openreview.net/profile?id=~Xin_Liu72)\*, [Ziyuan Jiao](https://sites.google.com/g.ucla.edu/zyjiao/home), [Yixin Zhu](https://yzhu.io/)
-
-[**Paper**](https://openreview.net/pdf?id=mi766Y2K6Y)
-|
-[**Project**](https://automoma.pages.dev/)
-<!-- | -->
-<!-- [**Code**]() -->
-
-- AutoMoMa is a system that efficiently generates high-quality whole-body trajectories using Virtual Kinematic Chain (VKC) modeling and GPU-accelerated motion planning at a rate of 2.5k valid episodes per hour per consumer-level GPU, which generalizes across diverse household layouts, interactive objects, robot morphologies, and manipulation tasks while ensuring physical feasibility and strict constraint satisfaction.
 
 </div>
 </div>
