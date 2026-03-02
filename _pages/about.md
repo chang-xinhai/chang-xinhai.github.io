@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am an undergraduate student at [Yuanpei College](https://yuanpei.pku.edu.cn/en/), [Peking University (PKU)]([https://www.pku.edu.cn/](https://english.pku.edu.cn/)). I am advised by Prof. [Yixin Zhu](https://yzhu.io/) at [CoRe Lab](https://pku.ai/). I am also working on research under the guidance of [Kaichen Zhou](https://wang.hms.harvard.edu/team/kaichen-zhou-phd/) from the Harvard AI and Robotics Lab.
+I am an undergraduate student at [Yuanpei College](https://yuanpei.pku.edu.cn/en/), [Peking University (PKU)]([https://www.pku.edu.cn/](https://english.pku.edu.cn/)). I am advised by Prof. [Yixin Zhu](https://yzhu.io/) at [CoRe Lab](https://pku.ai/). I am also working on research under the guidance of [Kaichen Zhou](https://kaichen-z.github.io/) from the Harvard AI and Robotics Lab.
 
 My research passion lies in embodied AI, with a focus on mobile manipulation and 3D reconstruction. I aim to build digital twins that seamlessly fuse the virtual and physical worlds by harnessing large-scale parallel simulation, ultimately creating general-purpose robotic models that can both perceive and reconstruct. I'm always eager to explore fresh ideas and collaborations—let's connect!
 
@@ -39,7 +39,7 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 <div class='paper-box-text' markdown="1">
 [RAD: A Realistic Multi-View Benchmark for Pose-Agnostic Anomaly Detection](https://arxiv.org/abs/2410.00713v3)
 
-[Kaichen Zhou](https://wang.hms.harvard.edu/team/kaichen-zhou-phd/)\*, [**Xinhai Chang**](https://chang-xinhai.github.io/)\*, [Taewhan Kim](https://scholar.google.com/citations?user=aQTkWjQAAAAJ&hl=en)\*, Jiadong Zhang\*, Yang Cao, Chufei Peng, [Fangneng Zhan](https://fnzhan.com/), Hao Zhao, [Hao Dong](https://zsdonghao.github.io/), Kai Ming Ting, [Ye Zhu](https://experts.deakin.edu.au/41905-ye-zhu)
+[Kaichen Zhou](https://kaichen-z.github.io/)\*, [**Xinhai Chang**](https://chang-xinhai.github.io/)\*, [Taewhan Kim](https://scholar.google.com/citations?user=aQTkWjQAAAAJ&hl=en)\*, Jiadong Zhang\*, Yang Cao, Chufei Peng, [Fangneng Zhan](https://fnzhan.com/), Hao Zhao, [Hao Dong](https://zsdonghao.github.io/), Kai Ming Ting, [Ye Zhu](https://experts.deakin.edu.au/41905-ye-zhu)
 
 [**Paper**](https://arxiv.org/abs/2410.00713v3)
 <!-- |
@@ -73,13 +73,13 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 <!-- PAGE-4D -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/papers/PAGE_4D.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-[PAGE-4D: Disentangled Pose and Geometry Estimation for 4D Perception](https://page-4d.github.io/anonymous-submission/)
+[PAGE-4D: Disentangled Pose and Geometry Estimation for 4D Perception](https://page4d.github.io/)
 
-[Kaichen Zhou](https://wang.hms.harvard.edu/team/kaichen-zhou-phd/)\*, [Yuhan Wang](https://scholar.google.com/citations?user=gYhZ614AAAAJ&hl=en)\*, [Grace Chen](https://wang.hms.harvard.edu/team/grace-chen/)\*, [**Xinhai Chang**](https://chang-xinhai.github.io/), [Gaspard Beaudouin](https://wang.hms.harvard.edu/team/gaspard-beaudouin/), [Fangneng Zhan](https://fnzhan.com/), [Paul Pu Liang](https://pliang279.github.io/), [Mengyu Wang](https://wang.hms.harvard.edu/team/dr-wang/)
+[Kaichen Zhou](https://kaichen-z.github.io/)\*, [Yuhan Wang](https://scholar.google.com/citations?user=gYhZ614AAAAJ&hl=en)\*, [Grace Chen](https://wang.hms.harvard.edu/team/grace-chen/)\*, [**Xinhai Chang**](https://chang-xinhai.github.io/), [Gaspard Beaudouin](https://wang.hms.harvard.edu/team/gaspard-beaudouin/), [Fangneng Zhan](https://fnzhan.com/), [Paul Pu Liang](https://pliang279.github.io/), [Mengyu Wang](https://wang.hms.harvard.edu/team/dr-wang/)
 
 [**Paper**](https://arxiv.org/abs/2510.17568)
 |
-[**Project**](https://page-4d.github.io/anonymous-submission/)
+[**Project**](https://page4d.github.io/)
 |
 [**Code**](https://drive.google.com/file/d/1caBtmWK8I-t6RyG2gAsUjSLWM0dl_1kh/view?usp=drive_link)
 
@@ -113,7 +113,7 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 <div class='paper-box-text' markdown="1">
 [Neural Surface Reconstruction from Sparse Views Using Epipolar Geometry](https://arxiv.org/abs/2406.04301)
 
-[**Xinhai Chang**](https://chang-xinhai.github.io/), [Kaichen Zhou](https://wang.hms.harvard.edu/team/kaichen-zhou-phd/)
+[**Xinhai Chang**](https://chang-xinhai.github.io/), [Kaichen Zhou](https://kaichen-z.github.io/)
 
 [**Paper**](https://arxiv.org/abs/2406.04301)
 <!-- |
@@ -132,7 +132,7 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 <div class='paper-box-text' markdown="1">
 [SplatMesh: Interactive 3D Segmentation and Editing Using Mesh-Based Gaussian Splatting](https://arxiv.org/abs/2312.15856)
   
-[Kaichen Zhou](https://wang.hms.harvard.edu/team/kaichen-zhou-phd/)\*, [Lanqing Hong](https://racheltechie.github.io/)\*, [**Xinhai Chang**](https://chang-xinhai.github.io/)\*, [Yingji Zhong](https://openreview.net/profile?id=~Yingji_Zhong1), [Enze Xie](https://xieenze.github.io/), [Hao Dong](https://zsdonghao.github.io/), Zhihao Li, [Yongxin Yang](https://yang.ac/), [Zhenguo Li](https://www.ee.columbia.edu/~zgli/), [Wei Zhang](https://openreview.net/profile?id=~Wei_Zhang45)
+[Kaichen Zhou](https://kaichen-z.github.io/)\*, [Lanqing Hong](https://racheltechie.github.io/)\*, [**Xinhai Chang**](https://chang-xinhai.github.io/)\*, [Yingji Zhong](https://openreview.net/profile?id=~Yingji_Zhong1), [Enze Xie](https://xieenze.github.io/), [Hao Dong](https://zsdonghao.github.io/), Zhihao Li, [Yongxin Yang](https://yang.ac/), [Zhenguo Li](https://www.ee.columbia.edu/~zgli/), [Wei Zhang](https://openreview.net/profile?id=~Wei_Zhang45)
 
 [**Paper**](https://arxiv.org/abs/2312.15856)
 <!-- | -->
