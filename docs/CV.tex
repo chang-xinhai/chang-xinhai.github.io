@@ -1,0 +1,322 @@
+\documentclass[10pt, letterpaper]{article}
+
+% Packages:
+\usepackage[
+    ignoreheadfoot,
+    top=2cm,
+    bottom=2cm,
+    left=2cm,
+    right=2cm,
+    footskip=1.0cm
+]{geometry}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{primaryColor}{RGB}{0, 0, 0}
+\usepackage{enumitem}
+\usepackage{fontawesome5}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[
+    pdftitle={Xinhai Chang's CV},
+    pdfauthor={Xinhai Chang},
+    pdfcreator={LaTeX with RenderCV},
+    colorlinks=true,
+    urlcolor=primaryColor
+]{hyperref}
+\usepackage[pscoord]{eso-pic}
+\usepackage{calc}
+\usepackage{bookmark}
+\usepackage{lastpage}
+\usepackage{changepage}
+\usepackage{paracol}
+\usepackage{ifthen}
+\usepackage{needspace}
+\usepackage{iftex}
+
+% Ensure ATS parsable:
+\ifPDFTeX
+    \input{glyphtounicode}
+    \pdfgentounicode=1
+    \usepackage[T1]{fontenc}
+    \usepackage[utf8]{inputenc}
+    \usepackage{lmodern}
+\fi
+
+% Settings:
+\raggedright
+\AtBeginEnvironment{adjustwidth}{\partopsep0pt}
+\pagestyle{empty}
+\setcounter{secnumdepth}{0}
+\setlength{\parindent}{0pt}
+\setlength{\topskip}{0pt}
+\setlength{\columnsep}{0.15cm}
+\pagenumbering{gobble}
+\titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
+\titlespacing{\section}{-1pt}{0.3cm}{0.2cm}
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$}
+\newenvironment{highlights}{\begin{itemize}[topsep=0.10cm,parsep=0.10cm,partopsep=0pt,itemsep=0pt,leftmargin=0cm+10pt]}{\end{itemize}}
+\newenvironment{highlightsforbulletentries}{\begin{itemize}[topsep=0.10cm,parsep=0.10cm,partopsep=0pt,itemsep=0pt,leftmargin=10pt]}{\end{itemize}}
+\newenvironment{onecolentry}{\begin{adjustwidth}{0cm+0.00001cm}{0cm+0.00001cm}}{\end{adjustwidth}}
+\newenvironment{twocolentry}[2][]{\onecolentry\def\secondColumn{#2}\setcolumnwidth{\fill, 4.5cm}\begin{paracol}{2}}{\switchcolumn \raggedleft \secondColumn\end{paracol}\endonecolentry}
+\newenvironment{header}{\setlength{\topsep}{0pt}\par\kern\topsep\centering\linespread{1.5}}{\par\kern\topsep}
+
+\begin{document}
+    \newcommand{\AND}{\unskip\cleaders\copy\ANDbox\hskip\wd\ANDbox\ignorespaces}
+    \newsavebox\ANDbox
+    \sbox\ANDbox{$|$}
+
+    \begin{header}
+        \fontsize{25pt}{25pt}\selectfont XINHAI CHANG
+        \vspace{5pt}
+        
+        \normalsize
+        
+        Beijing, China \kern 5.0pt \AND \kern 5.0pt
+        \href{mailto:changxinhai@stu.pku.edu.cn}{changxinhai@stu.pku.edu.cn} \\
+        \vspace{3pt}
+        \href{https://chang-xinhai.github.io/}{\faGlobe\ \textbf{chang-xinhai.github.io}} \kern 5.0pt \AND \kern 5.0pt
+        \href{https://github.com/chang-xinhai}{\faGithub\ chang-xinhai} \kern 5.0pt \AND \kern 5.0pt
+        \href{https://scholar.google.com/citations?user=NVxBzq4AAAAJ}{\faGraduationCap\ Google Scholar}
+    \end{header}
+    \vspace{5pt - 0.3cm}
+    
+    \section{Education}
+
+    \begin{twocolentry}{Expected: Jun 2026}
+        \textbf{Peking University}, Beijing, China \\
+        Bachelor of Science in Data Science, Yuanpei College
+    \end{twocolentry}
+
+    \vspace{0.10cm}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item GPA: 3.748/4.0
+            \item Coursework: Computer Vision, Machine Learning, Multimodal Learning, Intelligent Robotics [3.9+]
+        \end{highlights}
+    \end{onecolentry}
+
+    \section{Research Interests}
+    \begin{onecolentry}
+        My research bridges \textbf{Computer Vision} and \textbf{Robotics} to close the loop of \textbf{Real-Sim-Real} for Embodied AI. I focus on vision-centric \textbf{High-Fidelity 3D Reconstruction and Generation} (Real-to-Sim) to digitize complex physical worlds into simulation-ready assets, and leverage these assets for robotics-centric \textbf{Generalizable Robot Policy Learning} (Sim-to-Real) to deploy robust intelligence in the real world.
+    \end{onecolentry}
+
+    \section{Technical Skills}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item \textbf{Robotics and Simulation:} Isaac Lab, Isaac Sim, Curobo, Robot Manipulation, Motion Planning.
+            \item \textbf{Languages and Frameworks:} Python, C/C++, Bash, PyTorch, TensorFlow, Pandas, Qt.
+            \item \textbf{Algorithms and Vision:} 3D Reconstruction (Gaussian Splatting), Multimodal Learning, 3D Generation.
+        \end{highlights}
+    \end{onecolentry}
+
+    \section{Research Experience}
+
+    \begin{twocolentry}{Mar 2025 - Present}
+        \textbf{CoRe Lab, Peking University} \\
+        \textit{Research Assistant (Advised by Prof. Yixin Zhu)}
+    \end{twocolentry}
+    \vspace{0.10cm}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item Focusing on \textbf{Sim-to-Real} intelligence, specifically large-scale simulation and robust mobile manipulation.
+        \end{highlights}
+    \end{onecolentry}
+
+    \vspace{0.2cm}
+
+    \begin{twocolentry}{Apr 2024 - Present}
+        \textbf{Harvard AI and Robotics Lab} \\
+        \textit{Research Assistant (Mentored by Kaichen Zhou)}
+    \end{twocolentry}
+    \vspace{0.10cm}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item Focusing on \textbf{Real-to-Sim} pipelines, working on high-fidelity 3D reconstruction and digital twin creation.
+        \end{highlights}
+    \end{onecolentry}
+
+    \section{Publications}
+    
+    \begin{onecolentry}
+        \begin{highlights}
+            \item Niu, Y.*, \textbf{Chang, X.}*, Liu, X.*, Jiao, Z., Zhu, Y. (2025). \textit{A Scalable Whole-body Trajectory Generator for Coordinated Mobile Manipulation}. The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR).
+            \item Li, H.*, Huang, X.*, \textbf{Chang, X.}*, Zhou, J., Zhao, H. (2025). \textit{TerraX: Visual Terrain Classification Enhanced by Vision-Language Models}. International Conference on Intelligent Robots and Systems (IROS) (Oral).
+            \item Zhou, K.*, Wang, Y.*, Chen, G.*, \textbf{Chang, X.}, Beaudouin, G., Zhan, F., Liang, P. P., Wang, M. (2025). \textit{PAGE-4D: Disentangled Pose and Geometry Estimation for 4D Perception}. International Conference on Learning Representations (ICLR).
+            \item \textbf{Chang, X.}, Zhou, K. (2026). \textit{Neural Surface Reconstruction from Sparse Views Using Epipolar Geometry}. CVPR 2026 Workshop on Advancements in 2D and 3D Anomaly Detection and Mobile Manipulation Learning (A2AMML).
+            \item Tang, C.*, \textbf{Chang, X.}* (2025). \textit{StyleCraft: High-Quality Arbitrary Style Transfer via Unified Content-Style Fusion}. International Conference on Intelligent Computing (ICIC).
+        \end{highlights}
+    \end{onecolentry}
+
+    \section{Preprints}
+    
+    \begin{onecolentry}
+        \begin{highlights}
+            \item Zhou, K.*, \textbf{Chang, X.}*, Kim, T.*, Zhang, J.*, Cao, Y., Peng, C., Zhan, F., Zhao, H., Dong, H., Ting, K. M., Zhu, Y. (2025). \textit{RAD: A Realistic Multi-View Benchmark for Pose-Agnostic Anomaly Detection}. Under Review.
+            \item Zhou, K.*, Hong, L.*, \textbf{Chang, X.}*, Zhong, Y., Xie, E., Dong, H., Li, Z., Yang, Y., Li, Z., Zhang, W. (2025). \textit{SplatMesh: Interactive 3D Segmentation and Editing Using Mesh-Based Gaussian Splatting}. Under Review.
+        \end{highlights}
+        \vspace{0.2cm}
+        \footnotesize{* denotes equal contribution}
+    \end{onecolentry}
+    
+    % Ensure these definitions are in your preamble (before \begin{document})
+    % or right before the section:
+    \definecolor{MacaronRed}{HTML}{FF8B94}
+    \definecolor{MacaronBlue}{HTML}{6EB5FF}
+    \newcommand{\cvdot}{\textcolor{MacaronRed}{\raisebox{1pt}{\scalebox{0.65}{\faCircle}}}}
+    \newcommand{\robdot}{\textcolor{MacaronBlue}{\raisebox{1pt}{\scalebox{0.65}{\faCircle}}}}
+    
+    % Modified Section Header with Legend
+    \section{Academic Projects \hfill \normalfont\normalsize\cvdot\hspace{3pt}\textit{Computer Vision} \hspace{1.5em} \robdot\hspace{3pt}\textit{Robotics}}
+
+    % --- Direction 1: Real-to-Sim ---
+    \vspace{0.1cm}
+    \begin{onecolentry}
+        \textbf{\textit{I. Real-to-Sim: High-Fidelity 3D Reconstruction and Generation}}
+    \end{onecolentry}
+    \vspace{0.1cm}
+
+    \begin{onecolentry}
+        \textbf{EpiS: Neural Surface Reconstruction from Sparse Views Using Epipolar Geometry} \hfill CVPR 2026 Workshop A2AMML
+    \end{onecolentry}
+    \begin{onecolentry}
+        \begin{highlights}
+        \item A neural surface reconstruction model resolving geometric ambiguity via epipolar geometry and depth priors.
+        \item Responsible for epipolar feature extraction, monocular depth alignment, and baseline evaluation.
+        \item Roadmap: Achieves high-fidelity 3D geometry reconstruction from sparse visual observations.\hspace{4pt}\cvdot
+        \end{highlights}
+    \end{onecolentry}
+
+    \vspace{0.15cm}
+
+    \begin{onecolentry}
+        \textbf{SplatMesh: Interactive 3D Segmentation and Editing} \hfill Preprint
+    \end{onecolentry}
+    \begin{onecolentry}
+        \begin{highlights}
+        \item An interactive 3D segmentation and editing algorithm integrating Gaussian Splatting with QEM downsampling.
+        \item Responsible for QEM downsampling, mesh editing pipeline construction, and model training and evaluation.
+        \item Roadmap: Generates editable, memory-efficient digital twins for downstream simulation tasks.\hspace{4pt}\cvdot
+        \end{highlights}
+    \end{onecolentry}
+
+    \vspace{0.15cm}
+
+    \begin{onecolentry}
+        \textbf{PAGE-4D: Disentangled Pose and Geometry Estimation for 4D Perception} \hfill ICLR 2026
+    \end{onecolentry}
+    \begin{onecolentry}
+        \begin{highlights}
+        \item A feedforward 4D perception model featuring a dynamics-aware mask to disentangle static and dynamic scenes.
+        \item Responsible for novel view synthesis module, LVSM architecture adaptation, and baseline evaluation.
+        \item Roadmap: Extends high-fidelity reconstruction to dynamic environments for 4D simulation.\hspace{4pt}\cvdot
+        \end{highlights}
+    \end{onecolentry}
+
+    \vspace{0.15cm}
+    
+    \begin{onecolentry}
+        \textbf{RAD: Realistic Benchmark for Pose-Agnostic Anomaly Detection} 
+        \hfill Preprint
+    \end{onecolentry}
+    \begin{onecolentry}
+        \begin{highlights}
+        \item A realistic, robot-captured multi-view benchmark for anomaly detection on reflective and symmetric objects.
+        \item Responsible for dataset curation, 2D and 3D model training, and baseline evaluation.
+        \item Roadmap: Benchmarks high-fidelity perception against unstructured physical complexities.\hspace{4pt}\cvdot\hspace{2.5pt}\robdot
+        \end{highlights}
+    \end{onecolentry}
+
+    % --- Direction 2: Sim-to-Real ---
+    \vspace{0.3cm}
+    \begin{onecolentry}
+        \textbf{\textit{II. Sim-to-Real: Generalizable Robot Policy Learning}}
+    \end{onecolentry}
+    \vspace{0.1cm}
+
+    \begin{onecolentry}
+        \textbf{AutoMoMa: Scalable Coordinated Mobile Manipulation Trajectory Generation} 
+        \hfill CVPR 2026
+    \end{onecolentry}
+    \begin{onecolentry}
+        \begin{highlights}
+        \item A scalable data generation pipeline utilizing GPU-accelerated planning for coordinated mobile manipulation.
+        \item Responsible for scene generation, large-scale simulation data collection, and policy training and evaluation.
+        \item Roadmap: Generates large-scale manipulation data to enable generalizable policy learning.\hspace{4pt}\robdot
+        \end{highlights}
+    \end{onecolentry}
+
+    \vspace{0.15cm}
+
+    \begin{onecolentry}
+        \textbf{TerraX: Visual Terrain Classification Enhanced by VLMs} 
+        \hfill IROS 2025
+    \end{onecolentry}
+    \begin{onecolentry}
+        \begin{highlights}
+        \item A vision-language framework combining multimodal data and a CLIP-based VLM for terrain classification.
+        \item Responsible for heterogeneous data organization, fine-grained annotation, and baseline evaluation.
+        \item Roadmap: Enables robust visual terrain perception for generalizable robotic deployment.\hspace{4pt}\cvdot\hspace{2.5pt}\robdot
+        \end{highlights}
+    \end{onecolentry}
+
+    
+    \section{Honors and Awards}
+
+    \begin{onecolentry}
+        \begin{highlights}
+            \item \textbf{2025 National Scholarship} (Highest honor for undergraduate students in China)
+            \item 2024 Second-class Scholarship, Peking University
+            \item First Prize, 21st Jiang Zehan Cup Mathematical Modeling Competition, 2024
+            \item Xing Zhengde Scholarship, Yuanpei College, 2023
+            \item Third-class Scholarship, Peking University, 2023
+        \end{highlights}
+    \end{onecolentry}
+
+    \section{Teaching Experience}
+
+    \begin{twocolentry}{Autumn 2025}
+        \textbf{Teaching Assistant}, Introduction to Computation B  (Prof. Jun Sun)
+    \end{twocolentry}
+    \vspace{0.10cm}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item Led weekly programming labs, graded assignments, and designed exam questions.
+        \end{highlights}
+    \end{onecolentry}
+
+    \vspace{0.2cm}
+
+    \begin{twocolentry}{Autumn 2025}
+        \textbf{Teaching Assistant}, Introduction to Computation C (Prof. Baobao Chang)
+    \end{twocolentry}
+    \vspace{0.10cm}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item Led weekly programming labs, graded assignments, and designed exam questions and the final project.
+        \end{highlights}
+    \end{onecolentry}
+
+    \vspace{0.2cm}
+
+    \begin{twocolentry}{Autumn 2024}
+        \textbf{Teaching Assistant}, Introduction to Computer Systems (Prof. Lu Zhang)
+    \end{twocolentry}
+    \vspace{0.10cm}
+    \begin{onecolentry}
+        \begin{highlights}
+            \item Led weekly discussion sessions, graded assignments, and contributed to exam design.
+        \end{highlights}
+    \end{onecolentry}
+
+    \section{Extracurricular Activities}
+
+    \begin{onecolentry}
+        \begin{highlights}
+            \item Volunteer Teacher, International Asian Liver Center, Gansu, China, Summer 2024
+            \item Volunteer, Yunnan Golden Monkey Conservation, Peking University, Winter 2023
+        \end{highlights}
+    \end{onecolentry}
+
+\end{document}
