@@ -24,6 +24,7 @@ My research passion lies in embodied AI, with a focus on mobile manipulation and
 In addition to my research, I am an amateur photographer and motorcyclist. Love for life and the savor of freedom lingers without a moment’s lapse.
 
 # 🔥 News
+- *2026.03*: &nbsp;🎉🎉 [EpiS](https://arxiv.org/abs/2406.04301) is accepted by CVPR 2026 Workshop A2AMML!
 - *2026.02*: &nbsp;🎉🎉 [AutoMoMa]() is accepted by CVPR 2026!
 - *2026.01*: &nbsp;🎉🎉 [PAGE-4D](https://arxiv.org/abs/2510.17568) is accepted by ICLR 2026!
 - *2025.06*: &nbsp;🎉🎉 [AutoMoMa](https://openreview.net/pdf?id=mi766Y2K6Y) is accepted by RSS 2025 MoMa!
@@ -109,7 +110,7 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 
 
 <!-- EpiS -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/papers/EpiS.png' alt="EpiS" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 Workshop A2AMML</div><img src='images/papers/EpiS.png' alt="EpiS" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Neural Surface Reconstruction from Sparse Views Using Epipolar Geometry](https://arxiv.org/abs/2406.04301)
 
