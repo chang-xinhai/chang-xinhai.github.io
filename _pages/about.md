@@ -82,7 +82,7 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 |
 [**Project**](https://page4d.github.io/)
 |
-[**Code**](https://drive.google.com/file/d/1caBtmWK8I-t6RyG2gAsUjSLWM0dl_1kh/view?usp=drive_link)
+[**Code**](https://github.com/kaichen-z/PAGE4D)
 
 - PAGE-4D is a feedforward 4D perception model that disentangles static and dynamic scene elements to simultaneously achieve accurate camera pose estimation, depth prediction, and point cloud reconstruction in dynamic environments.
 
