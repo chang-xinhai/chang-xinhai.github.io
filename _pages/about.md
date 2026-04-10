@@ -24,8 +24,8 @@ My research passion lies in embodied AI, with a focus on mobile manipulation and
 In addition to my research, I am an amateur photographer and motorcyclist. Love for life and the savor of freedom lingers without a moment’s lapse.
 
 # 🔥 News
+- *2026.04*: &nbsp;🏆🏆 [AutoMoMa](https://automoma.pages.dev/) is accepted by CVPR 2026 as **Highlight**!
 - *2026.03*: &nbsp;🎉🎉 [EpiS](https://arxiv.org/abs/2406.04301) is accepted by CVPR 2026 Workshop A2AMML!
-- *2026.02*: &nbsp;🎉🎉 [AutoMoMa]() is accepted by CVPR 2026!
 - *2026.01*: &nbsp;🎉🎉 [PAGE-4D](https://arxiv.org/abs/2510.17568) is accepted by ICLR 2026!
 - *2025.06*: &nbsp;🎉🎉 [AutoMoMa](https://openreview.net/pdf?id=mi766Y2K6Y) is accepted by RSS 2025 MoMa!
 - *2025.06*: &nbsp;🎉🎉 [TerraX](http://poss.pku.edu.cn/terrax.html) is accepted by IROS 2025 as **Oral**!
@@ -54,7 +54,7 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 </div>
 
 <!-- AutoMoMa -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026</div><img src='images/papers/AutoMoMa.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2026 Highlight</div><img src='images/papers/AutoMoMa.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [AutoMoMa: Scalable Coordinated Mobile Manipulation Trajectory Generation](https://automoma.pages.dev/)
 
@@ -63,8 +63,8 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 [**Paper**](https://openreview.net/pdf?id=mi766Y2K6Y)
 |
 [**Project**](https://automoma.pages.dev/)
-<!-- | -->
-<!-- [**Code**]() -->
+|
+[**Code**](https://github.com/fi6/automoma)
 
 - AutoMoMa is a system that efficiently generates high-quality whole-body trajectories using Virtual Kinematic Chain (VKC) modeling and GPU-accelerated motion planning at a rate of 2.5k valid episodes per hour per consumer-level GPU, which generalizes across diverse household layouts, interactive objects, robot morphologies, and manipulation tasks while ensuring physical feasibility and strict constraint satisfaction.
 
