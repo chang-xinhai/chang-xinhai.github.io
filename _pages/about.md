@@ -76,7 +76,7 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 <div class='paper-box-text' markdown="1">
 [PAGE-4D: Disentangled Pose and Geometry Estimation for 4D Perception](https://page4d.github.io/)
 
-[Kaichen Zhou](https://kaichen-z.github.io/)\*, [Yuhan Wang](https://scholar.google.com/citations?user=gYhZ614AAAAJ&hl=en)\*, [Grace Chen](https://wang.hms.harvard.edu/team/grace-chen/)\*, [**Xinhai Chang**](https://chang-xinhai.github.io/), [Gaspard Beaudouin](https://wang.hms.harvard.edu/team/gaspard-beaudouin/), [Fangneng Zhan](https://fnzhan.com/), [Paul Pu Liang](https://pliang279.github.io/), [Mengyu Wang](https://wang.hms.harvard.edu/team/dr-wang/)
+[Kaichen Zhou](https://kaichen-z.github.io/), [Yuhan Wang](https://scholar.google.com/citations?user=gYhZ614AAAAJ&hl=en)\*, [Grace Chen](https://wang.hms.harvard.edu/team/grace-chen/)\*, [**Xinhai Chang**](https://chang-xinhai.github.io/)\*, [Gaspard Beaudouin](https://wang.hms.harvard.edu/team/gaspard-beaudouin/), [Fangneng Zhan](https://fnzhan.com/), [Paul Pu Liang](https://pliang279.github.io/), [Mengyu Wang](https://wang.hms.harvard.edu/team/dr-wang/)
 
 [**Paper**](https://arxiv.org/abs/2510.17568)
 |
