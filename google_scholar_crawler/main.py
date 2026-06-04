@@ -2,8 +2,9 @@ from datetime import datetime, timezone
 import json
 import os
 import time
+import sys
 
-from scholarly import scholarly
+from scholarly import scholarly, ProxyGenerator
 
 
 def maybe_fill_publication(publication: dict) -> dict:
@@ -20,6 +21,14 @@ def maybe_fill_publication(publication: dict) -> dict:
 
 
 def main() -> None:
+    # Try to set up a proxy to avoid Scholar blocking GitHub Actions IPs.
+    pg = ProxyGenerator()
+    if pg.FreeProxies():
+        scholarly.use_proxy(pg)
+        print("Using free proxies for Scholar access", file=sys.stderr)
+    else:
+        print("No free proxy available, using direct connection", file=sys.stderr)
+
     scholar_id = os.environ["GOOGLE_SCHOLAR_ID"]
     author: dict = scholarly.search_author_id(scholar_id)
     scholarly.fill(author, sections=["basics", "indices", "counts", "publications"])
