@@ -10,7 +10,7 @@ title                    : "Xinhai Chang | 常欣海"
 description              : "Peking University"
 repository               : chang-xinhai/chang-xinhai.github.io
 url                      : "https://chang-xinhai.github.io"
-google_scholar_stats_use_cdn : true
+google_scholar_stats_use_cdn : false
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/

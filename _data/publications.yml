@@ -1,0 +1,151 @@
+- id: rad
+  type: preprint
+  category: 3d-vision
+  selected: true
+  contribution: co-first
+  title: "RAD: A Realistic Multi-View Benchmark for Pose-Agnostic Anomaly Detection"
+  venue: "Under Review"
+  year: 2026
+  badge: "Under Review"
+  image: "images/papers/RAD.png"
+  intro: "A robot-captured multi-view anomaly benchmark targeting pose variation, reflective materials, and viewpoint-dependent defects."
+  authors_html: >-
+    <a href="https://kaichen-z.github.io/">Kaichen Zhou</a>*, <strong>Xinhai Chang</strong>*, <a href="https://scholar.google.com/citations?user=aQTkWjQAAAAJ&hl=en">Taewhan Kim</a>*, Jiadong Zhang*, Yang Cao, Chufei Peng, <a href="https://fnzhan.com/">Fangneng Zhan</a>, Hao Zhao, <a href="https://zsdonghao.github.io/">Hao Dong</a>, Kai Ming Ting, <a href="https://experts.deakin.edu.au/41905-ye-zhu">Ye Zhu</a>
+  links:
+    - label: Paper
+      url: "https://arxiv.org/abs/2410.00713v3"
+    - label: Code
+      url: "https://github.com/kaichen-z/rad"
+
+- id: automoma
+  type: publication
+  category: robotics
+  selected: true
+  contribution: co-first
+  scholar_id: "NVxBzq4AAAAJ:d1gkVwhDpl0C"
+  title: "AutoMoMa: Scalable Coordinated Mobile Manipulation Trajectory Generation"
+  venue: "CVPR 2026 Highlight"
+  year: 2026
+  badge: "CVPR 2026 Highlight"
+  image: "images/papers/AutoMoMa.png"
+  intro: "A scalable GPU-accelerated trajectory generation system for whole-body mobile manipulation across homes, robots, and tasks."
+  authors_html: >-
+    <a href="https://github.com/fi6">Yida Niu</a>*, <strong>Xinhai Chang</strong>*, <a href="https://openreview.net/profile?id=~Xin_Liu72">Xin Liu</a>*, <a href="https://sites.google.com/g.ucla.edu/zyjiao/home">Ziyuan Jiao</a>, <a href="https://yzhu.io/">Yixin Zhu</a>
+  links:
+    - label: Paper
+      url: "https://openreview.net/pdf?id=mi766Y2K6Y"
+    - label: Project
+      url: "https://automoma.pages.dev/"
+    - label: Code
+      url: "https://github.com/fi6/automoma"
+
+- id: page4d
+  type: publication
+  category: 3d-vision
+  selected: true
+  contribution: co-first
+  title: "PAGE-4D: Disentangled Pose and Geometry Estimation for 4D Perception"
+  venue: "ICLR 2026"
+  year: 2026
+  badge: "ICLR 2026"
+  image: "images/papers/PAGE_4D.png"
+  intro: "A feed-forward 4D perception model that disentangles pose and geometry for dynamic-scene reconstruction."
+  authors_html: >-
+    <a href="https://kaichen-z.github.io/">Kaichen Zhou</a>, <a href="https://scholar.google.com/citations?user=gYhZ614AAAAJ&hl=en">Yuhan Wang</a>*, <a href="https://wang.hms.harvard.edu/team/grace-chen/">Grace Chen</a>*, <strong>Xinhai Chang</strong>*, <a href="https://wang.hms.harvard.edu/team/gaspard-beaudouin/">Gaspard Beaudouin</a>, <a href="https://fnzhan.com/">Fangneng Zhan</a>, <a href="https://pliang279.github.io/">Paul Pu Liang</a>, <a href="https://wang.hms.harvard.edu/team/dr-wang/">Mengyu Wang</a>
+  links:
+    - label: Paper
+      url: "https://arxiv.org/abs/2510.17568"
+    - label: Project
+      url: "https://page4d.github.io/"
+    - label: Code
+      url: "https://github.com/kaichen-z/PAGE4D"
+
+- id: terrax
+  type: publication
+  category: robotics
+  selected: true
+  contribution: co-first
+  title: "TerraX: Visual Terrain Classification Enhanced by Vision-Language Models"
+  venue: "IROS 2025 Oral"
+  year: 2025
+  badge: "IROS 2025 Oral"
+  image: "images/papers/TerraX.png"
+  intro: "A vision-language terrain classification framework combining TerraData, TerraBench, and TerraCLIP for outdoor robotics."
+  authors_html: >-
+    <a href="https://lhz1016.github.io/">Hongze Li</a>*, <a href="https://huangxuchuan.github.io/">Xuchuan Huang</a>*, <strong>Xinhai Chang</strong>*, Jun Zhou, <a href="http://poss.pku.edu.cn/members/zhaohj/index.htm">Huijing Zhao</a>
+  links:
+    - label: Paper
+      url: "https://ieeexplore.ieee.org/document/11246334"
+    - label: Project
+      url: "http://poss.pku.edu.cn/terrax.html"
+    - label: Code
+      url: "http://poss.pku.edu.cn/OpenDataResource/TerraX/code.zip"
+
+- id: epis
+  type: publication
+  category: 3d-vision
+  selected: true
+  contribution: first
+  title: "Neural Surface Reconstruction from Sparse Views Using Epipolar Geometry"
+  venue: "CVPR 2026 Workshop A2AMML"
+  year: 2026
+  badge: "CVPR 2026 Workshop"
+  image: "images/papers/EpiS.png"
+  intro: "A sparse-view neural surface reconstruction method that injects epipolar geometry into multi-view feature fusion."
+  authors_html: >-
+    <strong>Xinhai Chang</strong>, <a href="https://kaichen-z.github.io/">Kaichen Zhou</a>
+  links:
+    - label: Paper
+      url: "https://arxiv.org/abs/2406.04301"
+
+- id: splatmesh
+  type: publication
+  category: 3d-vision
+  selected: true
+  contribution: co-first
+  scholar_id: "NVxBzq4AAAAJ:u-x6o8ySG0sC"
+  title: "SplatMesh: Interactive 3D Segmentation and Editing Using Mesh-Based Gaussian Splatting"
+  venue: "CVPRW 2025"
+  year: 2025
+  badge: "CVPRW 2025"
+  image: "images/papers/SplatMesh.png"
+  intro: "An interactive 3D segmentation and editing method that combines Gaussian splatting with mesh-based structure."
+  authors_html: >-
+    <a href="https://kaichen-z.github.io/">Kaichen Zhou</a>*, <a href="https://racheltechie.github.io/">Lanqing Hong</a>*, <strong>Xinhai Chang</strong>*, <a href="https://openreview.net/profile?id=~Yingji_Zhong1">Yingji Zhong</a>, <a href="https://xieenze.github.io/">Enze Xie</a>, <a href="https://zsdonghao.github.io/">Hao Dong</a>, Zhihao Li, <a href="https://yang.ac/">Yongxin Yang</a>, <a href="https://www.ee.columbia.edu/~zgli/">Zhenguo Li</a>, <a href="https://openreview.net/profile?id=~Wei_Zhang45">Wei Zhang</a>
+  links:
+    - label: Paper
+      url: "https://arxiv.org/abs/2312.15856"
+    - label: Code
+      url: "https://github.com/kaichen-z/SplatMesh"
+
+- id: aadnet
+  type: publication
+  category: other
+  selected: false
+  contribution: co-first
+  title: "AADNet: A Human-Mind-Inspired Multi-Modal Framework for Object Concept Learning"
+  venue: "SMC 2025"
+  year: 2025
+  badge: "SMC 2025"
+  image: "images/papers/AADNet.png"
+  intro: "A multi-modal object concept learning framework inspired by human cognitive association and abstraction."
+  authors_html: >-
+    Chao Tang*, <strong>Xinhai Chang</strong>*
+
+- id: stylecraft
+  type: publication
+  category: other
+  selected: false
+  contribution: co-first
+  scholar_id: "NVxBzq4AAAAJ:u5HHmVD_uO8C"
+  title: "StyleCraft: High-Quality Arbitrary Style Transfer via Unified Content-Style Fusion"
+  venue: "ICIC 2025 Oral"
+  year: 2025
+  badge: "ICIC 2025 Oral"
+  image: "images/papers/StyleCraft.png"
+  intro: "A unified content-style fusion method for high-quality arbitrary image style transfer."
+  authors_html: >-
+    Chao Tang*, <strong>Xinhai Chang</strong>*
+  links:
+    - label: Paper
+      url: "https://doi.org/10.1007/978-981-96-9866-0_20"

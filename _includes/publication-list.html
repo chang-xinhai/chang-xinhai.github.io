@@ -1,0 +1,64 @@
+{% assign publication_type = include.type | default: "publication" %}
+{% assign show_filters = include.filters | default: false %}
+{% assign topic_labels = "3d-vision:3D Vision|robotics:Robotics|other:Other" | split: "|" %}
+
+{% if show_filters %}
+<div class="publication-controls" aria-label="Filter publications">
+  <div class="filter-group filter-group--scope" aria-label="Filter by selection">
+    <button class="publication-filter is-active" type="button" data-scope-filter="selected" aria-pressed="true">Selected</button>
+    <button class="publication-filter" type="button" data-scope-filter="all" aria-pressed="false">All</button>
+  </div>
+  <div class="filter-group filter-group--topic" aria-label="Filter by topic">
+    <button class="publication-filter is-active" type="button" data-topic-filter="all" aria-pressed="true">All Topics</button>
+    <button class="publication-filter" type="button" data-topic-filter="3d-vision" aria-pressed="false">3D Vision</button>
+    <button class="publication-filter" type="button" data-topic-filter="robotics" aria-pressed="false">Robotics</button>
+  </div>
+</div>
+{% endif %}
+
+<div class="publications" data-publication-list{% if show_filters %} data-filterable="true"{% endif %}>
+  <ol class="bibliography">
+    {% for paper in site.data.publications %}
+      {% if paper.type == publication_type %}
+        {% assign topic_label = paper.category %}
+        {% for topic_pair in topic_labels %}
+          {% assign topic_parts = topic_pair | split: ":" %}
+          {% if topic_parts[0] == paper.category %}{% assign topic_label = topic_parts[1] %}{% endif %}
+        {% endfor %}
+        <li class="publication-item{% if paper.selected %} is-selected{% endif %}" data-topic="{{ paper.category }}" data-selected="{{ paper.selected }}"{% if paper.scholar_id %} data-scholar-id="{{ paper.scholar_id }}"{% endif %}>
+          <article class="publication-card">
+            <div class="publication-media-wrap">
+              {% if paper.badge %}<span class="publication-badge">{{ paper.badge }}</span>{% endif %}
+              <img class="publication-teaser" src="{{ paper.image | relative_url }}" alt="Teaser for {{ paper.title }}" loading="lazy">
+            </div>
+            <div class="publication-body">
+              <h3 class="publication-title">
+                {% assign primary_link = paper.links | first %}
+                {% if primary_link %}<a href="{{ primary_link.url }}" target="_blank" rel="noopener">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}
+              </h3>
+              <p class="publication-authors">{{ paper.authors_html }}</p>
+              <p class="publication-intro">{{ paper.intro }}</p>
+              <div class="publication-meta-row">
+                <span class="publication-venue">{{ paper.venue }}{% if paper.year %} · {{ paper.year }}{% endif %}</span>
+                {% if paper.contribution %}<span class="contribution-tag">{% if paper.contribution == "co-first" %}Co-first Author{% elsif paper.contribution == "first" %}First Author{% elsif paper.contribution == "core" %}Core Contributor{% elsif paper.contribution == "collaborator" %}Collaborator{% else %}{{ paper.contribution }}{% endif %}</span>{% endif %}
+                {% if paper.category != "other" %}<span class="topic-tag">{{ topic_label }}</span>{% endif %}
+              </div>
+              {% if paper.links %}
+                <div class="publication-links">
+                  {% for link in paper.links %}
+                    <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>
+                  {% endfor %}
+                </div>
+              {% endif %}
+              <div class="publication-citation-history" aria-live="polite" hidden>
+                <svg class="citation-sparkline" viewBox="0 0 140 24" role="img" aria-label="Citation history for {{ paper.title }}" preserveAspectRatio="none"></svg>
+                <span class="citation-count"></span>
+              </div>
+            </div>
+          </article>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ol>
+  {% if show_filters %}<p class="publication-empty" hidden>No publications match this filter yet.</p>{% endif %}
+</div>
