@@ -29,7 +29,7 @@
           <article class="publication-card">
             <div class="publication-media-wrap">
               {% if paper.badge %}<span class="publication-badge">{{ paper.badge }}</span>{% endif %}
-              <img class="publication-teaser" src="{{ paper.image | relative_url }}" alt="Teaser for {{ paper.title }}" loading="lazy">
+              <img class="publication-teaser" src="{{ paper.image | relative_url }}" alt="Teaser for {{ paper.title }}" loading="lazy" decoding="async">
             </div>
             <div class="publication-body">
               <h3 class="publication-title">
