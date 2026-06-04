@@ -12,17 +12,16 @@ redirect_from:
 
 ## About Me
 
-I am an undergraduate student at [Yuanpei College](https://yuanpei.pku.edu.cn/en/), [Peking University (PKU)](https://english.pku.edu.cn/). I am advised by Prof. [Yixin Zhu](https://yzhu.io/) at [CoRe Lab](https://pku.ai/). I am also working on research under the guidance of [Kaichen Zhou](https://kaichen-z.github.io/) from the Harvard AI and Robotics Lab.
+I am an undergraduate student at [Yuanpei College](https://yuanpei.pku.edu.cn/en/), [Peking University (PKU)](https://english.pku.edu.cn/), supervised by Prof. [Wenzheng Chen](https://wenzhengchen.github.io/) at the [Visual Computing and Learning (VCL) Lab](https://vcl.pku.edu.cn/). I am also privileged to work closely with Prof. [Yixin Zhu](https://yzhu.io/) at Peking University and [Kaichen Zhou](https://kaichen-z.github.io/) at Massachusetts Institute of Technology.
 
-My research passion lies in embodied AI, with a focus on mobile manipulation and 3D reconstruction. I aim to build digital twins that seamlessly fuse the virtual and physical worlds by harnessing large-scale parallel simulation, ultimately creating general-purpose robotic models that can both perceive and reconstruct.
-
-In addition to my research, I am an amateur photographer and motorcyclist. Love for life and the savor of freedom lingers without a moment's lapse. I am always happy to chat via <a href="mailto:changxinhai@pku.edu.cn" class="mail-button"><i class="fas fa-envelope"></i> changxinhai@pku.edu.cn</a> or <a href="images/wechat.png" class="wechat-button"><i class="fab fa-weixin"></i> WeChat</a>.
+My research centers on closing the **Real-Sim-Real** loop for robot learning — capturing real-world environments into high-fidelity digital twins, training generalizable policies at scale in simulation, and deploying back to the physical world. I'm always open to research discussions and collaboration. Feel free to reach out via <a href="mailto:changxinhai@pku.edu.cn" class="mail-button"><i class="fas fa-envelope"></i> changxinhai@pku.edu.cn</a> or <a href="images/wechat.png" class="wechat-button"><i class="fab fa-weixin"></i> WeChat</a>.
 
 ## Research Interests
 
-- **Embodied AI:** Mobile manipulation, whole-body planning, and robot learning.
-- **3D Vision:** Reconstruction, 4D perception, and interactive 3D scene understanding.
-- **Digital Twins:** Scalable simulation and world models that connect virtual and physical environments.
+I work on the **Real-Sim-Real** loop for embodied AI, spanning 3D vision and robot learning.
+
+- **3D Vision:** High-fidelity reconstruction, 3D generation, digital twins, and scene understanding.
+- **Embodied AI:** Simulation, world models, mobile manipulation, and sim-to-real transfer.
 
 ## News
 
@@ -56,7 +55,7 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 <div class="experience-list">
   <div class="experience-card">
     <div class="experience-media">
-      <img src="images/experience/PKU.png" alt="Peking University">
+      <img src="images/experience/webp/PKU.webp" alt="Peking University" decoding="async">
     </div>
     <div class="experience-body">
       <h3 class="experience-title"><strong>Peking University</strong>, China</h3>
@@ -67,7 +66,7 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 
   <div class="experience-card">
     <div class="experience-media">
-      <img src="images/experience/VCL.png" alt="VCL Lab">
+      <img src="images/experience/webp/VCL.webp" alt="VCL Lab" decoding="async">
     </div>
     <div class="experience-body">
       <h3 class="experience-title"><strong>Visual Computing and Learning (VCL) Lab</strong>, Peking University, China</h3>
@@ -79,7 +78,7 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 
   <div class="experience-card">
     <div class="experience-media">
-      <img src="images/experience/MIT.png" alt="MIT">
+      <img src="images/experience/webp/MIT.webp" alt="MIT" decoding="async">
     </div>
     <div class="experience-body">
       <h3 class="experience-title"><strong>Media Lab and EECS, MIT</strong>, US</h3>
@@ -91,7 +90,7 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 
   <div class="experience-card">
     <div class="experience-media">
-      <img src="images/experience/CoRe.png" alt="CoRe Lab">
+      <img src="images/experience/webp/CoRe.webp" alt="CoRe Lab" decoding="async">
     </div>
     <div class="experience-body">
       <h3 class="experience-title"><strong>Cognitive Reasoning (CoRe) Lab</strong>, Peking University, China</h3>
@@ -103,7 +102,7 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 
   <div class="experience-card">
     <div class="experience-media">
-      <img src="images/experience/Love.png" alt="International Asian Liver Center">
+      <img src="images/experience/webp/Love.webp" alt="International Asian Liver Center" decoding="async">
     </div>
     <div class="experience-body">
       <h3 class="experience-title"><strong>International Asian Liver Center</strong>, Gansu, China</h3>

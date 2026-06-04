@@ -59,20 +59,13 @@ def convert_one(src: Path, dst: Path, max_width: int, quality: int) -> tuple[int
     return src.stat().st_size, dst.stat().st_size
 
 
-def main() -> None:
-    parser = argparse.ArgumentParser(description="Convert paper teaser images to WebP thumbnails.")
-    parser.add_argument("--source-dir", default="images/papers", help="Directory containing source paper teaser images.")
-    parser.add_argument("--output-dir", default="images/papers/webp", help="Directory for generated WebP thumbnails.")
-    parser.add_argument("--max-width", type=int, default=800, help="Maximum output width in pixels.")
-    parser.add_argument("--quality", type=int, default=82, help="WebP quality, 1-100.")
-    parser.add_argument("--force", action="store_true", help="Regenerate even when output is newer than source.")
-    args = parser.parse_args()
+DEFAULT_DIRS = [
+    ("images/papers", "images/papers/webp"),
+    ("images/experience", "images/experience/webp"),
+]
 
-    source_dir = Path(args.source_dir)
-    output_dir = Path(args.output_dir)
-    if not source_dir.exists():
-        raise SystemExit(f"Source directory does not exist: {source_dir}")
 
+def process_dir(source_dir: Path, output_dir: Path, max_width: int, quality: int, force: bool) -> None:
     converted = 0
     skipped = 0
     total_before = 0
@@ -80,20 +73,46 @@ def main() -> None:
 
     for src in iter_source_images(source_dir):
         dst = output_dir / f"{src.stem}.webp"
-        if dst.exists() and not args.force and dst.stat().st_mtime >= src.stat().st_mtime:
+        if dst.exists() and not force and dst.stat().st_mtime >= src.stat().st_mtime:
             skipped += 1
             continue
-        before, after = convert_one(src, dst, args.max_width, args.quality)
+        before, after = convert_one(src, dst, max_width, quality)
         converted += 1
         total_before += before
         total_after += after
-        print(f"{src} -> {dst}  {before / 1024:.1f}KB -> {after / 1024:.1f}KB")
+        print(f"  {src} -> {dst}  {before / 1024:.1f}KB -> {after / 1024:.1f}KB")
 
     if converted:
         saved = total_before - total_after
-        print(f"Converted {converted} image(s); saved {saved / 1024 / 1024:.2f}MB total.")
+        print(f"  Converted {converted} image(s); saved {saved / 1024 / 1024:.2f}MB total.")
     if skipped:
-        print(f"Skipped {skipped} up-to-date image(s). Use --force to regenerate.")
+        print(f"  Skipped {skipped} up-to-date image(s).")
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(
+        description="Convert images to WebP thumbnails. Processes images/papers and images/experience by default."
+    )
+    parser.add_argument("--source-dir", default=None, help="Override: single source directory (disables default dirs).")
+    parser.add_argument("--output-dir", default=None, help="Override: single output directory (requires --source-dir).")
+    parser.add_argument("--max-width", type=int, default=800, help="Maximum output width in pixels.")
+    parser.add_argument("--quality", type=int, default=82, help="WebP quality, 1-100.")
+    parser.add_argument("--force", action="store_true", help="Regenerate even when output is newer than source.")
+    args = parser.parse_args()
+
+    if args.source_dir:
+        if not Path(args.source_dir).exists():
+            raise SystemExit(f"Source directory does not exist: {args.source_dir}")
+        output_dir = args.output_dir or f"{args.source_dir}/webp"
+        dirs = [(args.source_dir, output_dir)]
+    else:
+        if args.output_dir:
+            parser.error("--output-dir requires --source-dir when overriding a single directory.")
+        dirs = [(s, o) for s, o in DEFAULT_DIRS if Path(s).exists()]
+
+    for source, output in dirs:
+        print(f"\n{'='*60}\nProcessing {source}/ -> {output}/\n{'='*60}")
+        process_dir(Path(source), Path(output), args.max_width, args.quality, args.force)
 
 
 if __name__ == "__main__":
