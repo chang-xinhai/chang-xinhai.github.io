@@ -28,7 +28,7 @@ jobs:
           python main.py
         env:
           GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
-          FILL_PUBLICATION_DETAILS: "true"
+          FILL_PUBLICATION_DETAILS: "false"
       - name: Publish citation data
         run: |
           cd google_scholar_crawler/results
