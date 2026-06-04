@@ -7,7 +7,7 @@
   venue: "Under Review"
   year: 2026
   badge: "Under Review"
-  image: "images/papers/RAD.png"
+  image: "images/papers/RAD.webp"
   intro: "A robot-captured multi-view anomaly benchmark targeting pose variation, reflective materials, and viewpoint-dependent defects."
   authors_html: >-
     <a href="https://kaichen-z.github.io/">Kaichen Zhou</a>*, <strong>Xinhai Chang</strong>*, <a href="https://scholar.google.com/citations?user=aQTkWjQAAAAJ&hl=en">Taewhan Kim</a>*, Jiadong Zhang*, Yang Cao, Chufei Peng, <a href="https://fnzhan.com/">Fangneng Zhan</a>, Hao Zhao, <a href="https://zsdonghao.github.io/">Hao Dong</a>, Kai Ming Ting, <a href="https://experts.deakin.edu.au/41905-ye-zhu">Ye Zhu</a>
@@ -26,7 +26,7 @@
   venue: "Preprint"
   year: 2026
   badge: "Preprint"
-  image: "images/papers/GEM-4D.png"
+  image: "images/papers/GEM-4D.webp"
   intro: "A geometry-enhanced video world model that leverages geometric priors for robot manipulation."
   authors_html: >-
     <a href="https://kaichen-z.github.io/">Kaichen Zhou</a>, <a href="https://wang.hms.harvard.edu/team/yuzhen-chen/">Yuzhen Chen</a>, <a href="https://fnzhan.com/">Fangneng Zhan</a>, Hang Hua, <a href="https://wang.hms.harvard.edu/team/grace-chen/">Grace Chen</a>, <strong>Xinhai Chang</strong>, <a href="https://quao627.github.io/">Ao Qu</a>, <a href="https://yilundu.github.io/">Yilun Du</a>, <a href="https://liuzhuang13.github.io/">Zhuang Liu</a>, <a href="https://pliang279.github.io/">Paul Pu Liang</a>, <a href="https://wang.hms.harvard.edu/team/dr-wang/">Mengyu Wang</a>
@@ -45,7 +45,7 @@
   venue: "Preprint"
   year: 2026
   badge: "Preprint"
-  image: "images/papers/Stream3D.png"
+  image: "images/papers/Stream3D.webp"
   intro: "A sequential multi-view 3D generation method using evidential memory for consistent high-quality generation."
   authors_html: >-
     <a href="https://kaichen-z.github.io/">Kaichen Zhou</a>*, <a href="https://baizey.rvosuke.com/">Zeyang Bai</a>*, <strong>Xinhai Chang</strong>*, <a href="https://wang.hms.harvard.edu/team/dr-wang/">Mengyu Wang</a>, <a href="https://pliang279.github.io/">Paul Pu Liang</a>, <a href="https://fnzhan.com/">Fangneng Zhan</a>
@@ -64,7 +64,7 @@
   venue: "Preprint"
   year: 2026
   badge: "Preprint"
-  image: "images/papers/NSL-SLAM.png"
+  image: "images/papers/NSL-SLAM.webp"
   intro: "A high-fidelity neural structured-light depth estimation method for practical SLAM and reconstruction."
   authors_html: >-
     <a href="https://namisntimpot.github.io/">Jiaheng Li</a>, Binsheng Zhang, <strong>Xinhai Chang</strong>, <a href="https://wenzhengchen.github.io/">Wenzheng Chen</a>
@@ -82,7 +82,7 @@
   venue: "CVPR 2026 Highlight"
   year: 2026
   badge: "CVPR 2026 Highlight"
-  image: "images/papers/AutoMoMa.png"
+  image: "images/papers/AutoMoMa.webp"
   intro: "A scalable GPU-accelerated trajectory generation system for whole-body mobile manipulation across homes, robots, and tasks."
   authors_html: >-
     <a href="https://github.com/fi6">Yida Niu</a>*, <strong>Xinhai Chang</strong>*, <a href="https://openreview.net/profile?id=~Xin_Liu72">Xin Liu</a>*, <a href="https://sites.google.com/g.ucla.edu/zyjiao/home">Ziyuan Jiao</a>, <a href="https://yzhu.io/">Yixin Zhu</a>
@@ -103,7 +103,7 @@
   venue: "ICLR 2026"
   year: 2026
   badge: "ICLR 2026"
-  image: "images/papers/PAGE_4D.png"
+  image: "images/papers/PAGE_4D.webp"
   intro: "A feed-forward 4D perception model that disentangles pose and geometry for dynamic-scene reconstruction."
   authors_html: >-
     <a href="https://kaichen-z.github.io/">Kaichen Zhou</a>, <a href="https://scholar.google.com/citations?user=gYhZ614AAAAJ&hl=en">Yuhan Wang</a>*, <a href="https://wang.hms.harvard.edu/team/grace-chen/">Grace Chen</a>*, <strong>Xinhai Chang</strong>*, <a href="https://wang.hms.harvard.edu/team/gaspard-beaudouin/">Gaspard Beaudouin</a>, <a href="https://fnzhan.com/">Fangneng Zhan</a>, <a href="https://pliang279.github.io/">Paul Pu Liang</a>, <a href="https://wang.hms.harvard.edu/team/dr-wang/">Mengyu Wang</a>
@@ -124,7 +124,7 @@
   venue: "IROS 2025 Oral"
   year: 2025
   badge: "IROS 2025 Oral"
-  image: "images/papers/TerraX.png"
+  image: "images/papers/TerraX.webp"
   intro: "A vision-language terrain classification framework combining TerraData, TerraBench, and TerraCLIP for outdoor robotics."
   authors_html: >-
     <a href="https://lhz1016.github.io/">Hongze Li</a>*, <a href="https://huangxuchuan.github.io/">Xuchuan Huang</a>*, <strong>Xinhai Chang</strong>*, Jun Zhou, <a href="http://poss.pku.edu.cn/members/zhaohj/index.htm">Huijing Zhao</a>
@@ -145,7 +145,7 @@
   venue: "CVPR 2026 Workshop A2AMML"
   year: 2026
   badge: "CVPR 2026 Workshop"
-  image: "images/papers/EpiS.png"
+  image: "images/papers/EpiS.webp"
   intro: "A sparse-view neural surface reconstruction method that injects epipolar geometry into multi-view feature fusion."
   authors_html: >-
     <strong>Xinhai Chang</strong>, <a href="https://kaichen-z.github.io/">Kaichen Zhou</a>
@@ -163,7 +163,7 @@
   venue: "CVPRW 2025"
   year: 2025
   badge: "CVPRW 2025"
-  image: "images/papers/SplatMesh.png"
+  image: "images/papers/SplatMesh.webp"
   intro: "An interactive 3D segmentation and editing method that combines Gaussian splatting with mesh-based structure."
   authors_html: >-
     <a href="https://kaichen-z.github.io/">Kaichen Zhou</a>*, <a href="https://racheltechie.github.io/">Lanqing Hong</a>*, <strong>Xinhai Chang</strong>*, <a href="https://openreview.net/profile?id=~Yingji_Zhong1">Yingji Zhong</a>, <a href="https://xieenze.github.io/">Enze Xie</a>, <a href="https://zsdonghao.github.io/">Hao Dong</a>, Zhihao Li, <a href="https://yang.ac/">Yongxin Yang</a>, <a href="https://www.ee.columbia.edu/~zgli/">Zhenguo Li</a>, <a href="https://openreview.net/profile?id=~Wei_Zhang45">Wei Zhang</a>
@@ -182,7 +182,7 @@
   venue: "SMC 2025"
   year: 2025
   badge: "SMC 2025"
-  image: "images/papers/AADNet.png"
+  image: "images/papers/AADNet.webp"
   intro: "A multi-modal object concept learning framework inspired by human cognitive association and abstraction."
   authors_html: >-
     Chao Tang*, <strong>Xinhai Chang</strong>*
@@ -197,7 +197,7 @@
   venue: "ICIC 2025 Oral"
   year: 2025
   badge: "ICIC 2025 Oral"
-  image: "images/papers/StyleCraft.png"
+  image: "images/papers/StyleCraft.webp"
   intro: "A unified content-style fusion method for high-quality arbitrary image style transfer."
   authors_html: >-
     Chao Tang*, <strong>Xinhai Chang</strong>*
