@@ -92,7 +92,8 @@
         setText('[data-scholar-citations]', Number(data.citedby || 0).toLocaleString());
         setText('[data-scholar-hindex]', Number(data.hindex || 0).toLocaleString());
         setText('[data-scholar-updated]', formatDate(data.updated));
-        updatePublicationCitations(data.publications || {});
+        // TODO: re-enable per-publication citations when FILL_PUBLICATION_DETAILS is back
+        // updatePublicationCitations(data.publications || {});
       } catch (error) {
         markStatsStale('unavailable');
         console.warn('Google Scholar stats unavailable:', error);
