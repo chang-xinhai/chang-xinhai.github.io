@@ -1205,18 +1205,18 @@ body.academic-home .page__content {
   }
 
   .publication-card {
-    grid-template-columns: 285px minmax(0, 1fr);
-    gap: 1.85rem;
+    grid-template-columns: 275px minmax(0, 1fr);
+    gap: 1.5rem;
     padding: 2.45rem 0;
   }
 
   .publication-media-wrap {
-    width: 285px;
-    height: 153px;
+    width: 275px;
+    height: 148px;
   }
 
   .publication-title {
-    max-width: 34ch;
+    max-width: 38ch;
   }
 }
 
@@ -1275,6 +1275,7 @@ body.academic-home .page__content {
 /* Precision pass requested: smaller profile, larger prose, tighter paper cards. */
 .academic-home .site-profile {
   width: 285px;
+  transform: translate(-36px, 25px);
 }
 
 .profile-avatar img {
@@ -1336,8 +1337,8 @@ body.academic-home .page__content {
 
 /* Paper sections: compact internal rhythm and slightly smaller images. */
 .publication-card {
-  grid-template-columns: 280px minmax(0, 1fr);
-  gap: 1.55rem;
+  grid-template-columns: 270px minmax(0, 1fr);
+  gap: 1.43rem;
   padding: 1.65rem 0;
 }
 
@@ -1346,8 +1347,8 @@ body.academic-home .page__content {
 }
 
 .publication-media-wrap {
-  width: 280px;
-  height: 150px;
+  width: 270px;
+  height: 145px;
   border-radius: 0.58rem;
 }
 
@@ -1420,13 +1421,13 @@ body.academic-home .page__content {
   }
 
   .publication-card {
-    grid-template-columns: 265px minmax(0, 1fr);
-    gap: 1.45rem;
+    grid-template-columns: 260px minmax(0, 1fr);
+    gap: 1.35rem;
   }
 
   .publication-media-wrap {
-    width: 265px;
-    height: 142px;
+    width: 260px;
+    height: 140px;
   }
 }
 
@@ -1456,12 +1457,12 @@ body.academic-home .page__content {
 /* Small tightening pass: bring content slightly left and reduce vertical air. */
 @media print, screen and (min-width: 1180px) {
   .academic-home .wrapper {
-    width: min(1200px, calc(100% - 56px));
-    max-width: 1200px;
+    width: min(1220px, calc(100% - 56px));
+    max-width: 1220px;
   }
 
   .academic-home .site-content {
-    width: 820px;
+    width: 865px;
   }
 }
 
