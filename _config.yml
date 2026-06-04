@@ -1,67 +1,31 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+# Site
+site: "Xinhai Chang"
+title: "Xinhai Chang | 常欣海"
+description: "Personal academic homepage of Xinhai Chang, Peking University."
+repository: chang-xinhai/chang-xinhai.github.io
+url: "https://chang-xinhai.github.io"
+timezone: Asia/Shanghai
 
-# Site Settings
-title                    : "Xinhai Chang | 常欣海"
-description              : "Peking University"
-repository               : chang-xinhai/chang-xinhai.github.io
-url                      : "https://chang-xinhai.github.io"
-google_scholar_stats_use_cdn : false
+# Integrations
+google_scholar_stats_use_cdn: false
+google_analytics_id:
+google_site_verification:
+bing_site_verification:
+baidu_site_verification:
 
-# google analytics
-google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
-
-# SEO Related
-google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
-bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
-baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
-
-# Site Author
+# Author profile
 author:
-  name             : "Xinhai Chang"
-  avatar           : "images/avatar/avatar.png"
-  bio              : "常欣海"
-  location         : "Beijing, China"
-  employer         :
-  pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=NVxBzq4AAAAJ"
-  email            : "changxinhai@pku.edu.cn"
-  researchgate     : "https://www.researchgate.net/profile/Xinhai-Chang"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : chang-xinhai # e.g., "github username"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         : # e.g., "linkedin username"
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : 
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
-  wechat           : "images/wechat.png"
+  name: "Xinhai Chang"
+  avatar: "images/avatar/avatar.png"
+  bio: "常欣海"
+  location: "Beijing, China"
+  googlescholar: "https://scholar.google.com/citations?user=NVxBzq4AAAAJ"
+  email: "changxinhai@pku.edu.cn"
+  researchgate: "https://www.researchgate.net/profile/Xinhai-Chang"
+  github: chang-xinhai
+  wechat: "images/wechat.png"
 
-
-# Reading Files
+# Build inputs
 include:
   - .htaccess
   - _pages
@@ -99,16 +63,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
-# Conversion
+# Markdown
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
-
-# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -119,9 +79,8 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-# Defaults
+# Page defaults
 defaults:
-  # _pages
   - scope:
       path: ""
       type: pages
@@ -129,26 +88,19 @@ defaults:
       layout: default
       author_profile: true
 
-
-# Sass/SCSS
+# Sass
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed
 
-
-# Outputting
+# URLs and plugins
 permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
-# Plugins
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
-# mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
@@ -156,9 +108,7 @@ whitelist:
   - jekyll-feed
   - jemoji
 
-
-# HTML Compression
-# - http://jch.penibelst.de/
+# HTML compression
 compress_html:
   clippings: all
   ignore:

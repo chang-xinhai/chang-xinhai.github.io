@@ -4,3 +4,6 @@ push.sh
 .bundle/
 vendor/bundle/
 .jekyll-cache/
+.sass-cache/
+*.pyc
+__pycache__/
