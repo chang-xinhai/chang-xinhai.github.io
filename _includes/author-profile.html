@@ -21,6 +21,7 @@
     {% if author.email %}<a href="mailto:{{ author.email }}" aria-label="Email"><i class="fas fa-envelope"></i></a>{% endif %}
     {% if author.researchgate %}<a href="{{ author.researchgate }}" target="_blank" rel="noopener" aria-label="ResearchGate"><i class="fab fa-researchgate"></i></a>{% endif %}
     {% if author.wechat %}<a href="{{ author.wechat | relative_url }}" target="_blank" rel="noopener" aria-label="WeChat"><i class="fab fa-weixin"></i></a>{% endif %}
+    {% if author.cv %}<a href="{{ author.cv | relative_url }}" target="_blank" rel="noopener" aria-label="CV"><i class="fas fa-file-pdf"></i></a>{% endif %}
   </nav>
 
   <div class="scholar-stats" data-scholar-stats>

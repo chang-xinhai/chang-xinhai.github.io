@@ -53,8 +53,65 @@ In addition to my research, I am an amateur photographer and motorcyclist. Love 
 
 ## Experiences
 
-- <span class="date-mono">[2022.09 - now]</span> **Undergraduate Student**, Data Science and Artificial Intelligence, Peking University
-- <span class="date-mono">[2024.05 - 2024.08]</span> **Volunteer Teacher**, International Asian Liver Center, Gansu, China
+<div class="experience-list">
+  <div class="experience-card">
+    <div class="experience-media">
+      <img src="images/experience/PKU.png" alt="Peking University">
+    </div>
+    <div class="experience-body">
+      <h3 class="experience-title"><strong>Peking University</strong>, China</h3>
+      <p class="experience-meta">Sep 2022 – Present</p>
+      <p class="experience-role">Undergraduate Student, Data Science and Artificial Intelligence</p>
+    </div>
+  </div>
+
+  <div class="experience-card">
+    <div class="experience-media">
+      <img src="images/experience/VCL.png" alt="VCL Lab">
+    </div>
+    <div class="experience-body">
+      <h3 class="experience-title"><strong>Visual Computing and Learning (VCL) Lab</strong>, Peking University, China</h3>
+      <p class="experience-meta">June 2026 – Present</p>
+      <p class="experience-role">Student Researcher</p>
+      <p class="experience-detail">Advisor: Prof. <a href="https://wenzhengchen.github.io/">Wenzheng Chen</a></p>
+    </div>
+  </div>
+
+  <div class="experience-card">
+    <div class="experience-media">
+      <img src="images/experience/MIT.png" alt="MIT">
+    </div>
+    <div class="experience-body">
+      <h3 class="experience-title"><strong>Media Lab and EECS, MIT</strong>, US</h3>
+      <p class="experience-meta">March 2024 – Present</p>
+      <p class="experience-role">Student Researcher</p>
+      <p class="experience-detail">Mentored by <a href="https://kaichen-z.github.io/">Kaichen Zhou</a></p>
+    </div>
+  </div>
+
+  <div class="experience-card">
+    <div class="experience-media">
+      <img src="images/experience/CoRe.png" alt="CoRe Lab">
+    </div>
+    <div class="experience-body">
+      <h3 class="experience-title"><strong>Cognitive Reasoning (CoRe) Lab</strong>, Peking University, China</h3>
+      <p class="experience-meta">March 2025 – June 2026</p>
+      <p class="experience-role">Student Researcher</p>
+      <p class="experience-detail">Advisor: Prof. <a href="https://yzhu.io/">Yixin Zhu</a></p>
+    </div>
+  </div>
+
+  <div class="experience-card">
+    <div class="experience-media">
+      <img src="images/experience/Love.png" alt="International Asian Liver Center">
+    </div>
+    <div class="experience-body">
+      <h3 class="experience-title"><strong>International Asian Liver Center</strong>, Gansu, China</h3>
+      <p class="experience-meta">2024.05 – 2024.08</p>
+      <p class="experience-role">Volunteer Teacher</p>
+    </div>
+  </div>
+</div>
 
 ## Services
 
