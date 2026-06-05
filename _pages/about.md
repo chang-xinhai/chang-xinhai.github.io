@@ -84,7 +84,7 @@ I work on the **Real-Sim-Real** loop for embodied AI, spanning 3D vision and rob
       <h3 class="experience-title"><strong>Media Lab and EECS</strong>, MIT, US</h3>
       <p class="experience-meta">March 2024 – Present</p>
       <p class="experience-role">Student Researcher</p>
-      <p class="experience-detail">Mentored by <a href="https://kaichen-z.github.io/">Kaichen Zhou</a></p>
+      <p class="experience-detail">Mentor: Dr. <a href="https://kaichen-z.github.io/">Kaichen Zhou</a></p>
     </div>
   </div>
 
