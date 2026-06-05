@@ -81,7 +81,7 @@ I work on the **Real-Sim-Real** loop for embodied AI, spanning 3D vision and rob
       <img src="images/experience/webp/MIT.webp" alt="MIT" decoding="async">
     </div>
     <div class="experience-body">
-      <h3 class="experience-title"><strong>Media Lab and EECS, MIT</strong>, US</h3>
+      <h3 class="experience-title"><strong>Media Lab and EECS</strong>, MIT, US</h3>
       <p class="experience-meta">March 2024 – Present</p>
       <p class="experience-role">Student Researcher</p>
       <p class="experience-detail">Mentored by <a href="https://kaichen-z.github.io/">Kaichen Zhou</a></p>
