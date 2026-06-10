@@ -23,13 +23,24 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r google_scholar_crawler/requirements.txt
       - name: Crawl Google Scholar
+        id: crawl
         run: |
+          set +e
           cd google_scholar_crawler
-          python main.py
+          timeout 5m python main.py
+          status=$?
+          if [ "$status" -eq 0 ]; then
+            echo "updated=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "updated=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::Google Scholar crawl failed or timed out; keeping previous published citation data."
+          fi
+          exit 0
         env:
           GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
           FILL_PUBLICATION_DETAILS: "false"
       - name: Publish citation data
+        if: steps.crawl.outputs.updated == 'true'
         run: |
           cd google_scholar_crawler/results
           git init

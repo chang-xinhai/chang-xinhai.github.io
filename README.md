@@ -54,7 +54,7 @@ Then open [http://127.0.0.1:4000](http://127.0.0.1:4000). If `_config.yml` chang
 
 ## Google Scholar Citation Data
 
-The scheduled workflow in `.github/workflows/google_scholar_crawler.yaml` expects the repository secret `GOOGLE_SCHOLAR_ID`. It writes generated JSON files to the `google-scholar-stats` branch, where the homepage can fetch citation data.
+The scheduled workflow in `.github/workflows/google_scholar_crawler.yaml` expects the repository secret `GOOGLE_SCHOLAR_ID`. It writes generated JSON files to the `google-scholar-stats` branch, where the homepage can fetch citation data. Google Scholar sometimes blocks GitHub-hosted runners; in that case the workflow keeps the previous published data instead of failing the whole scheduled run.
 
 ## Credits
 
