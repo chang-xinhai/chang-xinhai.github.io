@@ -18,14 +18,14 @@
       url: "https://github.com/kaichen-z/rad"
 
 - id: gem4d
-  type: preprint
+  type: publication
   category: robotics
   selected: true
   contribution: collaborator
   title: "GEM-4D: Geometry-Enhanced Video World Models for Robot Manipulation"
-  venue: "Preprint"
+  venue: "ECCV 2026"
   year: 2026
-  badge: "Preprint"
+  badge: "ECCV 2026"
   image: "images/papers/webp/GEM-4D.webp"
   intro: "A geometry-enhanced video world model that leverages geometric priors for robot manipulation."
   authors_html: >-
