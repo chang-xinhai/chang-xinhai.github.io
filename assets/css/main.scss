@@ -1660,6 +1660,16 @@ body.academic-home .page__content {
   color: #069;
 }
 
+.corr-author {
+  margin-left: 0.12em;
+  color: #2f3742;
+  position: relative;
+  top: -0.36em;
+  font-size: 0.68em;
+  line-height: 0;
+  vertical-align: baseline;
+}
+
 @media print, screen and (max-width: 760px) {
   .experience-card {
     grid-template-columns: 72px minmax(0, 1fr);

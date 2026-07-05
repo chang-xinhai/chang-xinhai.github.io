@@ -1,41 +1,30 @@
 \documentclass[10pt, letterpaper]{article}
 
-% Packages:
 \usepackage[
-    ignoreheadfoot,
-    top=2cm,
-    bottom=2cm,
-    left=2cm,
-    right=2cm,
-    footskip=1.0cm
+    top=1.45cm,
+    bottom=1.35cm,
+    left=1.65cm,
+    right=1.65cm,
+    footskip=0.70cm
 ]{geometry}
-\usepackage{titlesec}
-\usepackage{tabularx}
 \usepackage{array}
-\usepackage[dvipsnames]{xcolor}
-\definecolor{primaryColor}{RGB}{0, 0, 0}
 \usepackage{enumitem}
+\usepackage{fancyhdr}
 \usepackage{fontawesome5}
-\usepackage{amsmath}
 \usepackage{graphicx}
+\usepackage{iftex}
+\usepackage{lastpage}
+\usepackage{microtype}
+\usepackage{tabularx}
+\usepackage[dvipsnames]{xcolor}
 \usepackage[
     pdftitle={Xinhai Chang's CV},
     pdfauthor={Xinhai Chang},
-    pdfcreator={LaTeX with RenderCV},
-    colorlinks=true,
-    urlcolor=primaryColor
+    pdfcreator={LaTeX},
+    hidelinks
 ]{hyperref}
-\usepackage[pscoord]{eso-pic}
-\usepackage{calc}
 \usepackage{bookmark}
-\usepackage{lastpage}
-\usepackage{changepage}
-\usepackage{paracol}
-\usepackage{ifthen}
-\usepackage{needspace}
-\usepackage{iftex}
 
-% Ensure ATS parsable:
 \ifPDFTeX
     \input{glyphtounicode}
     \pdfgentounicode=1
@@ -44,310 +33,226 @@
     \usepackage{lmodern}
 \fi
 
-% Settings:
-\raggedright
-\AtBeginEnvironment{adjustwidth}{\partopsep0pt}
-\pagestyle{empty}
-\setcounter{secnumdepth}{0}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[C]{\small\color{gray!65}\thepage\ of \pageref*{LastPage}}
+
 \setlength{\parindent}{0pt}
-\setlength{\topskip}{0pt}
-\setlength{\columnsep}{0.15cm}
-\pagenumbering{gobble}
-\titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
-\titlespacing{\section}{-1pt}{0.3cm}{0.2cm}
-\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$}
-\newenvironment{highlights}{\begin{itemize}[topsep=0.10cm,parsep=0.10cm,partopsep=0pt,itemsep=0pt,leftmargin=0cm+10pt]}{\end{itemize}}
-\newenvironment{highlightsforbulletentries}{\begin{itemize}[topsep=0.10cm,parsep=0.10cm,partopsep=0pt,itemsep=0pt,leftmargin=10pt]}{\end{itemize}}
-\newenvironment{onecolentry}{\begin{adjustwidth}{0cm+0.00001cm}{0cm+0.00001cm}}{\end{adjustwidth}}
-\newenvironment{twocolentry}[2][]{\onecolentry\def\secondColumn{#2}\setcolumnwidth{\fill, 4.5cm}\begin{paracol}{2}}{\switchcolumn \raggedleft \secondColumn\end{paracol}\endonecolentry}
-\newenvironment{header}{\setlength{\topsep}{0pt}\par\kern\topsep\centering\linespread{1.5}}{\par\kern\topsep}
+\setlength{\parskip}{0pt}
+\emergencystretch=2em
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\raggedright
+\urlstyle{same}
+
+\definecolor{ink}{HTML}{111111}
+\definecolor{visionColor}{HTML}{FF8B94}
+\definecolor{robotColor}{HTML}{6EB5FF}
+\definecolor{dividerColor}{HTML}{AEB7C2}
+\definecolor{mutedText}{HTML}{777777}
+\color{ink}
+
+\newcommand{\cvtag}{\textcolor{visionColor}{\raisebox{1pt}{\scalebox{0.58}{\faCircle}}}}
+\newcommand{\robtag}{\textcolor{robotColor}{\raisebox{1pt}{\scalebox{0.58}{\faCircle}}}}
+\newcommand{\bothTags}{\cvtag\hspace{2.6pt}\robtag}
+\newcommand{\corrtag}{\textdagger}
+\newcommand{\corrmark}{\nobreak\hspace{0.5pt}\textsuperscript{\corrtag}}
+\newcommand{\legend}{\small * equal contribution \quad \corrtag\ corresponding author \quad \cvtag\ computer vision \quad \robtag\ robotics\normalsize\par\vspace{0.18cm}}
+\newcommand{\headersep}{\kern 5pt\textcolor{gray!50}{|}\kern 5pt}
+\newcommand{\headicon}[1]{\textcolor{mutedText}{\faIcon{#1}}\hspace{0.28em}}
+
+\newlength{\cvlabelwidth}
+\setlength{\cvlabelwidth}{2.85cm}
+\newlength{\cvsectiongap}
+\setlength{\cvsectiongap}{0.35cm}
+\newlength{\cvcontentoffset}
+\setlength{\cvcontentoffset}{3.20cm}
+
+\newlist{cvblocks}{description}{1}
+\setlist[cvblocks]{
+    leftmargin=\cvcontentoffset,
+    labelwidth=\cvlabelwidth,
+    labelsep=\cvsectiongap,
+    align=parleft,
+    font=\normalfont\small\scshape,
+    topsep=0pt,
+    partopsep=0pt,
+    itemsep=0pt,
+    parsep=0pt
+}
+
+\newif\ifcvfirstsection
+\cvfirstsectiontrue
+\newif\ifshowsectiondividers
+\showsectiondividerstrue % Use \showsectiondividersfalse to hide lines while preserving spacing.
+\newcommand{\resetsectiondivider}{\global\cvfirstsectiontrue}
+\newcommand{\cvdivider}{%
+    \par\vspace{0.17cm}%
+    \noindent\hspace*{\cvcontentoffset}%
+    \makebox[\dimexpr\linewidth-\cvcontentoffset\relax][l]{%
+        \ifshowsectiondividers
+            {\color{dividerColor}\xleaders\hbox{\rule{4pt}{0.35pt}\hspace{3pt}}\hfill\kern0pt}%
+        \else
+            \rule{0pt}{0.35pt}%
+        \fi
+    }%
+    \par\vspace{0.15cm}%
+}
+\newcommand{\cvsection}[2]{%
+    \ifcvfirstsection
+        \global\cvfirstsectionfalse
+        \vspace{0.24cm}
+    \else
+        \cvdivider
+    \fi
+    \begin{cvblocks}
+        \item[#1] #2
+    \end{cvblocks}
+}
+\newcommand{\justifiedparagraph}[1]{%
+    \begingroup
+    \rightskip=0pt plus 0pt
+    \leftskip=0pt
+    \parfillskip=0pt plus 1fil
+    \spaceskip=0pt
+    \xspaceskip=0pt
+    #1\par
+    \endgroup
+}
+
+\newcommand{\datedline}[2]{%
+    \noindent
+    \begin{tabularx}{\linewidth}{@{}X@{\hspace{0.45cm}}r@{}}
+        #1 & #2
+    \end{tabularx}\par
+}
+\newcommand{\edudetail}[1]{%
+    \noindent\hspace*{1.05em}#1\par
+}
+
+\newcommand{\pubitem}[3]{%
+    \noindent
+    \begin{tabularx}{\linewidth}{@{}r@{\hspace{0.55em}}X@{}}
+        [#1] & #2\nobreak\hspace{0.25em}\mbox{#3}
+    \end{tabularx}\vspace{0.15cm}
+}
+
+\newcommand{\recordgap}{\vspace{0.13cm}}
+\newcommand{\entrygap}{\vspace{0.18cm}}
+
+\newenvironment{compactitems}{%
+    \begin{itemize}[leftmargin=1.15em, topsep=0.04cm, itemsep=0pt, parsep=0pt, partopsep=0pt]
+}{%
+    \end{itemize}
+}
 
 \begin{document}
-    \newcommand{\AND}{\unskip\cleaders\copy\ANDbox\hskip\wd\ANDbox\ignorespaces}
-    \newsavebox\ANDbox
-    \sbox\ANDbox{$|$}
 
-    \begin{header}
-        \fontsize{25pt}{25pt}\selectfont XINHAI CHANG
-        \vspace{5pt}
+\begin{center}
+    {\fontsize{21pt}{23pt}\selectfont\scshape Xinhai Chang}\par
+    \vspace{0.21cm}
+    {\small
+    \headicon{globe}\href{https://chang-xinhai.github.io/}{chang-xinhai.github.io} \headersep
+    \headicon{map-marker-alt}Beijing, China \headersep
+    \headicon{envelope}\href{mailto:walkerch0466@gmail.com}{walkerch0466@gmail.com}\par
+    \vspace{0.075cm}
+    \textcolor{mutedText}{\faGithub}\hspace{0.28em}\href{https://github.com/chang-xinhai}{chang-xinhai} \headersep
+    \headicon{graduation-cap}\href{https://scholar.google.com/citations?user=NVxBzq4AAAAJ}{Google Scholar} \headersep
+    {\color{mutedText}\headicon{calendar-alt}Updated: July 5, 2026}
+    }
+\end{center}
 
-        \normalsize
+\vspace{-0.04cm}
 
-       Beijing, China \kern 5.0pt \AND \kern 5.0pt
-        \href{mailto:changxinhai@stu.pku.edu.cn}{changxinhai@stu.pku.edu.cn}
-        \kern 5.0pt \AND \kern 5.0pt
-        {\color{gray!100}\small June 18, 2026} \\
-        \vspace{3pt}
-        \href{https://chang-xinhai.github.io/}{\faGlobe\ \textbf{chang-xinhai.github.io}} \kern 5.0pt \AND \kern 5.0pt
-        \href{https://github.com/chang-xinhai}{\faGithub\ chang-xinhai} \kern 5.0pt \AND \kern 5.0pt
-        \href{https://scholar.google.com/citations?user=NVxBzq4AAAAJ}{\faGraduationCap\ Google Scholar}
-    \end{header}
-    \vspace{5pt - 0.3cm}
+\cvsection{Research\\Interests}{
+    \justifiedparagraph{I work at the intersection of \textbf{3D vision}, \textbf{robot learning}, and \textbf{embodied AI}. I focus on \textbf{Real-Sim-Real} systems that connect real-world perception, simulation, and robotic manipulation. My broader interests include 3D reconstruction and generation, world models, visuomotor policy learning, scalable simulation, and generalizable robot manipulation.}
+}
 
-    \section{Education}
+\cvsection{Education}{
+    \datedline{\textbf{Bachelor of Science in Data Science}, Peking University}{Expected June 2027}
+    \edudetail{Yuanpei College, Beijing, China}
+    \edudetail{\textbf{GPA:} 3.76/4.0}
+    \edudetail{\textbf{Coursework:} Computer Vision, Multimodal Learning, Intelligent Robotics [3.9+]}
+}
 
-    \begin{twocolentry}{Expected: Jun 2027}
-        \textbf{Peking University}, Beijing, China \\
-        Bachelor of Science in Data Science and Artificial Intelligence, Yuanpei College
-    \end{twocolentry}
+\cvsection{Research\\Experience}{
+    \datedline{\textbf{Research Assistant}, VCL Lab, Peking University}{June 2026 -- Present}
+    \textit{Advised by Prof. Wenzheng Chen}
+    \begin{compactitems}
+        \item Research on robot learning and world models for embodied AI, with an emphasis on depth perception, navigation, and real-world robotic manipulation.
+    \end{compactitems}
 
-    \vspace{0.10cm}
-    \begin{onecolentry}
-        \begin{highlights}
-            \item GPA: 3.748/4.0
-            \item Coursework: Computer Vision, Machine Learning, Multimodal Learning, Intelligent Robotics [3.9+]
-        \end{highlights}
-    \end{onecolentry}
+    \entrygap
+    \datedline{\textbf{Research Assistant}, CoRe Lab, Peking University}{March 2025 -- June 2026}
+    \textit{Advised by Prof. Yixin Zhu}
+    \begin{compactitems}
+        \item Research on scalable simulation and planning for mobile and dexterous manipulation, including trajectory generation, tactile-guided control, and policy evaluation.
+    \end{compactitems}
 
-    \section{Research Interests}
-    \begin{onecolentry}
-        My research bridges \textbf{Computer Vision} and \textbf{Robotics} to close the loop of \textbf{Real-Sim-Real} for Embodied AI. I focus on vision-centric \textbf{High-Fidelity 3D Reconstruction and Generation} (Real-to-Sim) to digitize complex physical worlds into simulation-ready assets, and leverage these assets for robotics-centric \textbf{Generalizable Robot Policy Learning} (Sim-to-Real) to deploy robust intelligence in the real world.
-    \end{onecolentry}
+    \entrygap
+    \datedline{\textbf{Research Assistant}, Media Lab and EECS, MIT}{March 2024 -- Present}
+    \textit{Mentored by Kaichen Zhou}
+    \begin{compactitems}
+        \item Research on 3D/4D perception and generative world models, including 3D reconstruction, 3D editing, 3D generation, world action models, and multi-view benchmarks.
+    \end{compactitems}
+}
 
-    \section{Technical Skills}
-    \begin{onecolentry}
-        \begin{highlights}
-            \item \textbf{Robotics and Simulation:} Isaac Lab, Isaac Sim, Curobo, Robot Manipulation, Motion Planning.
-            \item \textbf{Languages and Frameworks:} Python, C/C++, Bash, PyTorch, TensorFlow, Pandas, Qt.
-            \item \textbf{Algorithms and Vision:} 3D Reconstruction (Gaussian Splatting), Multimodal Learning, 3D Generation.
-        \end{highlights}
-    \end{onecolentry}
+\cvsection{Technical\\Skills}{
+    \textbf{Robotics:} Robot manipulation, mobile manipulation, dexterous manipulation, trajectory planning, large-scale simulation, visuomotor policy learning and evaluation; Isaac Lab, Isaac Sim, cuRobo.\par
+    \textbf{3D Vision:} 3D reconstruction, 3D editing, 3D generation, 4D perception, world models, SLAM, depth estimation, multimodal learning.\par
+    \textbf{Programming:} Python, C/C++, Bash, HTML, CSS; PyTorch, TensorFlow, Pandas, Qt.
+}
 
-    \section{Research Experience}
+\cvsection{Publications}{
+    \legend
+    \pubitem{6}{Kaichen Zhou*, Yuzhen Chen*, Fangneng Zhan, Hang Hua, Grace Chen, \textbf{Xinhai Chang}, Ao Qu, Yilun Du, Zhuang Liu, Paul Pu Liang\corrmark, Mengyu Wang\corrmark. \href{https://arxiv.org/abs/2605.22882}{\textit{GEM-4D: Geometry-Enhanced Video World Models for Robot Manipulation}}. European Conference on Computer Vision (ECCV), 2026.}{\bothTags}
+    \pubitem{5}{Yida Niu*, \textbf{Xinhai Chang}*, Xin Liu*, Ziyuan Jiao\corrmark, Yixin Zhu\corrmark. \href{https://yzhu.io/publication/tamp2026cvpr/paper.pdf}{\textit{Scalable Trajectory Generation for Whole-Body Mobile Manipulation}}. Computer Vision and Pattern Recognition, Highlight, 2026.}{\robtag}
+    \pubitem{4}{\textbf{Xinhai Chang}, Kaichen Zhou\corrmark. \href{https://arxiv.org/abs/2406.04301}{\textit{Neural Surface Reconstruction from Sparse Views Using Epipolar Geometry}}. Computer Vision and Pattern Recognition Workshop A2AMML, 2026.}{\cvtag}
+    \pubitem{3}{Kaichen Zhou, Yuhan Wang*, Grace Chen*, \textbf{Xinhai Chang}*, Gaspard Beaudouin, Fangneng Zhan, Paul Pu Liang\corrmark, Mengyu Wang\corrmark. \href{https://arxiv.org/abs/2510.17568}{\textit{PAGE-4D: Disentangled Pose and Geometry Estimation for 4D Perception}}. International Conference on Learning Representations (ICLR), 2026.}{\cvtag}
+    \pubitem{2}{Hongze Li*, Xuchuan Huang*, \textbf{Xinhai Chang}*, Jun Zhou, Huijing Zhao\corrmark. \href{https://ieeexplore.ieee.org/document/11246334}{\textit{TerraX: Visual Terrain Classification Enhanced by Vision-Language Models}}. International Conference on Intelligent Robots and Systems (IROS), Oral, 2025.}{\bothTags}
+    \pubitem{1}{Kaichen Zhou*, Lanqing Hong*, \textbf{Xinhai Chang}*, Yingji Zhong, Enze Xie, Hao Dong, Zhihao Li, Yongxin Yang, Zhenguo Li, Wei Zhang. \href{https://arxiv.org/abs/2312.15856}{\textit{SplatMesh: Interactive 3D Segmentation and Editing Using Mesh-Based Gaussian Splatting}}. Computer Vision and Pattern Recognition Workshop, 2025.}{\cvtag}
+}
 
-    \begin{twocolentry}{Jun 2026 - Present}
-        \textbf{VCL Lab, Peking University} \\
-        \textit{Research Assistant (Advised by Prof. Wenzheng Chen)}
-    \end{twocolentry}
-    \vspace{0.10cm}
-    \begin{onecolentry}
-        \begin{highlights}
-            \item Focused on the full \textbf{Real-Sim-Real} pipeline, including world modeling, robot manipulation, and 3D perception.
-        \end{highlights}
-    \end{onecolentry}
+\cvsection{Preprints}{
+    \legend
+    \pubitem{3}{Kaichen Zhou*, \textbf{Xinhai Chang}*, Taewhan Kim*, Jiadong Zhang*, Yang Cao, Chufei Peng, Fangneng Zhan, Hao Zhao, Hao Dong, Kai Ming Ting, Ye Zhu\corrmark. \href{https://arxiv.org/abs/2410.00713v3}{\textit{RAD: A Realistic Multi-View Benchmark for Pose-Agnostic Anomaly Detection}}. Under Review, 2026.}{\bothTags}
+    \pubitem{2}{Kaichen Zhou*, Zeyang Bai*, \textbf{Xinhai Chang}*, Mengyu Wang\corrmark, Paul Pu Liang\corrmark, Fangneng Zhan\corrmark. \href{https://arxiv.org/abs/2605.21472}{\textit{Stream3D: Sequential Multi-View 3D Generation via Evidential Memory}}. Under Review, 2026.}{\cvtag}
+    \pubitem{1}{Jiaheng Li, Binsheng Zhang, \textbf{Xinhai Chang}, Wenzheng Chen\corrmark. \textit{NSL-SLAM: High-Fidelity Neural Structured-Light Depth for Practical SLAM and Reconstruction}. Under Review, 2026.}{\cvtag}
+}
 
-    \vspace{0.2cm}
+\cvsection{Honors and\\Awards}{
+    \datedline{\textbf{National Scholarship} (highest honor for undergraduate students in China)}{2025}
+    \recordgap
+    \datedline{Second-class Scholarship, Peking University}{2024}
+    \recordgap
+    \datedline{First Prize, 21st Jiang Zehan Cup Mathematical Modeling Competition}{2024}
+    \recordgap
+    \datedline{Xing Zhengde Scholarship, Yuanpei College}{2023}
+    \recordgap
+    \datedline{Third-class Scholarship, Peking University}{2023}
+}
 
-    \begin{twocolentry}{Mar 2025 - Jun 2026}
-        \textbf{CoRe Lab, Peking University} \\
-        \textit{Research Assistant (Advised by Prof. Yixin Zhu)}
-    \end{twocolentry}
-    \vspace{0.10cm}
-    \begin{onecolentry}
-        \begin{highlights}
-            \item Focusing on \textbf{Sim-to-Real} intelligence, specifically large-scale simulation and robust mobile manipulation.
-        \end{highlights}
-    \end{onecolentry}
+\cvsection{Teaching\\Experience}{
+    \datedline{\textbf{Teaching Assistant}, Introduction to Computation B (Prof. Jun Sun)}{Autumn 2025}
+    Led weekly programming labs, graded assignments, and designed exam questions.\par
+    \entrygap
+    \datedline{\textbf{Teaching Assistant}, Introduction to Computation C (Prof. Baobao Chang)}{Autumn 2025}
+    Led weekly programming labs, graded assignments, and designed exams and the final project.\par
+    \entrygap
+    \datedline{\textbf{Teaching Assistant}, Introduction to Computer Systems (Prof. Lu Zhang)}{Autumn 2024}
+    Led weekly discussion sessions, graded assignments, and contributed to exam design.
+}
 
-    \vspace{0.2cm}
-
-    \begin{twocolentry}{Mar 2024 - Present}
-        \textbf{Media Lab and EECS, MIT} \\
-        \textit{Research Assistant (Mentored by Kaichen Zhou)}
-    \end{twocolentry}
-    \vspace{0.10cm}
-    \begin{onecolentry}
-        \begin{highlights}
-            \item Focusing on \textbf{Real-to-Sim} pipelines, working on high-fidelity 3D reconstruction and digital twin creation.
-        \end{highlights}
-    \end{onecolentry}
-
-    \section{Publications}
-
-    \begin{onecolentry}
-        \begin{highlights}
-            \item Niu, Y.*, \textbf{Chang, X.}*, Liu, X.*, Jiao, Z., Zhu, Y. (2026). \textit{A Scalable Whole-body Trajectory Generator for Coordinated Mobile Manipulation}. The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) \textbf{Highlight}.
-            \item Zhou, K., Chen, Y., Zhan, F., Hua, H., Chen, G., \textbf{Chang, X.}, Qu, A., Du, Y., Liu, Z., Liang, P. P., Wang, M. (2026). \textit{GEM-4D: Geometry-Enhanced Video World Models for Robot Manipulation}. European Conference on Computer Vision (ECCV).
-            \item Li, H.*, Huang, X.*, \textbf{Chang, X.}*, Zhou, J., Zhao, H. (2025). \textit{TerraX: Visual Terrain Classification Enhanced by Vision-Language Models}. International Conference on Intelligent Robots and Systems (IROS) (Oral).
-            \item Zhou, K., Wang, Y.*, Chen, G.*, \textbf{Chang, X.}*, Beaudouin, G., Zhan, F., Liang, P. P., Wang, M. (2026). \textit{PAGE-4D: Disentangled Pose and Geometry Estimation for 4D Perception}. International Conference on Learning Representations (ICLR).
-            \item \textbf{Chang, X.}, Zhou, K. (2026). \textit{Neural Surface Reconstruction from Sparse Views Using Epipolar Geometry}. CVPR 2026 Workshop A2AMML.
-            \item Zhou, K.*, Hong, L.*, \textbf{Chang, X.}*, Zhong, Y., Xie, E., Dong, H., Li, Z., Yang, Y., Li, Z., Zhang, W. (2025). \textit{SplatMesh: Interactive 3D Segmentation and Editing Using Mesh-Based Gaussian Splatting}. CVPR Workshop (CVPRW).
-            % \item Tang, C.*, \textbf{Chang, X.}* (2025). \textit{StyleCraft: High-Quality Arbitrary Style Transfer via Unified Content-Style Fusion}. International Conference on Intelligent Computing (ICIC) (Oral).
-            % \item Tang, C.*, \textbf{Chang, X.}* (2025). \textit{AADNet: A Human-Mind-Inspired Multi-Modal Framework for Object Concept Learning}. IEEE International Conference on Systems, Man, and Cybernetics (SMC).
-        \end{highlights}
-    \end{onecolentry}
-
-    \section{Preprints}
-
-    \begin{onecolentry}
-        \begin{highlights}
-            \item Zhou, K.*, \textbf{Chang, X.}*, Kim, T.*, Zhang, J.*, Cao, Y., Peng, C., Zhan, F., Zhao, H., Dong, H., Ting, K. M., Zhu, Y. (2026). \textit{RAD: A Realistic Multi-View Benchmark for Pose-Agnostic Anomaly Detection}. Under Review.
-            \item Zhou, K.*, Bai, Z.*, \textbf{Chang, X.}*, Wang, M., Liang, P. P., Zhan, F. (2026). \textit{Stream3D: Sequential Multi-View 3D Generation via Evidential Memory}. Preprint.
-            \item Li, J., Zhang, B., \textbf{Chang, X.}, Chen, W. (2026). \textit{NSL-SLAM: High-Fidelity Neural Structured-Light Depth for Practical SLAM and Reconstruction}. Preprint.
-        \end{highlights}
-        \vspace{0.2cm}
-        \footnotesize{* denotes equal contribution}
-    \end{onecolentry}
-
-    % Ensure these definitions are in your preamble (before \begin{document})
-    % or right before the section:
-    \definecolor{MacaronRed}{HTML}{FF8B94}
-    \definecolor{MacaronBlue}{HTML}{6EB5FF}
-    \newcommand{\cvdot}{\textcolor{MacaronRed}{\raisebox{1pt}{\scalebox{0.65}{\faCircle}}}}
-    \newcommand{\robdot}{\textcolor{MacaronBlue}{\raisebox{1pt}{\scalebox{0.65}{\faCircle}}}}
-
-    % Modified Section Header with Legend
-    \section{Academic Projects \hfill \normalfont\normalsize\cvdot\hspace{3pt}\textit{Computer Vision} \hspace{1.5em} \robdot\hspace{3pt}\textit{Robotics}}
-
-    % --- Direction 1: Real-to-Sim ---
-    \vspace{0.1cm}
-    \begin{onecolentry}
-        \textbf{\textit{I. Real-to-Sim: High-Fidelity 3D Reconstruction and Generation}}
-    \end{onecolentry}
-    \vspace{0.1cm}
-
-    \begin{onecolentry}
-        \textbf{EpiS: Neural Surface Reconstruction from Sparse Views Using Epipolar Geometry} \hfill CVPRW 2026
-    \end{onecolentry}
-    \begin{onecolentry}
-        \begin{highlights}
-        \item A neural surface reconstruction model resolving geometric ambiguity via epipolar geometry and depth priors.
-        \item Responsible for epipolar feature extraction, monocular depth alignment, and baseline evaluation.
-        \item Roadmap: Achieves high-fidelity 3D geometry reconstruction from sparse visual observations.\hspace{4pt}\cvdot
-        \end{highlights}
-    \end{onecolentry}
-
-    \vspace{0.15cm}
-
-    \begin{onecolentry}
-        \textbf{SplatMesh: Interactive 3D Segmentation and Editing} \hfill CVPRW 2025
-    \end{onecolentry}
-    \begin{onecolentry}
-        \begin{highlights}
-        \item An interactive 3D segmentation and editing algorithm integrating Gaussian Splatting with QEM downsampling.
-        \item Responsible for QEM downsampling, mesh editing pipeline construction, and model training and evaluation.
-        \item Roadmap: Generates editable, memory-efficient digital twins for downstream simulation tasks.\hspace{4pt}\cvdot
-        \end{highlights}
-    \end{onecolentry}
-
-    \vspace{0.15cm}
-
-    \begin{onecolentry}
-        \textbf{Stream3D: Sequential Multi-View 3D Generation via Evidential Memory} \hfill Preprint
-    \end{onecolentry}
-    \begin{onecolentry}
-        \begin{highlights}
-        \item A sequential multi-view 3D generation method using evidential memory for consistent high-quality generation.
-        \item Roadmap: Enables consistent 3D asset generation for scalable digital twin creation.\hspace{4pt}\cvdot
-        \end{highlights}
-    \end{onecolentry}
-
-    \vspace{0.15cm}
-
-    \begin{onecolentry}
-        \textbf{PAGE-4D: Disentangled Pose and Geometry Estimation for 4D Perception} \hfill ICLR 2026
-    \end{onecolentry}
-    \begin{onecolentry}
-        \begin{highlights}
-        \item A feedforward 4D perception model featuring a dynamics-aware mask to disentangle static and dynamic scenes.
-        \item Responsible for novel view synthesis module, LVSM architecture adaptation, and baseline evaluation.
-        \item Roadmap: Extends high-fidelity reconstruction to dynamic environments for 4D simulation.\hspace{4pt}\cvdot
-        \end{highlights}
-    \end{onecolentry}
-
-    \vspace{0.15cm}
-
-    \begin{onecolentry}
-        \textbf{RAD: Realistic Benchmark for Pose-Agnostic Anomaly Detection}
-        \hfill Preprint
-    \end{onecolentry}
-    \begin{onecolentry}
-        \begin{highlights}
-        \item A realistic, robot-captured multi-view benchmark for anomaly detection on reflective and symmetric objects.
-        \item Responsible for dataset curation, 2D and 3D model training, and baseline evaluation.
-        \item Roadmap: Benchmarks high-fidelity perception against unstructured physical complexities.\hspace{4pt}\cvdot\hspace{2.5pt}\robdot
-        \end{highlights}
-    \end{onecolentry}
-
-    % --- Direction 2: Sim-to-Real ---
-    \vspace{0.3cm}
-    \begin{onecolentry}
-        \textbf{\textit{II. Sim-to-Real: Generalizable Robot Policy Learning}}
-    \end{onecolentry}
-    \vspace{0.1cm}
-
-    \begin{onecolentry}
-        \textbf{AutoMoMa: Scalable Coordinated Mobile Manipulation Trajectory Generation}
-        \hfill CVPR 2026 Highlight
-    \end{onecolentry}
-    \begin{onecolentry}
-        \begin{highlights}
-        \item A scalable data generation pipeline utilizing GPU-accelerated planning for coordinated mobile manipulation.
-        \item Responsible for scene generation, large-scale simulation data collection, and policy training and evaluation.
-        \item Roadmap: Generates large-scale manipulation data to enable generalizable policy learning.\hspace{4pt}\robdot
-        \end{highlights}
-    \end{onecolentry}
-
-    \vspace{0.15cm}
-
-    \begin{onecolentry}
-        \textbf{TerraX: Visual Terrain Classification Enhanced by VLMs}
-        \hfill IROS 2025
-    \end{onecolentry}
-    \begin{onecolentry}
-        \begin{highlights}
-        \item A vision-language framework combining multimodal data and a CLIP-based VLM for terrain classification.
-        \item Responsible for heterogeneous data organization, fine-grained annotation, and baseline evaluation.
-        \item Roadmap: Enables robust visual terrain perception for generalizable robotic deployment.\hspace{4pt}\cvdot\hspace{2.5pt}\robdot
-        \end{highlights}
-    \end{onecolentry}
-
-
-    \section{Honors and Awards}
-
-    \begin{onecolentry}
-        \begin{highlights}
-            \item \textbf{2025 National Scholarship} (Highest honor for undergraduate students in China)
-            \item 2024 Second-class Scholarship, Peking University
-            \item First Prize, 21st Jiang Zehan Cup Mathematical Modeling Competition, 2024
-            \item Xing Zhengde Scholarship, Yuanpei College, 2023
-            \item Third-class Scholarship, Peking University, 2023
-        \end{highlights}
-    \end{onecolentry}
-
-    \section{Teaching Experience}
-
-    \begin{twocolentry}{Autumn 2025}
-        \textbf{Teaching Assistant}, Introduction to Computation B  (Prof. Jun Sun)
-    \end{twocolentry}
-    \vspace{0.10cm}
-    \begin{onecolentry}
-        \begin{highlights}
-            \item Led weekly programming labs, graded assignments, and designed exam questions.
-        \end{highlights}
-    \end{onecolentry}
-
-    \vspace{0.2cm}
-
-    \begin{twocolentry}{Autumn 2025}
-        \textbf{Teaching Assistant}, Introduction to Computation C (Prof. Baobao Chang)
-    \end{twocolentry}
-    \vspace{0.10cm}
-    \begin{onecolentry}
-        \begin{highlights}
-            \item Led weekly programming labs, graded assignments, and designed exam questions and the final project.
-        \end{highlights}
-    \end{onecolentry}
-
-    \vspace{0.2cm}
-
-    \begin{twocolentry}{Autumn 2024}
-        \textbf{Teaching Assistant}, Introduction to Computer Systems (Prof. Lu Zhang)
-    \end{twocolentry}
-    \vspace{0.10cm}
-    \begin{onecolentry}
-        \begin{highlights}
-            \item Led weekly discussion sessions, graded assignments, and contributed to exam design.
-        \end{highlights}
-    \end{onecolentry}
-
-    \section{Extracurricular Activities}
-
-    \begin{onecolentry}
-        \begin{highlights}
-            \item Volunteer Teacher, International Asian Liver Center, Gansu, China, Summer 2024
-            \item Volunteer, Yunnan Golden Monkey Conservation, Peking University, Winter 2023
-        \end{highlights}
-    \end{onecolentry}
+\cvsection{Service and\\Outreach}{
+    \datedline{Volunteer Teacher, Student Development Center, Peking University}{Spring 2026}
+    \recordgap
+    \datedline{Volunteer Teacher, Student Development Center, Peking University}{Autumn 2025}
+    \recordgap
+    \datedline{Volunteer Teacher, International Asian Liver Center, Gansu, China}{Summer 2024}
+    \recordgap
+    \datedline{Volunteer, Yunnan Golden Monkey Conservation, Peking University}{Winter 2023}
+}
 
 \end{document}
