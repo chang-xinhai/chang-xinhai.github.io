@@ -42,9 +42,9 @@
   selected: true
   contribution: co-first
   title: "Stream3D: Sequential Multi-View 3D Generation via Evidential Memory"
-  venue: "Preprint"
+  venue: "Under Review"
   year: 2026
-  badge: "Preprint"
+  badge: "Under Review"
   image: "images/papers/webp/Stream3D.webp"
   intro: "A sequential multi-view 3D generation method using evidential memory for consistent high-quality generation."
   authors_html: >-
@@ -61,9 +61,9 @@
   selected: true
   contribution: collaborator
   title: "NSL-SLAM: High-Fidelity Neural Structured-Light Depth for Practical SLAM and Reconstruction"
-  venue: "Preprint"
+  venue: "Under Review"
   year: 2026
-  badge: "Preprint"
+  badge: "Under Review"
   image: "images/papers/webp/NSL-SLAM.webp"
   intro: "A high-fidelity neural structured-light depth estimation method for practical SLAM and reconstruction."
   authors_html: >-
@@ -160,9 +160,9 @@
   contribution: co-first
   scholar_id: "NVxBzq4AAAAJ:u-x6o8ySG0sC"
   title: "SplatMesh: Interactive 3D Segmentation and Editing Using Mesh-Based Gaussian Splatting"
-  venue: "CVPRW 2025"
+  venue: "CVPR 2025 Workshop"
   year: 2025
-  badge: "CVPRW 2025"
+  badge: "CVPR 2025 Workshop"
   image: "images/papers/webp/SplatMesh.webp"
   intro: "An interactive 3D segmentation and editing method that combines Gaussian splatting with mesh-based structure."
   authors_html: >-

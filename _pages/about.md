@@ -32,7 +32,7 @@ I work on the **Real-Sim-Real** loop for embodied AI, spanning 3D vision and rob
 - <span class="date-mono">[Jan. 2026]</span>  🎉 [PAGE-4D](https://arxiv.org/abs/2510.17568) is accepted by ICLR 2026.
 - <span class="date-mono">[Jun. 2025]</span>  🤖 [AutoMoMa](https://openreview.net/pdf?id=mi766Y2K6Y) is accepted by RSS 2025 MoMa.
 - <span class="date-mono">[Jun. 2025]</span>  🎤 [TerraX](http://poss.pku.edu.cn/terrax.html) is accepted by IROS 2025 as **Oral**.
-- <span class="date-mono">[Feb. 2025]</span>  ✨ [SplatMesh](https://arxiv.org/abs/2312.15856) is accepted by CVPRW 2025.
+- <span class="date-mono">[Feb. 2025]</span>  ✨ [SplatMesh](https://arxiv.org/abs/2312.15856) is accepted by CVPR 2025 Workshop.
 
 ## Preprints
 
