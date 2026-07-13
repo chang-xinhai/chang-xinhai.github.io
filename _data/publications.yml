@@ -56,14 +56,14 @@
       url: "https://stream-3d.github.io/stream3d.github.io/"
 
 - id: nsl-slam
-  type: preprint
+  type: publication
   category: 3d-vision
   selected: true
   contribution: collaborator
   title: "NSL-SLAM: High-Fidelity Neural Structured-Light Depth for Practical SLAM and Reconstruction"
-  venue: "Under Review"
+  venue: "ACM MM 2026"
   year: 2026
-  badge: "Under Review"
+  badge: "ACM MM 2026"
   image: "images/papers/webp/NSL-SLAM.webp"
   intro: "A high-fidelity neural structured-light depth estimation method for practical SLAM and reconstruction."
   authors_html: >-

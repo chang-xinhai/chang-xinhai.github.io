@@ -25,6 +25,7 @@ I work on the **Real-Sim-Real** loop for embodied AI, spanning 3D vision and rob
 
 ## News
 
+- <span class="date-mono">[Jul. 2026]</span>  🎉 NSL-SLAM is accepted by ACM MM 2026.
 - <span class="date-mono">[Jun. 2026]</span>  🎉 [GEM-4D](https://gem-4d.github.io/) is accepted by ECCV 2026.
 - <span class="date-mono">[Jun. 2026]</span>  🏆 [CVPR 2026](https://cvpr26wmas.github.io/cvpr26wmas.html) — Best Paper Finalist at WMAS Workshop ($1500). [[GEM-4D]](https://arxiv.org/abs/2605.22882)
 - <span class="date-mono">[Apr. 2026]</span>  🏆 [AutoMoMa](https://automoma.pages.dev/) is accepted by CVPR 2026 as **Highlight**.
