@@ -27,6 +27,13 @@ layout: compress
       </main>
     </div>
 
+    <!-- The legacy script bundle expects this structure even when the masthead is omitted. -->
+    <div id="site-nav" hidden aria-hidden="true">
+      <button class="hidden" type="button" tabindex="-1"></button>
+      <ul class="visible-links"></ul>
+      <ul class="hidden-links hidden"></ul>
+    </div>
+
     {% include scripts.html %}
   </body>
 </html>

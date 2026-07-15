@@ -1699,3 +1699,75 @@ body.academic-home .page__content {
     font-size: 14px !important;
   }
 }
+
+/* Final narrow-screen layout: centered profile and calmer stacked paper cards. */
+@media screen and (max-width: 760px) {
+  body.academic-home {
+    padding: 18px;
+  }
+
+  .academic-home .wrapper {
+    width: 100%;
+    max-width: none;
+  }
+
+  .academic-home .site-profile {
+    width: 100%;
+    max-width: none;
+    margin: 0 auto 2.5rem;
+    padding-top: 0.5rem;
+    transform: none;
+    text-align: center;
+  }
+
+  .profile-card {
+    width: min(100%, 320px);
+    margin: 0 auto;
+    justify-items: center;
+  }
+
+  .profile-copy {
+    width: 100%;
+  }
+
+  .profile-email {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+  }
+
+  .academic-home .page__content h2 {
+    margin-top: 3.4rem;
+    margin-bottom: 1.3rem;
+  }
+
+  .academic-home .page__content h2:first-of-type {
+    margin-top: 0;
+  }
+
+  .publications {
+    margin-top: 1.5rem;
+  }
+
+  .publication-card {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.3rem;
+    align-items: start;
+    width: 100%;
+    padding: 2.15rem 0;
+  }
+
+  .publication-card:first-child {
+    padding-top: 0.9rem;
+  }
+
+  .publication-media-wrap {
+    width: calc(100% - 2rem);
+    height: auto;
+    margin-inline: auto;
+    aspect-ratio: 16 / 9;
+  }
+
+  .publication-body {
+    width: 100%;
+  }
+}
