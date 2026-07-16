@@ -71,6 +71,8 @@
       url: "https://arxiv.org/abs/2605.21472"
     - label: Project
       url: "https://stream-3d.github.io/stream3d.github.io/"
+    - label: Code
+      url: "https://github.com/kaichen-z/STREAM3D"
 
 - id: automoma
   type: publication
