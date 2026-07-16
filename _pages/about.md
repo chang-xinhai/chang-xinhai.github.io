@@ -25,6 +25,7 @@ I work on the **Real-Sim-Real** loop for embodied AI, spanning 3D vision and rob
 
 ## News
 
+- <span class="date-mono">[Jul. 2026]</span>  📣 Serving as an organizer for [Physical World Model @ NeurIPS 2026](https://physworld-org.github.io/physworld.github.io/).
 - <span class="date-mono">[Jul. 2026]</span>  🎉 NSL-SLAM is accepted by ACM MM 2026.
 - <span class="date-mono">[Jun. 2026]</span>  🎉 [GEM-4D](https://gem-4d.github.io/) is accepted by ECCV 2026.
 - <span class="date-mono">[Jun. 2026]</span>  🏆 [CVPR 2026](https://cvpr26wmas.github.io/cvpr26wmas.html) — Best Paper Finalist at WMAS Workshop ($1500). [[GEM-4D]](https://arxiv.org/abs/2605.22882)
@@ -117,9 +118,23 @@ I work on the **Real-Sim-Real** loop for embodied AI, spanning 3D vision and rob
 
 ## Services
 
-- Organizer: [NeurIPS 2026 Workshop: Physical World Model](https://physworld-org.github.io/physworld.github.io/)
-- Teaching Assistant: Introduction to Computation B (Autumn 2025, by Prof. [Jun Sun](https://deepvideolab.top/))
-- Teaching Assistant: Introduction to Computation C (Autumn 2025, by Prof. [Baobao Chang](https://cs.pku.edu.cn/info/1090/1648.htm))
-- Teaching Assistant: Introduction to Computer System (Autumn 2024, by Prof. [Lu Zhang](https://cs.pku.edu.cn/info/1086/1729.htm))
+<ul class="service-list">
+  <li class="service-item service-item--featured">
+    <span class="service-role service-role--organizer">[Organizer]</span>
+    <span class="service-description"><a href="https://physworld-org.github.io/physworld.github.io/">NeurIPS 2026 Workshop: Physical World Model</a></span>
+  </li>
+  <li class="service-item">
+    <span class="service-role">[Teaching Assistant]</span>
+    <span class="service-description">Introduction to Computation B (Autumn 2025, by Prof. <a href="https://deepvideolab.top/">Jun Sun</a>)</span>
+  </li>
+  <li class="service-item">
+    <span class="service-role">[Teaching Assistant]</span>
+    <span class="service-description">Introduction to Computation C (Autumn 2025, by Prof. <a href="https://cs.pku.edu.cn/info/1090/1648.htm">Baobao Chang</a>)</span>
+  </li>
+  <li class="service-item">
+    <span class="service-role">[Teaching Assistant]</span>
+    <span class="service-description">Introduction to Computer System (Autumn 2024, by Prof. <a href="https://cs.pku.edu.cn/info/1086/1729.htm">Lu Zhang</a>)</span>
+  </li>
+</ul>
 
 ## [Photography](https://500px.com.cn/walkerch)
