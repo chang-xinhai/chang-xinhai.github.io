@@ -117,6 +117,7 @@ I work on the **Real-Sim-Real** loop for embodied AI, spanning 3D vision and rob
 
 ## Services
 
+- Organizer: [NeurIPS 2026 Workshop: Physical World Model](https://physworld-org.github.io/physworld.github.io/)
 - Teaching Assistant: Introduction to Computation B (Autumn 2025, by Prof. [Jun Sun](https://deepvideolab.top/))
 - Teaching Assistant: Introduction to Computation C (Autumn 2025, by Prof. [Baobao Chang](https://cs.pku.edu.cn/info/1090/1648.htm))
 - Teaching Assistant: Introduction to Computer System (Autumn 2024, by Prof. [Lu Zhang](https://cs.pku.edu.cn/info/1086/1729.htm))
