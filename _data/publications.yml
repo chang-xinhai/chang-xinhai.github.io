@@ -13,7 +13,9 @@
     <a href="https://kaichen-z.github.io/">Kaichen Zhou</a>*, <strong>Xinhai Chang</strong>*, <a href="https://scholar.google.com/citations?user=aQTkWjQAAAAJ&hl=en">Taewhan Kim</a>*, Jiadong Zhang*, Yang Cao, Chufei Peng, <a href="https://fnzhan.com/">Fangneng Zhan</a>, Hao Zhao, <a href="https://zsdonghao.github.io/">Hao Dong</a>, Kai Ming Ting, <a href="https://experts.deakin.edu.au/41905-ye-zhu">Ye Zhu</a><sup class="corr-author" title="corresponding author" aria-label="corresponding author">&dagger;</sup>
   links:
     - label: Paper
-      url: "https://arxiv.org/abs/2410.00713v3"
+      url: "https://arxiv.org/abs/2410.00713"
+    - label: Project
+      url: "https://chang-xinhai.github.io/rad-website/"
     - label: Code
       url: "https://github.com/kaichen-z/rad"
 
