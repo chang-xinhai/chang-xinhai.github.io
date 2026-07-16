@@ -14,7 +14,7 @@ redirect_from:
 
 I am an undergraduate student at [Yuanpei College](https://yuanpei.pku.edu.cn/en/), [Peking University (PKU)](https://english.pku.edu.cn/), supervised by Prof. [Wenzheng Chen](https://wenzhengchen.github.io/) at the [Visual Computing and Learning (VCL) Lab](https://vcl.pku.edu.cn/). I am also privileged to work closely with Prof. [Yixin Zhu](https://yzhu.io/) at Peking University and [Kaichen Zhou](https://kaichen-z.github.io/) at Massachusetts Institute of Technology.
 
-My research centers on closing the **Real-Sim-Real** loop for robot learning — capturing real-world environments into high-fidelity digital twins, training generalizable policies at scale in simulation, and deploying back to the physical world. I'm always open to research discussions and collaboration. Feel free to reach out via <a href="mailto:changxinhai@pku.edu.cn" class="mail-button"><i class="fas fa-envelope"></i> changxinhai@pku.edu.cn</a> or <a href="images/wechat.png" class="wechat-button"><i class="fab fa-weixin"></i> WeChat</a>.
+My research centers on closing the **Real-Sim-Real** loop for robot learning — capturing real-world environments into high-fidelity digital twins, training generalizable policies at scale in simulation, and deploying back to the physical world. I'm always open to research discussions and collaboration. Feel free to reach out via <a href="mailto:changxinhai@stu.pku.edu.cn" class="mail-button"><i class="fas fa-envelope"></i> changxinhai@stu.pku.edu.cn</a> or <a href="images/wechat.png" class="wechat-button"><i class="fab fa-weixin"></i> WeChat</a>.
 
 ## Research Interests
 
