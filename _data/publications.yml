@@ -98,6 +98,23 @@
     - label: Code
       url: "https://github.com/fi6/automoma"
 
+- id: epis
+  type: publication
+  category: 3d-vision
+  selected: true
+  contribution: first
+  title: "Neural Surface Reconstruction from Sparse Views Using Epipolar Geometry"
+  venue: "CVPR 2026 Workshop A2AMML"
+  year: 2026
+  badge: "CVPR 2026 Workshop"
+  image: "images/papers/webp/EpiS.webp"
+  intro: "A sparse-view neural surface reconstruction method that injects epipolar geometry into multi-view feature fusion."
+  authors_html: >-
+    <strong>Xinhai Chang</strong>, <a href="https://kaichen-z.github.io/">Kaichen Zhou</a><sup class="corr-author" title="corresponding author" aria-label="corresponding author">&dagger;</sup>
+  links:
+    - label: Paper
+      url: "https://arxiv.org/abs/2406.04301"
+
 - id: page4d
   type: publication
   category: 3d-vision
@@ -139,23 +156,6 @@
       url: "http://poss.pku.edu.cn/terrax.html"
     - label: Code
       url: "http://poss.pku.edu.cn/OpenDataResource/TerraX/code.zip"
-
-- id: epis
-  type: publication
-  category: 3d-vision
-  selected: true
-  contribution: first
-  title: "Neural Surface Reconstruction from Sparse Views Using Epipolar Geometry"
-  venue: "CVPR 2026 Workshop A2AMML"
-  year: 2026
-  badge: "CVPR 2026 Workshop"
-  image: "images/papers/webp/EpiS.webp"
-  intro: "A sparse-view neural surface reconstruction method that injects epipolar geometry into multi-view feature fusion."
-  authors_html: >-
-    <strong>Xinhai Chang</strong>, <a href="https://kaichen-z.github.io/">Kaichen Zhou</a><sup class="corr-author" title="corresponding author" aria-label="corresponding author">&dagger;</sup>
-  links:
-    - label: Paper
-      url: "https://arxiv.org/abs/2406.04301"
 
 - id: splatmesh
   type: publication
