@@ -1,0 +1,178 @@
+{
+  "container_type": "Author",
+  "filled": [
+    "basics",
+    "publications",
+    "indices",
+    "counts"
+  ],
+  "scholar_id": "NVxBzq4AAAAJ",
+  "source": "AUTHOR_PROFILE_PAGE",
+  "name": "Xinhai Chang",
+  "url_picture": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=NVxBzq4AAAAJ&citpid=1",
+  "affiliation": "Peking University",
+  "organization": 10725744176602846184,
+  "interests": [
+    "Robotics",
+    "Computer Vision",
+    "Generative AI"
+  ],
+  "email_domain": "@stu.pku.edu.cn",
+  "homepage": "https://xinhai-chang.github.io/",
+  "citedby": 44,
+  "publications": {
+    "NVxBzq4AAAAJ:9yKSN-GCB0IC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "PAGE-4D: VGGT-4D Perception via Disentangled Pose and Geometry Estimation",
+        "pub_year": "2025",
+        "citation": "arXiv e-prints, arXiv: 2510.17568, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "NVxBzq4AAAAJ:9yKSN-GCB0IC",
+      "num_citations": 20,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1292954381212911373,7765730962472094771",
+      "cites_id": [
+        "1292954381212911373",
+        "7765730962472094771"
+      ]
+    },
+    "NVxBzq4AAAAJ:u-x6o8ySG0sC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Splatmesh: Interactive 3d segmentation and editing using mesh-based gaussian splatting",
+        "pub_year": "2025",
+        "citation": "Proceedings of the Computer Vision and Pattern Recognition Conference, 305-316, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "NVxBzq4AAAAJ:u-x6o8ySG0sC",
+      "num_citations": 7,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7498169610993211530",
+      "cites_id": [
+        "7498169610993211530"
+      ]
+    },
+    "NVxBzq4AAAAJ:qjMakFHDy7sC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "RAD: A dataset and benchmark for real-life anomaly detection with robotic observations",
+        "pub_year": "2024",
+        "citation": "arXiv preprint arXiv:2410.00713, 2024"
+      },
+      "filled": false,
+      "author_pub_id": "NVxBzq4AAAAJ:qjMakFHDy7sC",
+      "num_citations": 7,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=288362187493061781",
+      "cites_id": [
+        "288362187493061781"
+      ]
+    },
+    "NVxBzq4AAAAJ:2osOgNQ5qMEC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Neural surface reconstruction from sparse views using epipolar geometry",
+        "pub_year": "2024",
+        "citation": "arXiv preprint arXiv:2406.04301, 2024"
+      },
+      "filled": false,
+      "author_pub_id": "NVxBzq4AAAAJ:2osOgNQ5qMEC",
+      "num_citations": 6,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12029746471872659828,14263767874644972647",
+      "cites_id": [
+        "12029746471872659828",
+        "14263767874644972647"
+      ]
+    },
+    "NVxBzq4AAAAJ:YsMSGLbcyi4C": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Gem-4d: Geometry-enhanced video world models for robot manipulation",
+        "pub_year": "2026",
+        "citation": "arXiv preprint arXiv:2605.22882, 2026"
+      },
+      "filled": false,
+      "author_pub_id": "NVxBzq4AAAAJ:YsMSGLbcyi4C",
+      "num_citations": 4,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10140100296350212118",
+      "cites_id": [
+        "10140100296350212118"
+      ]
+    },
+    "NVxBzq4AAAAJ:W7OEmFMy1HYC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Stream3D: Sequential Multi-View 3D Generation via Evidential Memory",
+        "pub_year": "2026",
+        "citation": "arXiv preprint arXiv:2605.21472, 2026"
+      },
+      "filled": false,
+      "author_pub_id": "NVxBzq4AAAAJ:W7OEmFMy1HYC",
+      "num_citations": 0
+    },
+    "NVxBzq4AAAAJ:Y0pCki6q_DkC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "Scalable Trajectory Generation for Whole-Body Mobile Manipulation",
+        "pub_year": "2026",
+        "citation": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …, 2026"
+      },
+      "filled": false,
+      "author_pub_id": "NVxBzq4AAAAJ:Y0pCki6q_DkC",
+      "num_citations": 0
+    },
+    "NVxBzq4AAAAJ:ufrVoPGSRksC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "TerraX: Visual Terrain Classification Enhanced by Vision-Language Models",
+        "pub_year": "2025",
+        "citation": "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems …, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "NVxBzq4AAAAJ:ufrVoPGSRksC",
+      "num_citations": 0
+    },
+    "NVxBzq4AAAAJ:IjCSPb-OGe4C": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "AADNet: A Human Mind Inspired Multi-modal Framework for Object Concept Learning",
+        "pub_year": "2025",
+        "citation": "2025 IEEE International Conference on Systems, Man, and Cybernetics (SMC …, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "NVxBzq4AAAAJ:IjCSPb-OGe4C",
+      "num_citations": 0
+    },
+    "NVxBzq4AAAAJ:u5HHmVD_uO8C": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "StyleCraft: High-quality Arbitrary Style Transfer via Unified Content-Style Fusion",
+        "pub_year": "2025",
+        "citation": "International Conference on Intelligent Computing, 231-241, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "NVxBzq4AAAAJ:u5HHmVD_uO8C",
+      "num_citations": 0
+    }
+  },
+  "citedby5y": 44,
+  "hindex": 4,
+  "hindex5y": 4,
+  "i10index": 1,
+  "i10index5y": 1,
+  "cites_per_year": {
+    "2024": 1,
+    "2025": 12,
+    "2026": 31
+  },
+  "updated": "2026-07-23T10:09:17.454110+00:00"
+}
