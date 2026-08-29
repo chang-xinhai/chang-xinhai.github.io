@@ -1,5 +1,11 @@
 [
   {
+    "file": "2026-08-30-thermometric-tartanrgbt-finetune.html",
+    "title": "ThermoMetric: TartanRGBT MoGe-3-L Finetuning & Evaluation",
+    "date": "2026-08-30",
+    "description": "Training convergence, early stopping, full TartanRGBT Day5 and MS\u00b2 Day-100 evaluation, and corrected qualitative evidence."
+  },
+  {
     "file": "2026-07-26-rynnworld-4d-reproduction.html",
     "title": "RynnWorld-4D \u590d\u73b0\u3001Pipeline \u4e0e\u6a21\u578b\u89c4\u6a21\u62a5\u544a",
     "date": "2026-07-26",
