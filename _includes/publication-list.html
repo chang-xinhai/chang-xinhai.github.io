@@ -39,7 +39,8 @@
               <p class="publication-authors">{{ paper.authors_html }}</p>
               <p class="publication-intro">{{ paper.intro }}</p>
               <div class="publication-meta-row">
-                <span class="publication-venue">{{ paper.venue }}{% if paper.year %} · {{ paper.year }}{% endif %}</span>
+                <span class="publication-venue">{{ paper.venue }}</span>
+                {% if paper.recognition %}<span class="publication-recognition">{{ paper.recognition }}</span>{% endif %}
                 {% if paper.contribution %}<span class="contribution-tag">{% if paper.contribution == "co-first" %}Co-first Author{% elsif paper.contribution == "first" %}First Author{% elsif paper.contribution == "core" %}Core Contributor{% elsif paper.contribution == "collaborator" %}Collaborator{% else %}{{ paper.contribution }}{% endif %}</span>{% endif %}
                 {% if paper.category != "other" %}<span class="topic-tag">{{ topic_label }}</span>{% endif %}
               </div>

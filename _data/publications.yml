@@ -43,6 +43,7 @@
   contribution: collaborator
   title: "GEM-4D: Geometry-Enhanced Video World Models for Robot Manipulation"
   venue: "ECCV 2026"
+  recognition: "CVPR WMAS 2026 Best Paper Finalist"
   year: 2026
   badge: "ECCV 2026"
   image: "images/papers/webp/GEM-4D.webp"
@@ -62,6 +63,7 @@
   contribution: co-first
   title: "Stream3D: Sequential Multi-View 3D Generation via Evidential Memory"
   venue: "Under Review"
+  recognition: "ECCV OpenSUN3D 2026 Best Paper Finalist"
   year: 2026
   badge: "Under Review"
   image: "images/papers/webp/Stream3D.webp"
@@ -83,9 +85,10 @@
   contribution: co-first
   scholar_id: "NVxBzq4AAAAJ:d1gkVwhDpl0C"
   title: "Scalable Trajectory Generation for Whole-Body Mobile Manipulation"
-  venue: "CVPR 2026 Highlight"
+  venue: "CVPR 2026"
+  recognition: "Highlight"
   year: 2026
-  badge: "CVPR 2026 Highlight"
+  badge: "CVPR 2026"
   image: "images/papers/webp/AutoMoMa.webp"
   intro: "A scalable GPU-accelerated trajectory generation system for whole-body mobile manipulation across homes, robots, and tasks."
   authors_html: >-
