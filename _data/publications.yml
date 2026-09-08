@@ -95,7 +95,7 @@
     <a href="https://github.com/fi6">Yida Niu</a>*, <strong>Xinhai Chang</strong>*, <a href="https://openreview.net/profile?id=~Xin_Liu72">Xin Liu</a>*, <a href="https://sites.google.com/g.ucla.edu/zyjiao/home">Ziyuan Jiao</a><sup class="corr-author" title="corresponding author" aria-label="corresponding author">&dagger;</sup>, <a href="https://yzhu.io/">Yixin Zhu</a><sup class="corr-author" title="corresponding author" aria-label="corresponding author">&dagger;</sup>
   links:
     - label: Paper
-      url: "https://yzhu.io/publication/tamp2026cvpr/paper.pdf"
+      url: "https://arxiv.org/abs/2604.12565"
     - label: Project
       url: "https://automoma.pages.dev/"
     - label: Code
