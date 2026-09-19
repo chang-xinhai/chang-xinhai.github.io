@@ -52,6 +52,7 @@
 \definecolor{robotColor}{HTML}{6EB5FF}
 \definecolor{dividerColor}{HTML}{AEB7C2}
 \definecolor{mutedText}{HTML}{777777}
+\definecolor{awardColor}{HTML}{DF3525}
 \color{ink}
 
 \newcommand{\cvtag}{\textcolor{visionColor}{\raisebox{1pt}{\scalebox{0.58}{\faCircle}}}}
@@ -139,6 +140,8 @@
     \end{tabularx}\vspace{0.15cm}
 }
 
+\newcommand{\recognition}[1]{\textcolor{awardColor}{\textbf{#1}}}
+
 \newcommand{\recordgap}{\vspace{0.13cm}}
 \newcommand{\entrygap}{\vspace{0.18cm}}
 
@@ -160,14 +163,14 @@
     \vspace{0.075cm}
     \textcolor{mutedText}{\faGithub}\hspace{0.28em}\href{https://github.com/chang-xinhai}{chang-xinhai} \headersep
     \headicon{graduation-cap}\href{https://scholar.google.com/citations?user=NVxBzq4AAAAJ}{Google Scholar} \headersep
-    {\color{mutedText}\headicon{calendar-alt}Updated: July 13, 2026}
+    {\color{mutedText}\headicon{calendar-alt}Updated: September 19, 2026}
     }
 \end{center}
 
 \vspace{-0.04cm}
 
 \cvsection{Research\\Interests}{
-    \justifiedparagraph{I work at the intersection of \textbf{3D vision}, \textbf{robot learning}, and \textbf{embodied AI}. I focus on \textbf{Real-Sim-Real} systems that connect real-world perception, simulation, and robotic manipulation. My broader interests include 3D reconstruction and generation, world models, visuomotor policy learning, scalable simulation, and generalizable robot manipulation.}
+    \justifiedparagraph{My research centers on closing the \textbf{Real-Sim-Real} loop for robot learning: capturing real-world environments into high-fidelity digital twins, training generalizable policies at scale in simulation, and deploying back to the physical world. My interests span \textbf{3D vision} (reconstruction, generation, and scene understanding) and \textbf{embodied AI} (simulation, world models, mobile manipulation, and sim-to-real transfer).}
 }
 
 \cvsection{Education}{
@@ -178,24 +181,24 @@
 }
 
 \cvsection{Research\\Experience}{
-    \datedline{\textbf{Research Assistant}, VCL Lab, Peking University}{June 2026 -- Present}
+    \datedline{\textbf{Student Researcher}, VCL Lab, Peking University}{June 2026 -- Present}
     \textit{Advised by Prof. Wenzheng Chen}
     \begin{compactitems}
         \item Research on robot learning and world models for embodied AI, with an emphasis on depth perception, navigation, and real-world robotic manipulation.
     \end{compactitems}
 
     \entrygap
-    \datedline{\textbf{Research Assistant}, CoRe Lab, Peking University}{March 2025 -- June 2026}
-    \textit{Advised by Prof. Yixin Zhu}
+    \datedline{\textbf{Student Researcher}, Media Lab and EECS, MIT}{March 2024 -- Present}
+    \textit{Mentored by Dr. Kaichen Zhou}
     \begin{compactitems}
-        \item Research on scalable simulation and planning for mobile and dexterous manipulation, including trajectory generation, tactile-guided control, and policy evaluation.
+        \item Research on 3D/4D perception and generative world models, including 3D reconstruction, 3D editing, 3D generation, world action models, and multi-view benchmarks.
     \end{compactitems}
 
     \entrygap
-    \datedline{\textbf{Research Assistant}, Media Lab and EECS, MIT}{March 2024 -- Present}
-    \textit{Mentored by Kaichen Zhou}
+    \datedline{\textbf{Student Researcher}, CoRe Lab, Peking University}{March 2025 -- June 2026}
+    \textit{Advised by Prof. Yixin Zhu}
     \begin{compactitems}
-        \item Research on 3D/4D perception and generative world models, including 3D reconstruction, 3D editing, 3D generation, world action models, and multi-view benchmarks.
+        \item Research on scalable simulation and planning for mobile and dexterous manipulation, including trajectory generation, tactile-guided control, and policy evaluation.
     \end{compactitems}
 }
 
@@ -207,19 +210,21 @@
 
 \cvsection{Publications}{
     \legend
-    \pubitem{7}{Jiaheng Li, Binsheng Zhang, \textbf{Xinhai Chang}, Wenzheng Chen\corrmark. \textit{NSL-SLAM: High-Fidelity Neural Structured-Light Depth for Practical SLAM and Reconstruction}. ACM International Conference on Multimedia (ACM MM), 2026.}{\cvtag}
-    \pubitem{6}{Kaichen Zhou*, Yuzhen Chen*, Fangneng Zhan, Hang Hua, Grace Chen, \textbf{Xinhai Chang}, Ao Qu, Yilun Du, Zhuang Liu, Paul Pu Liang\corrmark, Mengyu Wang\corrmark. \href{https://arxiv.org/abs/2605.22882}{\textit{GEM-4D: Geometry-Enhanced Video World Models for Robot Manipulation}}. European Conference on Computer Vision (ECCV), 2026.}{\bothTags}
-    \pubitem{5}{Yida Niu*, \textbf{Xinhai Chang}*, Xin Liu*, Ziyuan Jiao\corrmark, Yixin Zhu\corrmark. \href{https://yzhu.io/publication/tamp2026cvpr/paper.pdf}{\textit{Scalable Trajectory Generation for Whole-Body Mobile Manipulation}}. Computer Vision and Pattern Recognition, Highlight, 2026.}{\robtag}
-    \pubitem{4}{\textbf{Xinhai Chang}, Kaichen Zhou\corrmark. \href{https://arxiv.org/abs/2406.04301}{\textit{Neural Surface Reconstruction from Sparse Views Using Epipolar Geometry}}. Computer Vision and Pattern Recognition Workshop A2AMML, 2026.}{\cvtag}
-    \pubitem{3}{Kaichen Zhou, Yuhan Wang*, Grace Chen*, \textbf{Xinhai Chang}*, Gaspard Beaudouin, Fangneng Zhan, Paul Pu Liang\corrmark, Mengyu Wang\corrmark. \href{https://arxiv.org/abs/2510.17568}{\textit{PAGE-4D: Disentangled Pose and Geometry Estimation for 4D Perception}}. International Conference on Learning Representations (ICLR), 2026.}{\cvtag}
-    \pubitem{2}{Hongze Li*, Xuchuan Huang*, \textbf{Xinhai Chang}*, Jun Zhou, Huijing Zhao\corrmark. \href{https://ieeexplore.ieee.org/document/11246334}{\textit{TerraX: Visual Terrain Classification Enhanced by Vision-Language Models}}. International Conference on Intelligent Robots and Systems (IROS), Oral, 2025.}{\bothTags}
-    \pubitem{1}{Kaichen Zhou*, Lanqing Hong*, \textbf{Xinhai Chang}*, Yingji Zhong, Enze Xie, Hao Dong, Zhihao Li, Yongxin Yang, Zhenguo Li, Wei Zhang. \href{https://arxiv.org/abs/2312.15856}{\textit{SplatMesh: Interactive 3D Segmentation and Editing Using Mesh-Based Gaussian Splatting}}. CVPR 2025 Workshop.}{\cvtag}
+    \pubitem{9}{Jiaheng Li, Binsheng Zhang, \textbf{Xinhai Chang}, Wenzheng Chen\corrmark. \href{https://arxiv.org/abs/2607.24495}{\textit{NSL-SLAM: High-Fidelity Neural Structured-Light Depth for Practical SLAM and Reconstruction}}. ACM International Conference on Multimedia (ACM MM), 2026.}{\cvtag}
+    \pubitem{8}{Kaichen Zhou*, Yuzhen Chen*, Fangneng Zhan, Hang Hua, Grace Chen, \textbf{Xinhai Chang}, Ao Qu, Yilun Du, Zhuang Liu, Paul Pu Liang\corrmark, Mengyu Wang\corrmark. \href{https://arxiv.org/abs/2605.22882}{\textit{GEM-4D: Geometry-Enhanced Video World Models for Robot Manipulation}}. European Conference on Computer Vision (ECCV), 2026. \recognition{CVPR WMAS 2026 Best Paper Finalist}.}{\bothTags}
+    \pubitem{7}{Yida Niu*, \textbf{Xinhai Chang}*, Xin Liu*, Ziyuan Jiao\corrmark, Yixin Zhu\corrmark. \href{https://arxiv.org/abs/2604.12565}{\textit{Scalable Trajectory Generation for Whole-Body Mobile Manipulation}}. Computer Vision and Pattern Recognition (CVPR), 2026. \recognition{Highlight}.}{\robtag}
+    \pubitem{6}{\textbf{Xinhai Chang}, Kaichen Zhou\corrmark. \href{https://arxiv.org/abs/2406.04301}{\textit{Neural Surface Reconstruction from Sparse Views Using Epipolar Geometry}}. Computer Vision and Pattern Recognition Workshop A2AMML, 2026.}{\cvtag}
+    \pubitem{5}{Kaichen Zhou, Yuhan Wang*, Grace Chen*, \textbf{Xinhai Chang}*, Gaspard Beaudouin, Fangneng Zhan, Paul Pu Liang\corrmark, Mengyu Wang\corrmark. \href{https://arxiv.org/abs/2510.17568}{\textit{PAGE-4D: Disentangled Pose and Geometry Estimation for 4D Perception}}. International Conference on Learning Representations (ICLR), 2026.}{\cvtag}
+    \pubitem{4}{Hongze Li*, Xuchuan Huang*, \textbf{Xinhai Chang}*, Jun Zhou, Huijing Zhao\corrmark. \href{https://ieeexplore.ieee.org/document/11246334}{\textit{TerraX: Visual Terrain Classification Enhanced by Vision-Language Models}}. International Conference on Intelligent Robots and Systems (IROS), Oral, 2025.}{\bothTags}
+    \pubitem{3}{Kaichen Zhou*, Lanqing Hong*, \textbf{Xinhai Chang}*, Yingji Zhong, Enze Xie, Hao Dong, Zhihao Li, Yongxin Yang, Zhenguo Li, Wei Zhang. \href{https://arxiv.org/abs/2312.15856}{\textit{SplatMesh: Interactive 3D Segmentation and Editing Using Mesh-Based Gaussian Splatting}}. CVPR 2025 Workshop.}{\cvtag}
+    \pubitem{2}{Chao Tang*, \textbf{Xinhai Chang}*. \textit{AADNet: A Human-Mind-Inspired Multi-Modal Framework for Object Concept Learning}. SMC, 2025.}{}
+    \pubitem{1}{Chao Tang*, \textbf{Xinhai Chang}*. \href{https://doi.org/10.1007/978-981-96-9866-0_20}{\textit{StyleCraft: High-Quality Arbitrary Style Transfer via Unified Content-Style Fusion}}. ICIC, Oral, 2025.}{}
 }
 
 \cvsection{Preprints}{
     \legend
-    \pubitem{2}{Kaichen Zhou*, \textbf{Xinhai Chang}*, Taewhan Kim*, Jiadong Zhang*, Yang Cao, Chufei Peng, Fangneng Zhan, Hao Zhao, Hao Dong, Kai Ming Ting, Ye Zhu\corrmark. \href{https://arxiv.org/abs/2410.00713v3}{\textit{RAD: A Realistic Multi-View Benchmark for Pose-Agnostic Anomaly Detection}}. Under Review, 2026.}{\bothTags}
-    \pubitem{1}{Kaichen Zhou*, Zeyang Bai*, \textbf{Xinhai Chang}*, Mengyu Wang\corrmark, Paul Pu Liang\corrmark, Fangneng Zhan\corrmark. \href{https://arxiv.org/abs/2605.21472}{\textit{Stream3D: Sequential Multi-View 3D Generation via Evidential Memory}}. Under Review, 2026.}{\cvtag}
+    \pubitem{2}{Kaichen Zhou*, \textbf{Xinhai Chang}*, Taewhan Kim*, Jiadong Zhang*, Yang Cao, Chufei Peng, Fangneng Zhan, Hao Zhao, Hao Dong, Kai Ming Ting, Ye Zhu\corrmark. \href{https://arxiv.org/abs/2410.00713}{\textit{RAD: A Realistic Multi-View Benchmark for Pose-Agnostic Anomaly Detection}}. Under Review, 2026.}{\bothTags}
+    \pubitem{1}{Kaichen Zhou*, Zeyang Bai*, \textbf{Xinhai Chang}*, Mengyu Wang\corrmark, Paul Pu Liang\corrmark, Fangneng Zhan\corrmark. \href{https://arxiv.org/abs/2605.21472}{\textit{Stream3D: Sequential Multi-View 3D Generation via Evidential Memory}}. Under Review, 2026. \recognition{ECCV OpenSUN3D 2026 Best Paper Finalist}.}{\cvtag}
 }
 
 \cvsection{Honors and\\Awards}{
@@ -246,11 +251,13 @@
 }
 
 \cvsection{Service and\\Outreach}{
+    \datedline{\textbf{Organizer}, \href{https://physworld-org.github.io/physworld.github.io/}{NeurIPS 2026 Workshop: Physical World Model}}{2026}
+    \recordgap
     \datedline{Volunteer Teacher, Student Development Center, Peking University}{Spring 2026}
     \recordgap
     \datedline{Volunteer Teacher, Student Development Center, Peking University}{Autumn 2025}
     \recordgap
-    \datedline{Volunteer Teacher, International Asian Liver Center, Gansu, China}{Summer 2024}
+    \datedline{Volunteer Teacher, International Asian Liver Center, Gansu, China}{May -- Aug. 2024}
     \recordgap
     \datedline{Volunteer, Yunnan Golden Monkey Conservation, Peking University}{Winter 2023}
 }
