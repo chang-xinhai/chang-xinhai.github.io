@@ -19,7 +19,7 @@
   ],
   "email_domain": "@stu.pku.edu.cn",
   "homepage": "https://xinhai-chang.github.io/",
-  "citedby": 55,
+  "citedby": 60,
   "publications": {
     "NVxBzq4AAAAJ:9yKSN-GCB0IC": {
       "container_type": "Publication",
@@ -31,7 +31,7 @@
       },
       "filled": false,
       "author_pub_id": "NVxBzq4AAAAJ:9yKSN-GCB0IC",
-      "num_citations": 29,
+      "num_citations": 33,
       "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1292954381212911373,7765730962472094771,9861714789706194998,18209272995831931368",
       "cites_id": [
         "1292954381212911373",
@@ -120,6 +120,22 @@
         "5421865305465287583"
       ]
     },
+    "NVxBzq4AAAAJ:u5HHmVD_uO8C": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "StyleCraft: High-quality Arbitrary Style Transfer via Unified Content-Style Fusion",
+        "pub_year": "2025",
+        "citation": "International Conference on Intelligent Computing, 231-241, 2025"
+      },
+      "filled": false,
+      "author_pub_id": "NVxBzq4AAAAJ:u5HHmVD_uO8C",
+      "num_citations": 1,
+      "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=1923234153572705825",
+      "cites_id": [
+        "1923234153572705825"
+      ]
+    },
     "NVxBzq4AAAAJ:Y0pCki6q_DkC": {
       "container_type": "Publication",
       "source": "AUTHOR_PUBLICATION_ENTRY",
@@ -155,21 +171,9 @@
       "filled": false,
       "author_pub_id": "NVxBzq4AAAAJ:IjCSPb-OGe4C",
       "num_citations": 0
-    },
-    "NVxBzq4AAAAJ:u5HHmVD_uO8C": {
-      "container_type": "Publication",
-      "source": "AUTHOR_PUBLICATION_ENTRY",
-      "bib": {
-        "title": "StyleCraft: High-quality Arbitrary Style Transfer via Unified Content-Style Fusion",
-        "pub_year": "2025",
-        "citation": "International Conference on Intelligent Computing, 231-241, 2025"
-      },
-      "filled": false,
-      "author_pub_id": "NVxBzq4AAAAJ:u5HHmVD_uO8C",
-      "num_citations": 0
     }
   },
-  "citedby5y": 55,
+  "citedby5y": 60,
   "hindex": 4,
   "hindex5y": 4,
   "i10index": 1,
@@ -177,7 +181,7 @@
   "cites_per_year": {
     "2024": 1,
     "2025": 12,
-    "2026": 42
+    "2026": 47
   },
-  "updated": "2026-09-02T12:20:05.429035+00:00"
+  "updated": "2026-09-22T03:58:33.142351+00:00"
 }
