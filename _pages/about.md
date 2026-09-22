@@ -50,7 +50,8 @@ I work on the **Real-Sim-Real** loop for embodied AI, spanning 3D vision and rob
 
 ## Honors and Awards
 
-- <span class="date-mono">[2025]</span> **National Scholarship**
+- <span class="award-highlight"><span class="date-mono">[2026]</span> <strong>May Fourth Medal</strong> — Peking University's Highest Honor 🎖️</span>
+- <span class="award-highlight"><span class="date-mono">[2025]</span> <strong>National Scholarship</strong> — China's Highest Honor for Undergraduate Students 🎖️</span>
 - <span class="date-mono">[2024]</span> Second-class Scholarship, Peking University
 - <span class="date-mono">[2024]</span> **First Prize**, 21st Jiang Zehan Cup Mathematical Modeling Competition
 - <span class="date-mono">[2023]</span> Xing Zhengde Scholarship, Yuanpei College

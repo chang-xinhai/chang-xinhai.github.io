@@ -1772,6 +1772,14 @@ body.academic-home .page__content {
   }
 }
 
+/* Wrap the marker highlight onto every line of featured awards. */
+.award-highlight {
+  background: linear-gradient(transparent 54%, rgba(255, 184, 28, 0.48) 54%, rgba(255, 184, 28, 0.48) 96%, transparent 96%);
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  padding: 0 0.08em;
+}
+
 /* Services — bracketed academic role labels with one deliberate highlight. */
 .academic-home .page__content .service-list {
   display: grid;
