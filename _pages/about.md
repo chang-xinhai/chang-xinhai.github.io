@@ -66,7 +66,7 @@ I work on the **Real-Sim-Real** loop for embodied AI, spanning 3D vision and rob
     </div>
     <div class="experience-body">
       <h3 class="experience-title"><strong>Peking University</strong>, China</h3>
-      <p class="experience-meta">Sep 2022 – Present</p>
+      <p class="experience-meta">September 2022 – Present</p>
       <p class="experience-role">Undergraduate Student, Data Science and Artificial Intelligence</p>
     </div>
   </div>
@@ -113,7 +113,7 @@ I work on the **Real-Sim-Real** loop for embodied AI, spanning 3D vision and rob
     </div>
     <div class="experience-body">
       <h3 class="experience-title"><strong>International Asian Liver Center</strong>, Gansu, China</h3>
-      <p class="experience-meta">2024.05 – 2024.08</p>
+      <p class="experience-meta">May 2024 – August 2024</p>
       <p class="experience-role">Volunteer Teacher</p>
     </div>
   </div>
