@@ -52,7 +52,6 @@
 \definecolor{robotColor}{HTML}{6EB5FF}
 \definecolor{dividerColor}{HTML}{AEB7C2}
 \definecolor{mutedText}{HTML}{777777}
-\definecolor{awardColor}{HTML}{DF3525}
 \color{ink}
 
 \newcommand{\cvtag}{\textcolor{visionColor}{\raisebox{1pt}{\scalebox{0.58}{\faCircle}}}}
@@ -140,7 +139,7 @@
     \end{tabularx}\vspace{0.15cm}
 }
 
-\newcommand{\recognition}[1]{\textcolor{awardColor}{\textbf{#1}}}
+\newcommand{\recognition}[1]{{\normalfont\color{ink}#1}}
 
 \newcommand{\recordgap}{\vspace{0.13cm}}
 \newcommand{\entrygap}{\vspace{0.18cm}}
@@ -163,7 +162,7 @@
     \vspace{0.075cm}
     \textcolor{mutedText}{\faGithub}\hspace{0.28em}\href{https://github.com/chang-xinhai}{chang-xinhai} \headersep
     \headicon{graduation-cap}\href{https://scholar.google.com/citations?user=NVxBzq4AAAAJ}{Google Scholar} \headersep
-    {\color{mutedText}\headicon{calendar-alt}Updated: September 19, 2026}
+    {\color{mutedText}\headicon{calendar-alt}Updated: September 22, 2026}
     }
 \end{center}
 
@@ -210,15 +209,13 @@
 
 \cvsection{Publications}{
     \legend
-    \pubitem{9}{Jiaheng Li, Binsheng Zhang, \textbf{Xinhai Chang}, Wenzheng Chen\corrmark. \href{https://arxiv.org/abs/2607.24495}{\textit{NSL-SLAM: High-Fidelity Neural Structured-Light Depth for Practical SLAM and Reconstruction}}. ACM International Conference on Multimedia (ACM MM), 2026.}{\cvtag}
-    \pubitem{8}{Kaichen Zhou*, Yuzhen Chen*, Fangneng Zhan, Hang Hua, Grace Chen, \textbf{Xinhai Chang}, Ao Qu, Yilun Du, Zhuang Liu, Paul Pu Liang\corrmark, Mengyu Wang\corrmark. \href{https://arxiv.org/abs/2605.22882}{\textit{GEM-4D: Geometry-Enhanced Video World Models for Robot Manipulation}}. European Conference on Computer Vision (ECCV), 2026. \recognition{CVPR WMAS 2026 Best Paper Finalist}.}{\bothTags}
-    \pubitem{7}{Yida Niu*, \textbf{Xinhai Chang}*, Xin Liu*, Ziyuan Jiao\corrmark, Yixin Zhu\corrmark. \href{https://arxiv.org/abs/2604.12565}{\textit{Scalable Trajectory Generation for Whole-Body Mobile Manipulation}}. Computer Vision and Pattern Recognition (CVPR), 2026. \recognition{Highlight}.}{\robtag}
-    \pubitem{6}{\textbf{Xinhai Chang}, Kaichen Zhou\corrmark. \href{https://arxiv.org/abs/2406.04301}{\textit{Neural Surface Reconstruction from Sparse Views Using Epipolar Geometry}}. Computer Vision and Pattern Recognition Workshop A2AMML, 2026.}{\cvtag}
-    \pubitem{5}{Kaichen Zhou, Yuhan Wang*, Grace Chen*, \textbf{Xinhai Chang}*, Gaspard Beaudouin, Fangneng Zhan, Paul Pu Liang\corrmark, Mengyu Wang\corrmark. \href{https://arxiv.org/abs/2510.17568}{\textit{PAGE-4D: Disentangled Pose and Geometry Estimation for 4D Perception}}. International Conference on Learning Representations (ICLR), 2026.}{\cvtag}
-    \pubitem{4}{Hongze Li*, Xuchuan Huang*, \textbf{Xinhai Chang}*, Jun Zhou, Huijing Zhao\corrmark. \href{https://ieeexplore.ieee.org/document/11246334}{\textit{TerraX: Visual Terrain Classification Enhanced by Vision-Language Models}}. International Conference on Intelligent Robots and Systems (IROS), Oral, 2025.}{\bothTags}
-    \pubitem{3}{Kaichen Zhou*, Lanqing Hong*, \textbf{Xinhai Chang}*, Yingji Zhong, Enze Xie, Hao Dong, Zhihao Li, Yongxin Yang, Zhenguo Li, Wei Zhang. \href{https://arxiv.org/abs/2312.15856}{\textit{SplatMesh: Interactive 3D Segmentation and Editing Using Mesh-Based Gaussian Splatting}}. CVPR 2025 Workshop.}{\cvtag}
-    \pubitem{2}{Chao Tang*, \textbf{Xinhai Chang}*. \textit{AADNet: A Human-Mind-Inspired Multi-Modal Framework for Object Concept Learning}. SMC, 2025.}{}
-    \pubitem{1}{Chao Tang*, \textbf{Xinhai Chang}*. \href{https://doi.org/10.1007/978-981-96-9866-0_20}{\textit{StyleCraft: High-Quality Arbitrary Style Transfer via Unified Content-Style Fusion}}. ICIC, Oral, 2025.}{}
+    \pubitem{7}{Jiaheng Li, Binsheng Zhang, \textbf{Xinhai Chang}, Wenzheng Chen\corrmark. \href{https://arxiv.org/abs/2607.24495}{\textit{NSL-SLAM: High-Fidelity Neural Structured-Light Depth for Practical SLAM and Reconstruction}}. ACM International Conference on Multimedia (ACM MM), 2026.}{\cvtag}
+    \pubitem{6}{Kaichen Zhou*, Yuzhen Chen*, Fangneng Zhan, Hang Hua, Grace Chen, \textbf{Xinhai Chang}, Ao Qu, Yilun Du, Zhuang Liu, Paul Pu Liang\corrmark, Mengyu Wang\corrmark. \href{https://arxiv.org/abs/2605.22882}{\textit{GEM-4D: Geometry-Enhanced Video World Models for Robot Manipulation}}. European Conference on Computer Vision (ECCV), 2026. \recognition{CVPR WMAS 2026 Best Paper Finalist}.}{\bothTags}
+    \pubitem{5}{Yida Niu*, \textbf{Xinhai Chang}*, Xin Liu*, Ziyuan Jiao\corrmark, Yixin Zhu\corrmark. \href{https://arxiv.org/abs/2604.12565}{\textit{Scalable Trajectory Generation for Whole-Body Mobile Manipulation}}. Computer Vision and Pattern Recognition (CVPR), 2026. \recognition{Highlight}.}{\robtag}
+    \pubitem{4}{\textbf{Xinhai Chang}, Kaichen Zhou\corrmark. \href{https://arxiv.org/abs/2406.04301}{\textit{Neural Surface Reconstruction from Sparse Views Using Epipolar Geometry}}. Computer Vision and Pattern Recognition Workshop A2AMML, 2026.}{\cvtag}
+    \pubitem{3}{Kaichen Zhou, Yuhan Wang*, Grace Chen*, \textbf{Xinhai Chang}*, Gaspard Beaudouin, Fangneng Zhan, Paul Pu Liang\corrmark, Mengyu Wang\corrmark. \href{https://arxiv.org/abs/2510.17568}{\textit{PAGE-4D: Disentangled Pose and Geometry Estimation for 4D Perception}}. International Conference on Learning Representations (ICLR), 2026.}{\cvtag}
+    \pubitem{2}{Hongze Li*, Xuchuan Huang*, \textbf{Xinhai Chang}*, Jun Zhou, Huijing Zhao\corrmark. \href{https://ieeexplore.ieee.org/document/11246334}{\textit{TerraX: Visual Terrain Classification Enhanced by Vision-Language Models}}. International Conference on Intelligent Robots and Systems (IROS), Oral, 2025.}{\bothTags}
+    \pubitem{1}{Kaichen Zhou*, Lanqing Hong*, \textbf{Xinhai Chang}*, Yingji Zhong, Enze Xie, Hao Dong, Zhihao Li, Yongxin Yang, Zhenguo Li, Wei Zhang. \href{https://arxiv.org/abs/2312.15856}{\textit{SplatMesh: Interactive 3D Segmentation and Editing Using Mesh-Based Gaussian Splatting}}. CVPR 2025 Workshop.}{\cvtag}
 }
 
 \cvsection{Preprints}{
@@ -228,7 +225,13 @@
 }
 
 \cvsection{Honors and\\Awards}{
-    \datedline{\textbf{National Scholarship} (highest honor for undergraduate students in China)}{2025}
+    \datedline{\textbf{May Fourth Medal} (Peking University's Highest Student Honor)}{2026}
+    \recordgap
+    \datedline{Best Paper Finalist, ECCV 2026 OpenSUN3D Workshop (\href{https://arxiv.org/abs/2605.21472}{Stream3D})}{2026}
+    \recordgap
+    \datedline{Best Paper Finalist, CVPR 2026 WMAS Workshop (\href{https://arxiv.org/abs/2605.22882}{GEM-4D}, \$1500)}{2026}
+    \recordgap
+    \datedline{\textbf{National Scholarship} (China's Highest Honor for Undergraduate Students)}{2025}
     \recordgap
     \datedline{Second-class Scholarship, Peking University}{2024}
     \recordgap
