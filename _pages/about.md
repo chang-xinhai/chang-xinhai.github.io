@@ -8,8 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-<span class="anchor" id="about-me"></span>
-
 ## About Me
 
 I am an undergraduate student at [Yuanpei College](https://yuanpei.pku.edu.cn/en/), [Peking University (PKU)](https://english.pku.edu.cn/), supervised by Prof. [Wenzheng Chen](https://wenzhengchen.github.io/) at the [Visual Computing and Learning (VCL) Lab](https://vcl.pku.edu.cn/). I am also privileged to work closely with Prof. [Yixin Zhu](https://yzhu.io/) at Peking University and [Kaichen Zhou](https://kaichen-z.github.io/) at Massachusetts Institute of Technology.
@@ -27,16 +25,19 @@ I work on the **Real-Sim-Real** loop for embodied AI, spanning 3D vision and rob
 
 ## News
 
+- <span class="date-mono">[Sep. 2026]</span>  🎓 **May Fourth Medal** — Peking University’s Highest Student Honor 🎖️
+- <span class="date-mono">[Sep. 2026]</span>  🏆 [ECCV 2026](https://opensun3d.github.io/) — **Best Paper Finalist** at OpenSUN3D Workshop. [[Stream3D]](https://arxiv.org/abs/2605.21472)
 - <span class="date-mono">[Jul. 2026]</span>  📣 Serving as an organizer for [Physical World Model @ NeurIPS 2026](https://physworld-org.github.io/physworld.github.io/).
 - <span class="date-mono">[Jul. 2026]</span>  🎉 [NSL-SLAM](https://arxiv.org/abs/2607.24495) is accepted by ACM MM 2026.
 - <span class="date-mono">[Jun. 2026]</span>  🎉 [GEM-4D](https://gem-4d.github.io/) is accepted by ECCV 2026.
-- <span class="date-mono">[Jun. 2026]</span>  🏆 [CVPR 2026](https://cvpr26wmas.github.io/cvpr26wmas.html) — Best Paper Finalist at WMAS Workshop ($1500). [[GEM-4D]](https://arxiv.org/abs/2605.22882)
+- <span class="date-mono">[Jun. 2026]</span>  🏆 [CVPR 2026](https://cvpr26wmas.github.io/cvpr26wmas.html) — **Best Paper Finalist** at WMAS Workshop ($1500). [[GEM-4D]](https://arxiv.org/abs/2605.22882)
 - <span class="date-mono">[Apr. 2026]</span>  🏆 [AutoMoMa](https://automoma.pages.dev/) is accepted by CVPR 2026 as **Highlight**.
 - <span class="date-mono">[Mar. 2026]</span>  🎉 [EpiS](https://arxiv.org/abs/2406.04301) is accepted by CVPR 2026 Workshop A2AMML.
 - <span class="date-mono">[Jan. 2026]</span>  🎉 [PAGE-4D](https://arxiv.org/abs/2510.17568) is accepted by ICLR 2026.
+- <span class="date-mono">[Sep. 2025]</span>  🎓 **National Scholarship** — China's Highest Honor for Undergraduate Students 🎖️
 - <span class="date-mono">[Jun. 2025]</span>  🤖 [AutoMoMa](https://openreview.net/pdf?id=mi766Y2K6Y) is accepted by RSS 2025 MoMa.
-- <span class="date-mono">[Jun. 2025]</span>  🎤 [TerraX](http://poss.pku.edu.cn/terrax.html) is accepted by IROS 2025 as **Oral**.
-- <span class="date-mono">[Feb. 2025]</span>  ✨ [SplatMesh](https://arxiv.org/abs/2312.15856) is accepted by CVPR 2025 Workshop.
+- <span class="date-mono">[Jun. 2025]</span>  🤖 [TerraX](http://poss.pku.edu.cn/terrax.html) is accepted by IROS 2025 as **Oral**.
+- <span class="date-mono">[Feb. 2025]</span>  🎉 [SplatMesh](https://arxiv.org/abs/2312.15856) is accepted by CVPR 2025 Workshop.
 
 ## Preprints
 
@@ -50,7 +51,9 @@ I work on the **Real-Sim-Real** loop for embodied AI, spanning 3D vision and rob
 
 ## Honors and Awards
 
-- <span class="award-highlight"><span class="date-mono">[2026]</span> <strong>May Fourth Medal</strong> — Peking University's Highest Honor 🎖️</span>
+- <span class="award-highlight"><span class="date-mono">[2026]</span> <strong>May Fourth Medal</strong> — Peking University’s Highest Student Honor 🎖️</span>
+- <span class="date-mono">[2026]</span> 🏆 **Best Paper Finalist** — ECCV 2026 OpenSUN3D Workshop. [[Stream3D]](https://stream-3d.github.io/stream3d.github.io/)
+- <span class="date-mono">[2026]</span> 🏆 **Best Paper Finalist** — CVPR 2026 WMAS Workshop ($1500). [[GEM-4D]](https://gem-4d.github.io/)
 - <span class="award-highlight"><span class="date-mono">[2025]</span> <strong>National Scholarship</strong> — China's Highest Honor for Undergraduate Students 🎖️</span>
 - <span class="date-mono">[2024]</span> Second-class Scholarship, Peking University
 - <span class="date-mono">[2024]</span> **First Prize**, 21st Jiang Zehan Cup Mathematical Modeling Competition

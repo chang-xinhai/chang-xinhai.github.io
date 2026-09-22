@@ -9,8 +9,9 @@ layout: compress
     {% include head/custom.html %}
   </head>
 
-  <body class="academic-home">
+  <body class="academic-home" id="top">
     {% include browser-upgrade.html %}
+    {% include masthead.html %}
 
     <div class="wrapper">
       <header class="site-profile" role="banner">
@@ -27,7 +28,7 @@ layout: compress
       </main>
     </div>
 
-    <!-- The legacy script bundle expects this structure even when the masthead is omitted. -->
+    <!-- The legacy script bundle expects this structure independently of the primary navigation. -->
     <div id="site-nav" hidden aria-hidden="true">
       <button class="hidden" type="button" tabindex="-1"></button>
       <ul class="visible-links"></ul>

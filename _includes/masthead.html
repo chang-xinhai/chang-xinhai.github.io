@@ -1,16 +1,10 @@
-<div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
-          {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-          {% endfor %}
-        </ul>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
+<nav class="site-topbar" aria-label="Primary">
+  <div class="site-topbar__inner">
+    <a class="site-topbar__name" href="#top" target="_self">{{ site.author.name }}</a>
+    <div class="site-topbar__links">
+      {% for link in site.data.navigation.main %}
+        <a href="{{ link.url }}" target="_self">{{ link.title }}</a>
+      {% endfor %}
     </div>
   </div>
-</div>
+</nav>
