@@ -106,4 +106,5 @@ jobs:
         if: always()
         env:
           PUBLISH_STATUS: ${{ job.status }}
-        run: echo "Citation data publication status: $PUBLISH_STATUS. Publication errors are recorded here without failing the overall workflow." >> "$GITHUB_STEP_SUMMARY"
+        run: |
+          echo "Citation data publication status: $PUBLISH_STATUS. Publication errors are recorded here without failing the overall workflow." >> "$GITHUB_STEP_SUMMARY"
