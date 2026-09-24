@@ -54,7 +54,23 @@ Then open [http://127.0.0.1:4000](http://127.0.0.1:4000). If `_config.yml` chang
 
 ## Google Scholar Citation Data
 
-The scheduled workflow in `.github/workflows/google_scholar_crawler.yaml` expects the repository secret `GOOGLE_SCHOLAR_ID`. It writes generated JSON files to the `google-scholar-stats` branch, where the homepage can fetch citation data. Google Scholar sometimes blocks GitHub-hosted runners; in that case the workflow keeps the previous published data instead of failing the whole scheduled run.
+The workflow in `.github/workflows/google_scholar_crawler.yaml` runs daily at 16:17 Asia/Shanghai and expects the repository secret `GOOGLE_SCHOLAR_ID`. It makes one request to the public Scholar profile and reads the All / Since-year citation, h-index, and i10-index cells. It does not paginate publications or fetch paper details. The selectors are adapted from the Unlicense-licensed `scholarly` parser; see `google_scholar_crawler/THIRD_PARTY_NOTICES.md`.
+
+Only validated metrics receive a new UTC `updated` timestamp. Successful scheduled runs publish `gs_data.json` and `gs_data_shieldsio.json` to the existing `google-scholar-stats` branch with a normal commit (no force push). The website reads that JSON when opened, so publishing metrics does not require rebuilding the website. Per-paper citation updates remain disabled.
+
+Requests have a 10-second connect and 20-second read timeout. Transient network/server errors get at most one retry; HTTP 403/429, CAPTCHA pages, incomplete metrics, and unexpected redirects fail immediately. Failed fetches never replace old data or its timestamp. At the owner's request, both workflow jobs tolerate failures at the workflow level to avoid failed-run email/web notifications for this optional card. Actual errors remain in the step logs and run summary; a green workflow status alone does **not** prove an update. Publishing requires a successfully validated and uploaded artifact. The homepage hides metrics older than 30 days. Scholar can still block cloud runners: this is a best-effort scraper, not an official Scholar API.
+
+To diagnose or validate a change, manually run **Get Citation Data** in GitHub Actions with `publish` unchecked. The run summary records the metrics and last-success timestamp, and the `scholar-metrics` artifact contains the exact JSON. To refresh the live card manually, run on `main` with `publish` checked. Publishing is disabled on all other branches.
+
+The optional `simulate_failure` input exercises the quiet failure path without a Scholar request or publication. This must leave the fetch job failed, the overall workflow successful, and the publish job skipped. No mail, messaging, or issue-creation action is configured. Account-wide notification preferences and the website's separate Pages deployment are not changed.
+
+Local validation (writes only local JSON):
+
+```bash
+python -m pip install -r google_scholar_crawler/requirements.txt
+python -m unittest discover -s google_scholar_crawler -p 'test_*.py' -v
+GOOGLE_SCHOLAR_ID=NVxBzq4AAAAJ python google_scholar_crawler/main.py --output-dir /tmp/scholar-results
+```
 
 ## Credits
 
