@@ -7,6 +7,10 @@ on:
         description: Publish validated metrics (main branch only)
         type: boolean
         default: false
+      simulate_failure:
+        description: Test quiet failure handling without fetching or publishing
+        type: boolean
+        default: false
   schedule:
     # Daily at 16:17 Asia/Shanghai; avoid the busiest top-of-hour queue.
     - cron: '17 8 * * *'
@@ -22,6 +26,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    # This optional stats card must not generate failed-workflow notifications.
+    # Failed steps remain inspectable; only a completed upload can unlock publish.
+    continue-on-error: true
+    outputs:
+      ready: ${{ steps.validated.outputs.ready }}
     steps:
       - uses: actions/checkout@v6
       - name: Set up Python
@@ -38,7 +47,13 @@ jobs:
         timeout-minutes: 2
         env:
           GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
-        run: python -u google_scholar_crawler/main.py --output-dir "$RUNNER_TEMP/scholar-results"
+          SIMULATE_FAILURE: ${{ inputs.simulate_failure }}
+        run: |
+          if [ "$SIMULATE_FAILURE" = 'true' ]; then
+            echo 'Simulated fetch failure: verifying quiet handling and publication guard.'
+            exit 1
+          fi
+          python -u google_scholar_crawler/main.py --output-dir "$RUNNER_TEMP/scholar-results"
       - name: Record successful metrics
         env:
           RESULTS_FILE: ${{ runner.temp }}/scholar-results/gs_data.json
@@ -57,15 +72,19 @@ jobs:
           path: ${{ runner.temp }}/scholar-results/*.json
           if-no-files-found: error
           retention-days: 7
+      - name: Allow publication of validated artifact
+        id: validated
+        run: echo 'ready=true' >> "$GITHUB_OUTPUT"
       - name: Report failure without replacing published data
         if: failure()
-        run: echo 'Scholar refresh failed. Published JSON and its last-success timestamp were left unchanged. Check the request status in the fetch step.' >> "$GITHUB_STEP_SUMMARY"
+        run: echo 'Scholar refresh did not complete. Published JSON and its last-success timestamp were left unchanged. This workflow handles failures quietly; a green workflow status does not mean data was refreshed. Inspect the failed step for details.' >> "$GITHUB_STEP_SUMMARY"
 
   publish:
     needs: build
-    if: github.ref == 'refs/heads/main' && (github.event_name == 'schedule' || inputs.publish)
+    if: needs.build.outputs.ready == 'true' && github.ref == 'refs/heads/main' && (github.event_name == 'schedule' || inputs.publish)
     runs-on: ubuntu-latest
     timeout-minutes: 3
+    continue-on-error: true
     permissions:
       contents: write
     steps:
@@ -83,3 +102,8 @@ jobs:
           if git diff --cached --quiet; then exit 0; fi
           git commit -m 'Update Google Scholar profile metrics'
           git push origin HEAD:google-scholar-stats
+      - name: Record publication outcome
+        if: always()
+        env:
+          PUBLISH_STATUS: ${{ job.status }}
+        run: echo "Citation data publication status: $PUBLISH_STATUS. Publication errors are recorded here without failing the overall workflow." >> "$GITHUB_STEP_SUMMARY"

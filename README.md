@@ -58,9 +58,11 @@ The workflow in `.github/workflows/google_scholar_crawler.yaml` runs daily at 16
 
 Only validated metrics receive a new UTC `updated` timestamp. Successful scheduled runs publish `gs_data.json` and `gs_data_shieldsio.json` to the existing `google-scholar-stats` branch with a normal commit (no force push). The website reads that JSON when opened, so publishing metrics does not require rebuilding the website. Per-paper citation updates remain disabled.
 
-Requests have a 10-second connect and 20-second read timeout. Transient network/server errors get at most one retry; HTTP 403/429, CAPTCHA pages, incomplete metrics, and unexpected redirects fail immediately. A failed job is visibly marked as failed, and never replaces the old data or its timestamp. The homepage hides metrics older than 30 days. Scholar can still block cloud runners: this is a best-effort scraper, not an official Scholar API.
+Requests have a 10-second connect and 20-second read timeout. Transient network/server errors get at most one retry; HTTP 403/429, CAPTCHA pages, incomplete metrics, and unexpected redirects fail immediately. Failed fetches never replace old data or its timestamp. At the owner's request, both workflow jobs tolerate failures at the workflow level to avoid failed-run email/web notifications for this optional card. Actual errors remain in the step logs and run summary; a green workflow status alone does **not** prove an update. Publishing requires a successfully validated and uploaded artifact. The homepage hides metrics older than 30 days. Scholar can still block cloud runners: this is a best-effort scraper, not an official Scholar API.
 
 To diagnose or validate a change, manually run **Get Citation Data** in GitHub Actions with `publish` unchecked. The run summary records the metrics and last-success timestamp, and the `scholar-metrics` artifact contains the exact JSON. To refresh the live card manually, run on `main` with `publish` checked. Publishing is disabled on all other branches.
+
+The optional `simulate_failure` input exercises the quiet failure path without a Scholar request or publication. This must leave the fetch job failed, the overall workflow successful, and the publish job skipped. No mail, messaging, or issue-creation action is configured. Account-wide notification preferences and the website's separate Pages deployment are not changed.
 
 Local validation (writes only local JSON):
 
