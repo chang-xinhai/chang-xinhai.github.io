@@ -138,6 +138,8 @@
       url: "https://page4d.github.io/"
     - label: Code
       url: "https://github.com/kaichen-z/PAGE4D"
+    - label: Poster
+      url: "https://iclr.cc/media/iclr-2026/Slides/10009841.pdf"
 
 - id: terrax
   type: publication
